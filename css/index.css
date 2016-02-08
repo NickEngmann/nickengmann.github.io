@@ -373,7 +373,7 @@ h5 {
     background-attachment: fixed;
 }
 #wall_2 {
-    background: url(../Images/swirl_pattern.png) repeat;
+    background: url(../images/swirl_pattern.png) repeat;
     background-attachment: fixed;
 }
 #wall_3 {
@@ -382,7 +382,7 @@ h5 {
 		background-size: 100%;
 }
 #wall_4 {
-    background: url(../Images/dimension.png) repeat;
+    background: url(../images/dimension.png) repeat;
     background-attachment: fixed;
 }
 #wall_5 {
