@@ -1,0 +1,450 @@
+html, 
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', sans-serif;
+	font-size: 180%;
+}
+#nav {
+    height: 70px;
+    width: 2000px;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(255,255,255,1);
+    z-index: 999;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+	min-width: 1200px;
+}
+
+#nav #logo {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 5px;
+    bottom:0;
+	left: -30px;
+    margin: auto 100px;
+}
+#nav #logo img {
+    height: 100%;
+    width: 100%;    
+}
+#nav #logo:hover{
+	background-image: "../images/logo2.png";
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 5px;
+    bottom:0;
+	left: -30px;
+    margin: auto 100px; 
+}
+
+#nav #name {
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+	left: 50px;
+    margin: auto 100px;
+}
+#nav #name img {
+    height: 100%;
+    width: 100%;    
+}
+
+
+#nav #sm1 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+	right: 8.5%;
+    margin: auto 100px;
+}
+#nav #sm1 img {
+    height: 100%;
+    width: 100%;   
+}
+#nav #sm1:hover{
+    border-radius: 100%;
+    max-height: 300px;
+    width: 50%;
+    max-width: 40px;
+    border: 4px solid white;
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;	
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;	
+}	
+
+#nav #sm2 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+	right: 6%;
+    margin: auto 100px;
+}
+#nav #sm2:hover{
+    border-radius: 100%;
+    max-height: 300px;
+    width: 50%;
+    max-width: 40px;
+    border: 4px solid white;
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;	
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;	
+}
+#nav #sm2 img {
+    height: 100%;
+    width: 100%;  
+	
+	
+}#nav #sm3 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+	right: 3.5%;
+    margin: auto 100px;
+}
+#nav #sm3 img {
+    height: 100%;
+    width: 100%;
+}    
+#nav #sm3:hover{
+    border-radius: 100%;
+    max-height: 300px;
+    width: 50%;
+    max-width: 40px;
+    border: 4px solid white;
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;	
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;	
+}	
+
+#nav #sm4 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+	right: 1%;
+    margin: auto 100px;
+}
+#nav #sm4 img {
+    height: 100%;
+    width: 100%;    
+}
+#nav #sm4:hover{
+    border-radius: 100%;
+    max-height: 300px;
+    width: 50%;
+    max-width: 40px;
+    border: 4px solid white;
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;	
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;	
+}
+
+#nav #self-portrait {
+    height: 60px;
+    width: 90px;
+    position: absolute;
+    top: 25px;
+    bottom:0;
+	right: 54%;
+	color: black;
+}
+#nav #projects {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 25px;
+    bottom:0;
+	right: 50%;
+	color: black;
+}
+#nav #awards {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 25px;
+    bottom:0;
+	right: 44%;
+	color: black;
+}
+#nav #organizations {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 25px;
+    bottom:0;
+	right: 31%;
+	color: black;
+}
+#nav #resume {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 25px;
+    bottom:0;
+	right: 23%;
+	color: black;
+}
+
+div.description {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+div.content {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 0%;
+	background-color: #262424;
+}
+div.content_main {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 0%;
+}
+img.main-img {
+    border-radius: 50%;
+    max-height: 300px;
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+    border: 4px solid black;
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+h3.subtext {
+    font-weight: normal;
+    letter-spacing: 1px;
+    max-width: 500px;
+    width: 90%;
+    font-size: 0.69em;
+    line-height: 1.6em;
+    margin: auto;
+	font-weight: bold;
+}
+
+.subtext a {
+    font-size: 1em;
+    font-weight: none;
+}
+
+a {
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: blink;
+}
+
+a:hover {
+    border-bottom: 5px solid #F2F2F0;
+}
+
+/* ---- particles.js container ---- */
+#trianglify {
+  z-index: -1;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1.name {
+    font-weight: normal;
+	font-family: 'Courier New', sans-serif;
+    letter-spacing: 4px;
+	font-size: 180%;
+    padding: 0px;
+    margin: 0px;
+	font-weight: default;
+}
+
+h4 {
+    font-size:26px;
+    color: white;
+    font-family: 'Courier New', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+	margin-left: 300px;
+	margin-right: 300px;
+	font-weight: bold;
+}
+h5 {
+    color: black;
+    font-family: 'Courier New', sans-serif;
+	font-size:13px;
+	letter-spacing: 2px;
+}
+.image {
+    height: 900px;
+    width: 110%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content p {
+    font-size:18px;
+    color: white;
+    font-family: 'Courier New', sans-serif;
+    font-weight: 300;
+    margin: 30px 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+	}
+
+.mouse_over
+{
+	-webkit-transition:opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	opacity:0.83;
+	width:400px;
+	height:200px;
+	padding: 20px 10px 20px 10px;
+}
+
+.mouse_over:hover
+{
+	opacity:1;
+}
+
+.spacing{
+	height:100px;
+}
+
+.expanding{
+	transition:width 0.3s ease-in-out;
+	-webkit-transition: width 0.3s ease-in-out;
+	width:120px;
+	height:120px;
+	background-color: white;
+}
+
+.expanding:hover{
+	width:300px;
+	height:120px;
+	background-color: white;
+}
+#wall_1 {
+    background: url(images/https://www.dropbox.com/s/t1au8707j2co0cl/background.png?raw=1);
+    background-attachment: fixed;
+}
+#wall_2 {
+    background: url(../Images/swirl_pattern.png) repeat;
+    background-attachment: fixed;
+}
+#wall_3 {
+    background: url(https://www.dropbox.com/s/vh53bzf4526b8r2/transfer.png?raw=1) no-repeat;
+    background-attachment: fixed;
+		background-size: 100%;
+}
+#wall_4 {
+    background: url(../Images/dimension.png) repeat;
+    background-attachment: fixed;
+}
+#wall_5 {
+    background: url(https://www.dropbox.com/s/7sok3q55zwtf4lx/foamswordfriday.png?raw=1) no-repeat;
+	background-size: 110%;
+    background-attachment: fixed;
+}
+#content_1 {position: relative;}
+#content_2 {
+	position: relative;
+	width:100%;
+
+}
+#content_3 {
+  position: relative;
+  width: 60%;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.625em 0.625em;
+}
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5em;
+	padding: 0;
+    direction: ltr;
+	box-sizing: border-box;
+	display: block;
+}
+.column {
+    position: relative;
+    width: 50%;
+	padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: left;
+	display: block;
+}
+.column2 {
+    position: relative;
+    width: 50%;
+	padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: right;
+	display: block;
+}
+
+.special{
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+}
+#content_4 {
+	position: relative;
+	width:30%;
+  margin: 0 auto;
+  padding: 0.625em 0.625em;
+	}
+#content_5 {
+	position: relative;
+	width:30%;
+	margin: 0 auto;
+	padding: 0.625em 0.625em;
+	}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">>
+<head>
+    <title>Nick Engmann</title>
+    <meta name=viewport content="width=device-width, initial-scale=2">
+    <div id="particles-js"></div>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/jquery.stellar.js"></script>
+    <script src="js/scrip.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <style type="text/css">
+        body {background-image: url(https://www.dropbox.com/s/t1au8707j2co0cl/background.png?raw=1); color:White; }
+    </style>
+    <script type="text/javascript">
+    function toggle(id){
+        if($('#'+id).is(":hidden")){
+            //hidden element
+            $('#'+id).slideDown("slow");
+        }
+        else{
+            //showing element
+            $('#'+id).slideUp("slow");
+        }
+    }
+    </script>
+</head>
+
+<body>
+<div id="nav">
+       <div id="logo"><img src="images/logo.png" onmouseover="this.src='images/logo2.png'" onmouseout="this.src='images/logo.png'"/></div>
+       <div id="name"><img src="https://www.dropbox.com/s/b756homi9atcgjm/name.png?raw=1"></div>
+       <a href="https://www.facebook.com/nick.engmann"><div id="sm1"><img src="images/facebook.png"></div></a>
+      <a href="https://www.linkedin.com/in/nick-engmann-481a95a4"><div id="sm2"><img src="images/linkedin.png"></div></a>
+       <a href="https://twitter.com/NickySlicksHaha"><div id="sm3"><img src="images/twitter.png"></div></a>
+       <a href="mailto:nickengmann@utexas.edu" title ="nickengmann@utexas.edu"><div id="sm4"><img src="images/mail.png"></div></a>
+
+        <div id="self-portrait"><a href="#Self-Portrait"><h5>Self-Portrait</h5></a></div>
+        <div id="projects"><a href="#Projects"><h5>Projects</h5></a></div>
+        <div id="awards"><a href="#Awards&Accomplishments"><h5>Awards&Accomplishments</h5></a></div>
+        <div id="organizations"><a href="#Organizations"><h5>Organizations</h5></a></div>
+        <div id="resume"><a href="http://www.slideshare.net/NickEngmann/resumenickengmann"><h5>Resume</h5></a></div>
+</div> 
+
+<div class ="description">
+        <div class="content_main">
+            <h1 class="name">Welcome</span></h1>
+            <h3 class="subtext"><a href="#Self-Portrait"y>Self-Portrait</h3>
+            <h3 class="subtext"><a href="#Projects"y>Projects</h3></a>
+            <h3 class="subtext"><a href="#Awards&Accomplishments"y>Awards&Accomplishments</h3>
+            <h3 class="subtext"><a href="#Organizations"y>Organizations</h3></a>
+        </div>
+</div>
+
+ <div id="wall_1" class="image" data-stellar-background-ratio="0.4" ></div>
+    <div id="content_1" class="content">
+        <pre><h3 class="subtext">
+        </h3></pre>
+        <pre><p>
+                 </p></pre>
+
+    </div>
+
+    <div id="wall_2" class="image" data-stellar-background-ratio="0.4"></div>
+        <div id="content_2" class="content" >
+        <h3 class="subtext"><a name ="Self-Portrait"></a>Self-Portrait</h3>
+
+        <p>I'm an aspiring inventor who seeks to learn something new every day. I am currently a Senior at the University of Texas at Austin. I plan on graduating Spring of 2016 with a degree in Integrated Circuits and Computer Engineering through the Electrical and Computer Engineering department and a minor in Government. My interests include cyber security, defense, consulting, app development, and event organizing. However, the list of all my passions extends much further.</p> 
+     
+        <p>My dream job is to obtain a position where I can create new things to help better all the individuals around me. If you're interested in someone with my skill-set, or would like to discuss something tech. related feel free to reach out. I'd love to talk.</p>
+    </div>
+
+
+
+    <div id="wall_3" class="image" data-stellar-background-ratio="0.4"></div>
+        <div id="content_3" class="content">
+          <h3 class="subtext"><a name ="Projects"> </a>Projects</h3>
+    <div class="row">
+     <!--    <div class="column"> -->
+        <a href="#" onclick="toggle('Sentiment'); return false;"><img class ="mouse_over" src="images/Before/Sentiment.png" onclick="this.src='images/After/Sentiment.png'" onmouseover="this.src='https://www.dropbox.com/s/o61t9nk6opmhlm6/Sentiment.png?raw=1'" onmouseout="this.src='images/Before/Sentiment.png'"></a>
+
+        <div id="Sentiment" class="special" style="display: none;">
+        <h4>Sentiment</h4>
+        <p>Sentiment is a Plantronics sponsored application which identifies human emotion in speech. The application offers its user an emotion recognition analysis service by extracting vocal parameters indicative of emotional states for incoming audio through a phone call. Sentiment may provide audio and display notifications to the user based on the user's desired Settings.This project spanned from Fall 2014 - Spring 2015 as part of my senior design project. I developed Sentiment in conjunction with a team of five students and a faculty mentor. My main contribution to this project was dealing with the initial speech processing and developing the algorithm using a Java based machine learning platform.
+        </p>
+        </div>
+
+
+        <a href="#" onclick="toggle('Castaway'); return false;"><img class ="mouse_over" src="images/Before/castaway.png" onmouseover="this.src='https://www.dropbox.com/s/vdki1ix8dy65dq3/CastAway.png?raw=1'" onmouseout="this.src='images/Before/castaway.png'"></a>
+        <div id="Castaway" class="special" style="display: none;">
+        <h4>Castaway</h4>
+        <p id="p4">To be simple and brief Castaway is a <a href="http://www.pandora.com/">Pandora</a> for podcasts. My team at the <a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks">Battle of the Hacks</a> hackathon and I wanted to create something that could solve the problem of craving similiar content after listening to an inspiring podcast. Much like how many individuals desire to listen to similiar artists we wanted to create a website that could help people find podcasts that were similiar in nature to podcasts they listened to. In order to accomplish this we used node.js with  jade and html framework.
+        </br>
+        Code on Github: <a href="https://github.com/hacktx/Castaway">https://github.com/hacktx/Castaway</a>
+        </p>
+        </div>
+        
+
+        <a href="#" onclick="toggle('Soundboard'); return false;"><img class ="mouse_over" src="images/Before/dj.png" onmouseover="this.src='images/After/dj.png'" onmouseout="this.src='images/Before/dj.png'"></a>
+        <div id="Soundboard" class="special" style="display: none;">
+        <h4>DJ Soundboard</h4>
+        <p id="p5">This project was my final project for my EE445L course. In this course we spend weeks developing hardware/software projects. My labpartner and I created a DJ touch Soundboard. The soundboard had 6 functioning buttons which each produced a different sound. These sounds could be layered to create music.
+        </br></br>
+        Components: Designed with a Touchscreen Kentec display. Also used a TMC1234 Launchpad.
+        </br></br>
+        Code on Github: <a href="https://github.com/NickEngmann/DJ-Setup">https://github.com/NickEngmann/DJ-Setup</a></p>
+        </div>
+     <!--   </div> -->
+    <!--<div class="column2">-->
+        <a href="#" onclick="toggle('PiSight'); return false;"><img class ="mouse_over" src="images/Before/PiSight.png" onmouseover="this.src='https://www.dropbox.com/s/el1pk9mpkvgrej3/PiSight.png?raw=1'" onmouseout="this.src='images/Before/PiSight.png'"></a>
+        <div id="PiSight" class="special" style="display: none;">
+        <h4>PiSight</h4>
+        <p id="p6">PiSight is a platform that can analyze the mac addresses of all nearby devices that are wifi enabled. By identifying the nearby devices you can both keep track of inflow and outflow of individuals in networked locations. This is a cheap way for cities or governments to analyze secure locations in cases of emergencies. This technology also has the ability to triangulate locations of wifi enabled devices.
+        </br></br>
+        Components: Raspberry Pi. Scripts Programmed in Python. Server ran on a Flask backend with Python scripts to do calculations
+        </br></br>
+        Code on Github: <a href="https://github.com/justinar/MACisolation">https://github.com/justinar/MACisolation</a>
+        </br>
+        Live website: <a href="http://52.2.43.182/display/">PiSight</a>
+        </br>
+        Devpost website: <a href="http://devpost.com/software/macisolation/">http://devpost.com/software/macisolation/</a>
+        </p>
+        </div>
+
+        <a href="#" onclick="toggle('MrLockman'); return false;"><img class ="mouse_over" src="images/Before/mrlockman.png" onmouseover="this.src='images/After/mrlockman.png'" onmouseout="this.src='images/Before/mrlockman.png'"></a>
+        <div id="MrLockman" class="special" style="display: none;">
+        <h4>Mr. Lockman</h4>
+        <p id="p7">Mr. Lockman deals with the moderl day problem of security. If you lose your keys then you are unfortunately locked out of your house/home. With Mr.Lockman you could access your home using fingerprint identification on your smartphone.Mr. Lockman features doesn't end there. Mr. Lockman is a smartlock that has multiple layers of security. My team at the CodeRED Hackathon of Fall 2015 added a facial recognition system with a camera and a raspberry pie to also ensure security.
+        </br></br>
+        Made the circuit, HTTP server API, and iOS app from scratch in 24 hours. Used Raspberry Pi, OpenCV, Flask, and iOS Swift SDK.
+        </br></br>
+        Code on Github: <a href="https://github.com/kirmani/lockman">https://github.com/kirmani/lockman</a>
+        </br>
+        Video Demo: <a href="https://www.youtube.com/watch?v=yeRFB5OWGaw">https://www.youtube.com/watch?v=yeRFB5OWGaw</a>
+        </p>
+        </div>
+    <!-- </div> -->
+</div>
+</div>    
+ 
+
+    <div id="wall_4" class="image" data-stellar-background-ratio="0.5"  ></div>
+        <div id="content_4" class="content">  
+        <h3 class="subtext"><a name ="Awards&Accomplishments"></a>Awards&Accomplishments</h3>
+
+
+        <a href="#" onclick="toggle('hacktx'); return false;"><img class ="mouse_over" src="images/Before/hacktx.png" onmouseover="this.src='images/After/hacktx.png'" onmouseout="this.src='images/Before/hacktx.png'"></a>
+        <div id="hacktx" class="special" style="display: none;">
+        <h4>11th/49 Hackathon of Fall 2015</h4>
+        <p>
+            Ranked 11th best Hackathon for the Fall 2015 season out of 49 MLH   Sponsered Hackathons: <a href="https://mlh.io/standings/f2015">https://mlh.io/standings/f2015</a>
+        </br> </br>
+        Coverage of Event: <a href="http://kxan.com/2015/09/27/university-of-texas-hosts-fourth-annual-hacktx/">http://kxan.com/2015/09/27/university-of-texas-hosts-fourth-annual-hacktx/</a>
+        </p>
+        </div>
+
+
+        <a href="#" onclick="toggle('codered'); return false;"><img class ="mouse_over" src="images/Before/codered.png" onmouseover="this.src='images/After/codered.png'" onmouseout="this.src='images/Before/codered.png'"></a>
+        <div id="codered" class="special" style="display: none;">
+        <h4>2nd Place Winner & Most Creative Project at CodeRED 2015</h4>
+        <p>
+        Won second place overall at CodeRED 2015 Hackathon. Also won Most Creative Project as judged by Pariveda Solutions.
+        </p>
+        </div>
+
+
+        <a href="#" onclick="toggle('racecolumn'); return false;"><img class ="mouse_over" src="https://www.dropbox.com/s/cpzyzx24m6lfpug/RaceColumn.png?raw=1" onmouseover="this.src='https://www.dropbox.com/s/7sire8lc7okfgri/racecolumn.png?raw=1'" onmouseout="this.src='https://www.dropbox.com/s/cpzyzx24m6lfpug/RaceColumn.png?raw=1'"></a>
+        <div id="racecolumn" class="special" style="display: none;">
+        <h4>Quoted in Article about Race Relations</h4>
+        <p>
+            <a href="http://www.dailytexanonline.com/2015/02/19/racial-tension-underlies-many-interactions-on-ut-campus">http://www.dailytexanonline.com/2015/02/19/racial-tension-underlies-many-interactions-on-ut-campus</a>
+        </p>
+        </div>
+
+ 
+        <a href="#" onclick="toggle('foam'); return false;"><img class ="mouse_over" src="images/Before/foam.png" onmouseover="this.src='https://www.dropbox.com/s/th8rcaf0yigykzi/foam.png?raw=1'" onmouseout="this.src='images/Before/foam.png'"></a>
+        <div id="foam" class="special" style="display: none;">
+        <h4>Foam Sword Friday</h4>
+        <p> The survival of Foam Sword Friday is one of my biggest personal accomplishments. Foam Sword Friday is an event put on during the end each semester at the University of Texas at Austin. This event is meant to help destress students by handing them foam swords and letting them simulate battles between each other. 
+         </br> </br>
+        In November of 2012 the University <a href="http://alcalde.texasexes.org/2012/11/putting-on-the-brakes-foam-sword-friday-cancelled/">released</a> they were going to cancel the ongoing tradition of Foam Sword Friday. This was in response to <a href="https://www.youtube.com/watch?v=OWsKQr0u-Dk&ab_channel=PwnedSexily">viral</a> incident that occured during the event the semester before. I knew that this tradition was not only important to myself, but to many other members of the University student body. So I gathered a group of trustworthy friends and we fundraised and through the event ourselves.
+        </br> </br>
+        The event has evolved in the past few years. I was lucky enough to help it find a home back in an organization sponsered by the University of Texas. We recently celebrated its 10th anniversity this last Spring. 
+         </br> </br>
+        Reviews and Responses:
+        </br> </br>
+        <a href="https://www.utexas.edu/universityunions/node/7558">https://www.utexas.edu/universityunions/node/7558</a>
+        </br> </br>
+        <a href="http://kut.org/post/despite-viral-video-notoriety-uts-foam-sword-friday-continues-nary-bus-sight">http://kut.org/post/despite-viral-video-notoriety-uts-foam-sword-friday-continues-nary-bus-sight</a>
+        </p>
+        <p>
+        <a href="http://www.dailydot.com/society/foam-sword-friday-nick-engmann-texas/">http://www.dailydot.com/society/foam-sword-friday-nick-engmann-texas/</a>
+        </p>
+        <p>
+        <a href="http://thehook.texasexes.org/the-sword-in-the-foam/">http://thehook.texasexes.org/the-sword-in-the-foam/</a>
+         </br> </br>
+        <a href="http://interactives.kxan.com/photomojo/gallery/12081/1/photos-foam-sword-friday-on-east-mall/foam-sword-friday-on-east-mall/">http://interactives.kxan.com/photomojo/gallery/12081/1/photos-foam-sword-friday-on-east-mall/foam-sword-friday-on-east-mall/</a>
+         </br> </br>
+        <a href="http://video.statesman.com/Star-WarsThemed-Foam-Sword-Friday-30027220">http://video.statesman.com/Star-WarsThemed-Foam-Sword-Friday-30027220</a>
+         </br> </br>
+        <a href="http://reliefweb.int/videos/single/utaustintexas/QidLx9NOOoI">http://reliefweb.int/videos/single/utaustintexas/QidLx9NOOoI</a>
+        </p>
+        </div>
+        </div>
+
+    <div id="wall_5" class="image" data-stellar-background-ratio="0.2"  ></div>
+    <div id="content_5" class="content"> 
+        <h3 class="subtext"><a name ="Organizations"> </a>Organizations</h3>
+        
+
+        <a href="#" onclick="toggle('archer'); return false;"><img class ="mouse_over" src="images/Before/archer.png" onmouseover="this.src='images/After/archer.png'" onmouseout="this.src='images/Before/archer.png'"></a>
+        <div id="archer" class="special" style="display: none;">
+        <h4>Archer Fellowship</h4>
+        <p> From January 2016- May 2016 I will be a fellow in the <a href="http://www.archercenter.org/current-fellows1.html">Bill Archer Fellowship</a> in Washington DC. This is a fellowship that brings students from the University of Texas system to Washington, D.C. in order to take classwork related to piolitics and advocacy whilst interning for an organization of their choice.I hope to gain a better understanding of politics and government through the coursework provided in the Archer Fellowship whilst gaining valuable experience at my internship.</p>
+        </div>
+
+
+        <a href="#" onclick="toggle('freetail'); return false;"><img class ="mouse_over" src="images/Before/freetailhackers.png" onmouseover="this.src='images/After/freetailhackers.png'" onmouseout="this.src='images/Before/freetailhackers.png'"></a>
+        <div id="freetail" class="special" style="display: none;">
+        <h4>FreeTail Hackers Advisory Board</h4>
+        <p><a href="http://freetailhackers.com/#">Freetail Hackers</a> is the new organization which started at the University of Texas at Austin. Formerly known as HackTX, Freetail Hackers goal is to grow and contribute to the Texas hacker community throughout the year. As a former member of HackTX I am on the advisory board to assist the leaders of Freetail Hackers with any decisions that complement my skillset. </p>
+        </div> 
+    </div>
+
+    
+
+</body>
+
+</html>
