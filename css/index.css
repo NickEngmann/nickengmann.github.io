@@ -5,6 +5,7 @@ body {
     height: 100%;
     font-family: 'Courier New', sans-serif;
 	font-size: 180%;
+	color:White; 
 }
 #nav {
     height: 70px;
@@ -247,29 +248,6 @@ img.main-img {
     transition: all 1s ease;
 }
 
-a {
-    color: white;
-    padding-bottom: 3px;
-    text-decoration: blink;
-}
-a:hover {
-    border-bottom: 5px solid #F2F2F0;
-}
-.subtext a {
-    font-size: 1em;
-    font-weight: none;
-}
-
-
-h1.name {
-    font-weight: normal;
-	font-family: 'Courier New', sans-serif;
-    letter-spacing: 4px;
-	font-size: 180%;
-    padding: 0px;
-    margin: 0px;
-	font-weight: default;
-}
 h3.subtext {
     font-weight: normal;
     letter-spacing: 1px;
@@ -279,6 +257,50 @@ h3.subtext {
     line-height: 1.6em;
     margin: auto;
 	font-weight: bold;
+}
+
+.subtext a {
+    font-size: 1em;
+    font-weight: none;
+}
+
+a {
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: blink;
+}
+
+a:hover {
+    border-bottom: 5px solid #F2F2F0;
+}
+
+/* ---- particles.js container ---- */
+#trianglify {
+  z-index: -1;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1.name {
+    font-weight: normal;
+	font-family: 'Courier New', sans-serif;
+    letter-spacing: 4px;
+	font-size: 180%;
+    padding: 0px;
+    margin: 0px;
+	font-weight: default;
 }
 
 h4 {
@@ -303,6 +325,17 @@ h5 {
     background: #55e6c5;
     z-index: 1;
     }
+
+.content p {
+    font-size:18px;
+    color: white;
+    font-family: 'Courier New', sans-serif;
+    font-weight: 300;
+    margin: 30px 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+	}
 
 .mouse_over
 {
@@ -341,7 +374,7 @@ h5 {
     background-attachment: fixed;
 }
 #wall_2 {
-    background: url(../Images/swirl_pattern.png) repeat;
+    background: url(https://www.dropbox.com/s/fmxffvzl1axg5fy/dimension.png?raw=1) repeat;
     background-attachment: fixed;
 }
 #wall_3 {
@@ -350,7 +383,7 @@ h5 {
 		background-size: 100%;
 }
 #wall_4 {
-    background: url(../Images/dimension.png) repeat;
+    background: url(https://www.dropbox.com/s/fmxffvzl1axg5fy/dimension.png?raw=1) repeat;
     background-attachment: fixed;
 }
 #wall_5 {
@@ -371,7 +404,27 @@ h5 {
   margin: 0 auto;
   padding: 0.625em 0.625em;
 }
-
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5em;
+	padding: 0;
+    direction: ltr;
+	box-sizing: border-box;
+	display: block;
+}
+.column {
+    position: relative;
+    width: 50%;
+	padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: left;
+	display: block;
+}
+.column2 {
     position: relative;
     width: 50%;
 	padding-left: 0.9375em;
@@ -379,6 +432,7 @@ h5 {
     float: right;
 	display: block;
 }
+
 .special{
 	 padding-top: 20px;
 	 padding-bottom: 20px;
@@ -395,31 +449,3 @@ h5 {
 	margin: 0 auto;
 	padding: 0.625em 0.625em;
 	}
-.content p {
-    font-size:18px;
-    color: white;
-    font-family: 'Courier New', sans-serif;
-    font-weight: 300;
-    margin: 30px 30px;
-	margin-left: 200px;
-	margin-right: 200px;
-	text-align: center;
-	}
-
-	/* ---- particles.js container ---- */
-#trianglify {
-  z-index: -1;
-}
-#particles-js{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
