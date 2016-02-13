@@ -252,23 +252,21 @@ a {
     padding-bottom: 3px;
     text-decoration: blink;
 }
-a:hover {
-    border-bottom: 5px solid #F2F2F0;
-}
+
 .subtext a {
     font-size: 1em;
     font-weight: none;
 }
 
-
 h1.name {
     font-weight: normal;
 	font-family: 'Courier New', sans-serif;
     letter-spacing: 4px;
-	font-size: 180%;
+	font-size: 200%;
     padding: 0px;
     margin: 0px;
 	font-weight: default;
+    color: white;
 }
 h3.subtext {
     font-weight: normal;
@@ -279,6 +277,7 @@ h3.subtext {
     line-height: 1.6em;
     margin: auto;
 	font-weight: bold;
+    color: white;
 }
 
 h4 {
@@ -286,10 +285,8 @@ h4 {
     color: white;
     font-family: 'Courier New', sans-serif;
     font-weight: 300;
-    margin: 30px 60px;
-	margin-left: 300px;
-	margin-right: 300px;
 	font-weight: bold;
+    text-align: center;
 }
 h5 {
     color: black;
@@ -372,13 +369,6 @@ h5 {
   padding: 0.625em 0.625em;
 }
 
-    position: relative;
-    width: 50%;
-	padding-left: 0.9375em;
-    padding-right: 0.9375em;
-    float: right;
-	display: block;
-}
 .special{
 	 padding-top: 20px;
 	 padding-bottom: 20px;
@@ -400,9 +390,6 @@ h5 {
     color: white;
     font-family: 'Courier New', sans-serif;
     font-weight: 300;
-    margin: 30px 30px;
-	margin-left: 200px;
-	margin-right: 200px;
 	text-align: center;
 	}
 
@@ -422,4 +409,19 @@ h5 {
 * {
     margin: 0;
     padding: 0;
+}
+p.SelfP{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.card {
+    background: #ececec;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.card-wrapper {
+    padding: 10px;
 }
