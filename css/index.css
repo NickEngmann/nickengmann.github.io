@@ -224,7 +224,7 @@ h5 {
     background-attachment: fixed;
 }
 #wall_2 {
-    background: url(https://www.dropbox.com/s/fmxffvzl1axg5fy/dimension.png?raw=1) repeat;
+    background: url(https://www.dropbox.com/s/k07rkl4aermyz5m/swirl_pattern.png?raw=1) repeat;
     background-attachment: fixed;
 }
 #wall_3 {
@@ -249,8 +249,7 @@ h5 {
 }
 #content_3 {
   position: relative;
-  width: 60%;
-  max-width: 24em;
+  width: 30%;
   margin: 0 auto;
   padding: 0.625em 0.625em;
 }
