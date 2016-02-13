@@ -238,7 +238,7 @@ h5 {
 }
 #wall_5 {
     background: url(https://www.dropbox.com/s/7sok3q55zwtf4lx/foamswordfriday.png?raw=1) no-repeat;
-	background-size: 110%;
+	background-size: 100%;
     background-attachment: fixed;
 }
 #content_1 {position: relative;}
@@ -295,8 +295,6 @@ h5 {
 * {
     margin: 0;
     padding: 0;
-}
-p.SelfP{
 }
 .card {
     background: #ececec;
