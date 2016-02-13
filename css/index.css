@@ -5,7 +5,7 @@ body {
     height: 100%;
     font-family: 'Courier New', sans-serif;
 	font-size: 180%;
-    background-image: '../images/background.png'; color:White; 
+    background-image: 'images/background.png'; color:White; 
 }
 #nav {
     height: 70px;
