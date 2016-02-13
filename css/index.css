@@ -243,8 +243,9 @@ h5 {
 }
 #content_1 {position: relative;}
 #content_2 {
-	position: relative;
-	width:100%;
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
       padding: 0.725em 0.725em;
 
 }
