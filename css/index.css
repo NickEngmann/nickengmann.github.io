@@ -220,7 +220,7 @@ h5 {
 	background-color: white;
 }
 #wall_1 {
-    background: url(images/https://www.dropbox.com/s/t1au8707j2co0cl/background.png?raw=1);
+    background: url(images/https://www.dropbox.com/s/t1au8707j2co0cl/background.png?raw=1) no-repeat;
     background-attachment: fixed;
 }
 #wall_2 {
@@ -244,12 +244,14 @@ h5 {
 #content_1 {position: relative;}
 #content_2 {
 	position: relative;
-    padding: 0.725em 0.725em;
+	width:100%;
+      padding: 0.725em 0.725em;
 
 }
 #content_3 {
   position: relative;
-
+  width: 30%;
+  margin: 0 auto;
   padding: 0.725em 0.725em;
 }
 
@@ -259,10 +261,14 @@ h5 {
 }
 #content_4 {
 	position: relative;
+	width:30%;
+  margin: 0 auto;
   padding: 0.725em 0.725em;
 	}
 #content_5 {
 	position: relative;
+	width:30%;
+	margin: 0 auto;
 	padding: 0.725em 0.725em;
 	}
 .content p {
