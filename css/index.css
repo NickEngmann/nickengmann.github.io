@@ -250,8 +250,6 @@ h5 {
 #content_3 {
   position: relative;
   width: 30%;
-  margin: 0 auto;
-  padding: 0.625em 0.625em;
 }
 
 .special{
@@ -261,14 +259,10 @@ h5 {
 #content_4 {
 	position: relative;
 	width:30%;
-  margin: 0 auto;
-  padding: 0.625em 0.625em;
 	}
 #content_5 {
 	position: relative;
 	width:30%;
-	margin: 0 auto;
-	padding: 0.625em 0.625em;
 	}
 .content p {
     font-size:18px;
