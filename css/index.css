@@ -244,12 +244,13 @@ h5 {
 #content_1 {position: relative;}
 #content_2 {
 	position: relative;
-	width:100%;
+    padding: 0.725em 0.725em;
 
 }
 #content_3 {
   position: relative;
-  width: 30%;
+
+  padding: 0.725em 0.725em;
 }
 
 .special{
@@ -258,11 +259,11 @@ h5 {
 }
 #content_4 {
 	position: relative;
-	width:30%;
+  padding: 0.725em 0.725em;
 	}
 #content_5 {
 	position: relative;
-	width:30%;
+	padding: 0.725em 0.725em;
 	}
 .content p {
     font-size:18px;
