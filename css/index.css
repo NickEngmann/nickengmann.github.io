@@ -143,7 +143,7 @@ h1.name {
     font-weight: normal;
 	font-family: 'Courier New', sans-serif;
     letter-spacing: 4px;
-	font-size: 100px;
+	font-size: 70px;
     padding: 0px;
     margin: 0px;
 	font-weight: default;
@@ -154,7 +154,7 @@ h3.subtext {
     letter-spacing: 1px;
     max-width: 500px;
     width: 90%;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.6em;
     margin: auto;
 	font-weight: bold;
@@ -193,6 +193,7 @@ h5 {
 	height:150px;
 	padding: 20px 10px 20px 10px;
 }
+
 .mouse_over:hover
 {
 	opacity:1;
@@ -258,6 +259,7 @@ h5 {
     width: 30%;
     margin: 0 auto;
     padding: 0.725em 0.725em;
+
 }
 #content_3 {
   position: relative;
