@@ -73,13 +73,16 @@ body {
     height: 100%;
     width: 100%;    
 }
-
+#name2{
+    top: -35px;
+    color: black;   
+}
 #self-portrait {
-       top: -30px;
+       top: -35px;
 	color: black;
 }
 #projects {
-       top: -30px;
+       top: -35px;
 	color: black;
 }
 #awards {
@@ -175,14 +178,14 @@ h4 {
 h5 {
     color: black;
     font-family: 'Courier New', sans-serif;
-	font-size:16px;
+	font-size:20px;
 	letter-spacing: 1px;
     font-weight: bold;
     padding: 6px;
 }
 .image {
     height: 900px;
-    width: 110%;
+    width: 100%;
     background: #55e6c5;
     z-index: 1;
     }

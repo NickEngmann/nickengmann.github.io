@@ -1600,7 +1600,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1500px;
   }
 }
 .container-fluid {
@@ -6757,4 +6757,17 @@ button.close {
     display: none !important;
   }
 }
+@media (min-width: 768px) {
+.my-custom-container{
+    width:600px;
+}}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
