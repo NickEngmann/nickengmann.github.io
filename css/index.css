@@ -23,7 +23,6 @@ body {
     width: 34px;
     position: relative;
 }
-
 #name {
     top: -15px;
     height: 30px;
@@ -34,7 +33,6 @@ body {
     height: 100%;
     width: 100%;    
 }
-
 #navbar #sm1 {
     height: 40px;
     width: 40px;
@@ -44,7 +42,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
 #navbar #sm2 {
     height: 40px;
     width: 40px;
@@ -63,7 +60,6 @@ body {
     height: 100%;
     width: 100%;
 }    
-
 #navbar #sm4 {
     height: 40px;
     width: 40px;
@@ -121,9 +117,7 @@ div.content_main {
 }
 img.main-img {
     border-radius: 50%;
-    max-height: 300px;
-    width: 90%;
-    max-width: 300px;
+    width: 100%;
     text-align: center;
     border: 4px solid black;
 
@@ -226,6 +220,9 @@ h5 {
     background: url(images/https://www.dropbox.com/s/t1au8707j2co0cl/background.png?raw=1);
     background-attachment: fixed;
     max-width: 100%;
+    position: relative;
+    background-position: 50%
+
 }
 #wall_2 {
     background: url(https://www.dropbox.com/s/k07rkl4aermyz5m/swirl_pattern.png?raw=1) repeat;
