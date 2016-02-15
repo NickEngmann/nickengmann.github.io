@@ -189,11 +189,10 @@ h5 {
 	-webkit-transition:opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
 	opacity:0.83;
-	width:300px;
-	height:150px;
+	width:400px;
+	height:200px;
 	padding: 20px 10px 20px 10px;
 }
-
 .mouse_over:hover
 {
 	opacity:1;
@@ -258,12 +257,13 @@ h5 {
     position: relative;
     width: 30%;
     margin: 0 auto;
-
+    padding: 0.725em 0.725em;
 }
 #content_3 {
   position: relative;
   width: 30%;
   margin: 0 auto;
+  padding: 0.725em 0.725em;
 }
 
 .special{
@@ -274,13 +274,14 @@ h5 {
 	position: relative;
 	width:30%;
     margin: 0 auto;
-
-}
+    padding: 0.725em 0.725em;
+	}
 #content_5 {
 	position: relative;
 	width:30%;
 	margin: 0 auto;
-}
+	padding: 0.725em 0.725em;
+	}
 .content p {
     font-size:18px;
     color: white;
