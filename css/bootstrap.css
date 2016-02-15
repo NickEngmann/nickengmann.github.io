@@ -4194,7 +4194,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 468px) {
+@media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -6769,10 +6769,5 @@ button.close {
 .navbar .navbar-collapse {
     text-align: center;
 }
-.col-center-block {
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 /*# sourceMappingURL=bootstrap.css.map */
