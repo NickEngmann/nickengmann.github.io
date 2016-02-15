@@ -231,25 +231,38 @@ h5 {
     background: url(https://www.dropbox.com/s/k07rkl4aermyz5m/swirl_pattern.png?raw=1) repeat;
     background-attachment: fixed;
     max-width: 100%;
+    height:700px;
+    position: relative;
+    background-position: 50%
 }
 #wall_3 {
     background: url(https://www.dropbox.com/s/vh53bzf4526b8r2/transfer.png?raw=1) no-repeat;
     background-attachment: fixed;
     max-width: 100%;
-		background-size: 100%;
+    height:750px;
+    position: relative;
+    background-position: 50%
 }
 #wall_4 {
     background: url(https://www.dropbox.com/s/fmxffvzl1axg5fy/dimension.png?raw=1) repeat;
     background-attachment: fixed;
     max-width: 100%;
+    height:700px;
+    position: relative;
+    background-position: 50%
 }
 #wall_5 {
     background: url(https://www.dropbox.com/s/7sok3q55zwtf4lx/foamswordfriday.png?raw=1) no-repeat;
 	background-size: 100%;
     background-attachment: fixed;
-        max-width: 100%;
+    max-width: 100%;
+    height:750px;
+    position: relative;
+    background-position: 50%
 }
-#content_1 {position: relative;}
+#content_1 {
+    position: relative;
+}
 #content_2 {
     position: relative;
     width: 30%;
