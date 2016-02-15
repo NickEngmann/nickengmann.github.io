@@ -4,7 +4,6 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Courier New', sans-serif;
-	font-size: 100%;
     margin: 0 auto;
 }
 
@@ -144,7 +143,7 @@ h1.name {
     font-weight: normal;
 	font-family: 'Courier New', sans-serif;
     letter-spacing: 4px;
-	font-size: 200%;
+	font-size: 7.25em;
     padding: 0px;
     margin: 0px;
 	font-weight: default;
@@ -155,7 +154,7 @@ h3.subtext {
     letter-spacing: 1px;
     max-width: 500px;
     width: 90%;
-    font-size: 0.69em;
+    font-size: 2.50em;
     line-height: 1.6em;
     margin: auto;
 	font-weight: bold;
