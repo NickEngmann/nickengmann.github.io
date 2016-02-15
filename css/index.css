@@ -310,15 +310,7 @@ h5 {
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.card {
-    background: #ececec;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
+    -box-sizing: border-box;
 }
 .card-wrapper {
     padding: 10px;
