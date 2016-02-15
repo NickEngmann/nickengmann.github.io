@@ -135,7 +135,6 @@ a {
 }
 
 .subtext a {
-    font-size: 1em;
     font-weight: none;
 }
 
@@ -143,7 +142,7 @@ h1.name {
     font-weight: normal;
 	font-family: 'Courier New', sans-serif;
     letter-spacing: 4px;
-	font-size: 30px;
+	font-size: 50px;
     padding: 0px;
     margin: 0px;
 	font-weight: default;
@@ -154,7 +153,7 @@ h3.subtext {
     letter-spacing: 1px;
     max-width: 500px;
     width: 100%;
-    font-size: 15px;
+    font-size: 25px;
     margin: auto;
 	font-weight: bold;
     color: white;
