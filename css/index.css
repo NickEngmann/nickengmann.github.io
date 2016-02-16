@@ -199,7 +199,12 @@ h5 {
 .spacing{
 	height:100px;
 }
-
+a{
+    text-decoration: underline red;
+}
+a:hover{
+    color: blue;
+}
 .expanding{
 	transition:width 0.3s ease-in-out;
 	-webkit-transition: width 0.3s ease-in-out;
@@ -220,7 +225,7 @@ h5 {
     max-width: 100%;
 }
 #wall_2 {
-    background: url(https://www.dropbox.com/s/k07rkl4aermyz5m/swirl_pattern.png?raw=1) repeat;
+    background: url(https://www.dropbox.com/s/k07rkl4aermyz5m/swirl_patterng?raw=1) repeat;
     background-attachment: fixed;
     max-width: 100%;
     height:700px;
@@ -234,7 +239,7 @@ h5 {
     position: relative;
 }
 #wall_4 {
-    background: url(https://www.dropbox.com/s/lbqduhf6evqfcjs/dimension_%402X.png?raw=1) repeat;
+    background: url(https://www.dropbox.com/s/h064kurt3qk9usq/Accomplishments1.jpg?raw=1) no-repeat;
     background-attachment: fixed;
     max-width: 100%;
     height:700px;
