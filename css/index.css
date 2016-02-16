@@ -200,7 +200,7 @@ h5 {
 	height:100px;
 }
 a{
-    text-decoration: underline red;
+    text-decoration: underline blue;
 }
 a:hover{
     color: blue;
