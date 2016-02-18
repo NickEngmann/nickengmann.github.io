@@ -144,8 +144,7 @@ h1.name {
     letter-spacing: 4px;
 	font-size: 100px;
     padding: 0px;
-    margin: 0px;
-	font-weight: default;
+    margin: auto;
     color: white;
 }
 h3.subtext {
@@ -153,8 +152,9 @@ h3.subtext {
     letter-spacing: 2px;
     width: 100%;
     font-size: 40px;
-    margin: 0px;
-	font-weight: bold;
+    max-width: 350px;
+    margin: auto;
+	font-weight: none;
     color: white;
 }
 
