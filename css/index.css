@@ -142,7 +142,7 @@ h1.name {
     font-weight: normal;
 	font-family: 'Courier New', sans-serif;
     letter-spacing: 4px;
-	font-size: 4em;
+	font-size: 7em;
     padding: 0px;
     margin: auto;
     color: white;
@@ -151,8 +151,8 @@ h3.subtext {
     font-weight: normal;
     letter-spacing: 2px;
     width: 100%;
-    font-size: 2em;
-    max-width: 350px;
+    font-size: 2.75em;
+    max-width: 500px;
     margin: auto;
 	font-weight: none;
     color: white;
@@ -187,7 +187,7 @@ h5 {
 	transition: opacity 0.5s ease-in-out;
 	opacity:0.83;
 	width:400px;
-	height:200px;
+	height:190px;
     max-width: 90%;
 }
 
