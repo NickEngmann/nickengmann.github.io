@@ -188,10 +188,12 @@ h5 {
 	opacity:0.83;
 	width:400px;
 	height:200px;
+    max-width: 90%;
 }
 
 .mouse_over:hover
 {
+    max-width: 90%;
 	opacity:1;
 }
 
@@ -314,5 +316,5 @@ a:hover{
     -box-sizing: border-box;
 }
 .card-wrapper {
-    padding: 10px;
+    padding: 7px;
 }
