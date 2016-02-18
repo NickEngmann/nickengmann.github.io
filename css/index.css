@@ -142,7 +142,7 @@ h1.name {
     font-weight: normal;
 	font-family: 'Courier New', sans-serif;
     letter-spacing: 4px;
-	font-size: 7em;
+	font-size: 5.5em;
     padding: 0px;
     margin: auto;
     color: white;
@@ -151,7 +151,7 @@ h3.subtext {
     font-weight: normal;
     letter-spacing: 2px;
     width: 100%;
-    font-size: 2.75em;
+    font-size: 2.0em;
     max-width: 500px;
     margin: auto;
 	font-weight: none;
@@ -201,10 +201,11 @@ h5 {
 	height:100px;
 }
 a{
-    text-decoration: underline blue;
+    text-decoration: underline;
+    text-decoration: white;
 }
 a:hover{
-    color: blue;
+    font-weight: bold;
 }
 .expanding{
 	transition:width 0.3s ease-in-out;
