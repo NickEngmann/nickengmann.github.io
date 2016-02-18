@@ -142,7 +142,7 @@ h1.name {
     font-weight: normal;
 	font-family: 'Courier New', sans-serif;
     letter-spacing: 2px;
-	font-size: 80px;
+	font-size: 50px;
     padding: 0px;
     margin: 0px;
 	font-weight: default;
@@ -150,7 +150,7 @@ h1.name {
 }
 h3.subtext {
     font-weight: normal;
-    font-size: 30px;
+    font-size: 10px;
     margin: auto;
 	font-weight: bold;
     color: white;
