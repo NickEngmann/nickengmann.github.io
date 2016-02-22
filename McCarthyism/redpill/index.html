@@ -29,7 +29,11 @@
    document.getElementById('welcomeDiv').style.display = "block";
   }
   </script>
-
+    <script language="JavaScript">
+    function setVisibility(id, visibility) {
+    document.getElementById(id).style.display = visibility;
+    }
+    </script>
 </head>
 
 <body> 
@@ -45,19 +49,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">So You Took The Red Pill...</a>
+              <a class="navbar-brand" href="#"><font color="DE3030">So You Took The Red Pill...</font></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="nickengmann.com">Home</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Skip To: <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Declaration of Independence</a></li>
-                    <li><a href="#">Bill of Rights</a></li>
-                    <li><a href="#">Background about Joseph McCarthyism</a></li>
-                    <li><a href="#">McCarthyism</a></li>
-                    <li><a href="#">Where We Are Now</a></li>
+                    <li><a href="#Declaration">Declaration of Independence</a></li>
+                    <li><a href="#Bill">Bill of Rights</a></li>
+                    <li><a href="#Background">Background about Joseph McCarthyism</a></li>
+                    <li><a href="#McCarthyism">McCarthyism</a></li>
+                    <li><a href="#Now">Where We Are Now</a></li>
                   </ul>
                 </li>
               </ul>
@@ -79,7 +83,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="images/backgrounds/strip1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Once you take the red pill...</h1>
@@ -89,7 +93,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="images/backgrounds/strip2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>...You Can Never Go Back...</h1>
@@ -98,7 +102,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="images/backgrounds/strip3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>...Welcome to McCarthyism</h1>
@@ -125,12 +129,11 @@
 
     <div class="container marketing">
       <!-- START THE FEATURETTES -->
-
+    
       <hr class="featurette-divider">
-
       <div class="row featurette">
         <div class="col-md-12">
-          <h2 class="featurette-heading">It all began with <span class="text-muted">The Declaration of Independence(1776)</span></h2>
+          <h2 class="featurette-heading" id='Declaration'>It all began with <span class="text-muted">The Declaration of Independence(1776)</span></h2>
            <div class="container">
       <div class="growDiv"> 
       <img class="growImage" src="images/declaration.jpg" alt="my image"> 
@@ -140,10 +143,10 @@
           <p class="lead">In 1776 our forefathers wrote this as the foundation of independence and freedom for not just themselves but for all individuals. At the beginning of our great nation these unalienable Rights were unfortunately limited to rich white men. But as we evolve as a nation we have begun to disperse these rights to more demographic groups.</p>
         </div>
       </div>
-
+      <section class="hero">
       <div class="row featurette">
         <div class="col-md-12">
-          <h2 class="featurette-heading">And then came <span class="text-muted">The Bill of Rights(1787)</span></h2>
+          <h2 class="featurette-heading" id='Bill'>And then came The Bill of Rights(1787)</h2>
            <div class="container">
       <div class="growDiv"> 
       <img class="growImage" src="images/rights.gif" alt="my image"> 
@@ -156,26 +159,29 @@
           <p class="lead">The Bill of Rights and the amendments to constitution have been referenced continually in many debates, court cases, and legislation in order to protect the rights of all legal citizens of the United States of America.</p>
         </div>
       </div>
-
+    </section>
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Fast forward to the Era of Joseph McCarthy and McCarthyism aka the <span class="text-muted">Second Red Scare (1950s)</span></h2>
+          <h2 class="featurette-heading" id='Background'>Fast forward to the Era of Joseph McCarthy and McCarthyism aka the <span class="text-muted">Second Red Scare (1950s)</span></h2>
           <p class="lead">McCarthyism is the practice of making accusations of subversion or treason without proper regard for evidence. It also means "the practice of making unfair allegations or using unfair investigative techniques, especially in order to restrict dissent or political criticism.</p>
           <p class="lead">In February 1950, appearing at the Ohio County Women's Republican Club in Wheeling, West Virginia, McCarthy gave a speech that propelled him into the national spotlight. Waving a piece of paper in the air, he declared that he had a list of 205 known members of the Communist Party who were "working and shaping policy" in the State Department. Despite a lack of any proof of subversion, more than 2,000 government employees lost their jobs as a result of McCarthy investigations"</p>
-          <p class="lead">It was a witch hunt akin to the Salem Witch Trails</p>
+          <p class="lead">It was a witch hunt akin to the <font color="DE3030">Salem Witch Trails</font></p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="images/joseph_1.jpg">
+          <img class="featurette-image img-responsive center-block wow pulse animated" data-wow-delay="0s" data-wow-delay="2s"  src="images/joseph_1.jpg">
+        </div>
+        <div class="col-md-5 col-md-pull-7 wow fadeIn animated" data-wow-delay="7s">
+          <img class="witches featurette-image img-responsive center-block wow slideOutRight animated" data-wow-delay="10s" src="images/witch_flip.gif">
         </div>
       </div>
 
       <hr class="featurette-divider">
-
+    <section class="hero">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Think of a Witty Title to Insert Here<span class="text-muted">~~</span></h2>
+          <h2 class="featurette-heading" id='McCarthyism'>McCarthyism in Full Swing</h2>
           <p class="lead">People were being accused of supporting communism or being communist sympathizers. They were being put under a lot of tests and pressures by the Federal Government and by private industries</p>
     <p class="lead">People equated the New Deal to being socialist/communist in nature and saw its policies as evidence that the government had been heavily influenced by Communist policy makers in the Roosevelt administration.</p>
     <p class="lead">Anti-Communist committees, panels, and loyalty review boards were established in order act out McCarthyism</p>
@@ -186,37 +192,41 @@
           <img class="featurette-image img-responsive center-block" src="images/joseph_2.jpg">
         </div>
       </div>
-
+    </section>
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <p class="lead">When we analyze the past often times we view it through the lens of "we have evolved and we could never reach a similiar low. However we have politicians right now who are spreading the same sort of hate when analyzing immigration policy. They want to take hardworkign dinvidiuals who have the exact same unalienable rights and prevert policy to stop them from escaping dangerous situations and from their Pursuit of Happiness.</p>
-        <div class="col-lg-4">
+      <div class="row" id='Now'>
+        <p class="lead">When we analyze the past often times we view it through the lens of "we have evolved and we could never reach a similiar low. However we have politicians right now who are spreading the same sort of hate when analyzing immigration policy. They want to take hardworking individiuals who have the exact same unalienable rights and prevert policy to stop them from escaping dangerous situations and from their Pursuit of Happiness.</p>
+        <div class="col-lg-4 wow bounce animated" data-wow-delay="3s">
           <img class="img-circle" src="images/Cruz.png" width="240" height="240">
           <h2>Ted Cruz</h2>
           <p></p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" role="button" onclick="setVisibility('sub3', 'inline');">View details &raquo;</a></p>
+          <div id="sub3"><p>In February of 2013 Ted Cruz accused Chuck Hagel, President Obama's nominee for Defense Secretary of being allies with countries like Iran and North Korea. He did so without having any evidence of interactions. Ted Cruz uses smear campaiagns and lies to manipulate the public for his own political aspirations. Its one thing opposing political opponents and its another thign following the lead of Joseph McCarthy and using lies to get ahead much like Joseph McCarthy.</p></div>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-lg-4 wow bounce animated" data-wow-delay="0s">
           <img class="img-circle" src="images/McCarthy.png" width="240" height="240">
           <h2>Joseph McCarthy</h2>
-          <p></p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div><img id='sub6' src="images/backgrounds/redbrickwall.jpg"></div>
+        <div class="col-lg-4 wow bounce animated" data-wow-delay="3s">
           <img class="img-circle" src="images/Trump.png" width="240" height="240">
           <h2>Donald Trump</h2>
           <p></p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" role="button" onclick="setVisibility('sub5', 'inline');">View details &raquo;</a></p>
+          <div id="sub5"><p>The way Donald Trump tackles Syrian refugee crisis very much resembles McCarthyism. Donald Trump's wants to place a tempoary ban on Muslim's from entering the United States of America. By placing this tempoary blockage he is preventing thousands of individuals from getting the opportunity to immigrate to a safe location. This strategy demonizes Muslims and instills a sense of fear within the public concerning Muslims. This sort of attitude will only promote more violence and aggression between people.</p>
+
+           <p>Trump also has a plan to deport millions of Mexicans who have immigrated into the United States because they are "theives and rapists". Many of the immigrants that have come into this country have obtained jobs and are working hard to support themselves and the American economy. Trumps <a onclick="setVisibility('sub6', inline');">wall</a> idea also imprints fear within the public and promotes hostility between Mexico and the United States.</p>
+         </div>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2016 Pineapple Productions, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
@@ -235,5 +245,6 @@
         });;
     });
   </script>
+
 </body>
 </html>
