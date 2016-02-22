@@ -23,18 +23,6 @@
             position: relative;
         }
     </style>
-    <script type="text/javascript">
-    function toggle(id){
-        if($('#'+id).is(":hidden")){
-            //hidden element
-            $('#'+id).slideDown("slow");
-        }
-        else{
-            //showing element
-            $('#'+id).slideUp("slow");
-        }
-    }
-    </script>
 </head>
 
 <body>
@@ -133,20 +121,16 @@
             <div class="content_main">
                 <h1 class="name">Welcome</h1>
                 <h3 class="subtext">
-                    <a href="#Self-Portrait">Self-Portrait
-                    </a>
+                    -
                 </h3>
                 <h3 class="subtext">
-                    <a href="#Projects">Projects
-                    </a>
+                    "Always Earned
                 </h3>
                 <h3 class="subtext">
-                    <a href="#Awards&Accomplishments">Accomplishments
-                    </a>
+                    Never Given"
                 </h3>
                 <h3 class="subtext">
-                    <a href="#Organizations">Organizations
-                    </a>
+                    -
                 </h3>
             </div>
     </div>
@@ -407,6 +391,18 @@
     <script src="js/scrip.js"></script>
     <script src="js/jquery.nicescroll.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        function toggle(id){
+            if($('#'+id).is(":hidden")){
+                //hidden element
+                $('#'+id).slideDown("slow");
+            }
+            else{
+                //showing element
+                $('#'+id).slideUp("slow");
+            }
+        }
+    </script>
 </body>
 
 </html>
