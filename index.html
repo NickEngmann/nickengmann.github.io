@@ -26,7 +26,11 @@
 </head>
 
 <body>
-
+    <div id="floater">
+        <a href= "#">
+            <img src="images/Before/top.png" onmouseover="this.src='images/After/top2.png'" onmouseout="this.src='images/Before/top.png'"/>
+        </a>
+    </div>
     <div id="particles-js">
     </div>
     <!-- Fixed navbar -->
@@ -281,7 +285,7 @@
                     </a>
         
                     <div id="iSpyMyo" style="display: none;">
-                    <h4>iSpyMyo</h4>
+                    <h4>iSpyMyo<a href="#"></a></h4>
                     <p id="p7">
                     Created a application using a Myo that is able to implement some "spy" actions that I always wanted in real life. This phone-hardware application is able to record conversation, create notes, and fake phone calls discretely without ever taking out your phone.
                     </br>
@@ -455,6 +459,16 @@
                 $('#'+id).slideUp("slow");
             }
         }
+        $(window).scroll(function() {
+            var winScrollTop = $(window).scrollTop();
+            var winHeight = $(window).height();
+            var floaterHeight = $('#floater').outerHeight(true);
+            //true so the function takes margins into account
+            var fromBottom = 20;
+
+            var top = winScrollTop + winHeight - floaterHeight - fromBottom;
+            $('#floater').css({'top': top + 'px'});
+        });
     </script>
 </body>
 
