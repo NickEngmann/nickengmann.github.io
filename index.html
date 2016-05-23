@@ -23,6 +23,10 @@
             position: relative;
         }
     </style>
+    <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+    </script>
 </head>
 
 <body>
@@ -190,37 +194,7 @@
                 </div>
 
                 <div class="card-wrapper col-md-6 col-sm-12">
-                        <a href="#" onclick="toggle('Castaway'); return false;"><img class ="mouse_over" src="images/Before/CastAway.png" onmouseover="this.src='images/After/CastAway.png'" onmouseout="this.src='images/Before/CastAway.png'">
-                        </a>
-
-                        <div id="Castaway" style="display: none;">
-                            <h4>Castaway</h4>
-                            <p id="p4">To be simple and brief Castaway is a <a href="http://www.pandora.com/">Pandora</a> for podcasts. My team at the <a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks">Battle of the Hacks</a> hackathon and I wanted to create something that could solve the problem of craving similiar content after listening to an inspiring podcast. Much like how many individuals desire to listen to similiar artists we wanted to create a website that could help people find podcasts that were similiar in nature to podcasts they listened to. In order to accomplish this we used node.js with  jade and html framework.
-                            <br>
-                            <a href="https://github.com/hacktx/Castaway">Code on Github</a>
-                            </p>
-                        </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('Soundboard'); return false;">
-                        <img class ="mouse_over" src="images/Before/dj.png" onmouseover="this.src='images/After/dj.png'" onmouseout="this.src='images/Before/dj.png'"></a>
-        
-                    <div id="Soundboard" style="display: none;">
-                        <h4>DJ Soundboard</h4>
-                        <p id="p5">This project was my final project for my EE445L course. In this course we spend weeks developing hardware/software projects. My labpartner and I created a DJ touch Soundboard. The soundboard had 6 functioning buttons which each produced a different sound. These sounds could be layered to create music.
-                        <br><br>
-                        Technical Specifics:</br>
-                        Designed with a Touchscreen Kentec display. Also used a TMC1234 Launchpad.
-                        <br><br>
-                        <a href="https://github.com/NickEngmann/DJ-Setup">Code on Github</a></p>
-                    </div>
-                </div>
-
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('PiSight'); return false;">
+                  <a href="#" onclick="toggle('PiSight'); return false;">
                         <img class ="mouse_over" src="images/Before/PiSight.png" onmouseover="this.src='images/After/PiSight.png'" onmouseout="this.src='images/Before/PiSight.png'"></a>
         
                     <div id="PiSight" style="display: none;">
@@ -236,9 +210,10 @@
                         <br>
                         <a href="http://devpost.com/software/macisolation/">Devpost website</a>
                         </p>
-                    </div>
+                    </div>      
                 </div>
             </div>
+
             <div class="row">
                 <div class="card-wrapper col-md-6 col-sm-12">
                     <a href="#" onclick="toggle('MrLockman'); return false;">
@@ -257,6 +232,35 @@
                     <br>
                     <a href="https://www.youtube.com/watch?v=yeRFB5OWGaw">Video Demo</a>
                     </p>
+                    </div>
+                </div>
+
+                <div class="card-wrapper col-md-6 col-sm-12">
+                    <a href="#" onclick="toggle('Castaway'); return false;"><img class ="mouse_over" src="images/Before/CastAway.png" onmouseover="this.src='images/After/CastAway.png'" onmouseout="this.src='images/Before/CastAway.png'">
+                        </a>
+
+                        <div id="Castaway" style="display: none;">
+                            <h4>Castaway</h4>
+                            <p id="p4">To be simple and brief Castaway is a <a href="http://www.pandora.com/">Pandora</a> for podcasts. My team at the <a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks">Battle of the Hacks</a> hackathon and I wanted to create something that could solve the problem of craving similiar content after listening to an inspiring podcast. Much like how many individuals desire to listen to similiar artists we wanted to create a website that could help people find podcasts that were similiar in nature to podcasts they listened to. In order to accomplish this we used node.js with  jade and html framework.
+                            <br>
+                            <a href="https://github.com/hacktx/Castaway">Code on Github</a>
+                            </p>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card-wrapper col-md-6 col-sm-12">
+                    <a href="#" onclick="toggle('Soundboard'); return false;">
+                        <img class ="mouse_over" src="images/Before/dj.png" onmouseover="this.src='images/After/dj.png'" onmouseout="this.src='images/Before/dj.png'"></a>
+        
+                    <div id="Soundboard" style="display: none;">
+                        <h4>DJ Soundboard</h4>
+                        <p id="p5">This project was my final project for my EE445L course. In this course we spend weeks developing hardware/software projects. My labpartner and I created a DJ touch Soundboard. The soundboard had 6 functioning buttons which each produced a different sound. These sounds could be layered to create music.
+                        <br><br>
+                        Technical Specifics:</br>
+                        Designed with a Touchscreen Kentec display. Also used a TMC1234 Launchpad.
+                        <br><br>
+                        <a href="https://github.com/NickEngmann/DJ-Setup">Code on Github</a></p>
                     </div>
                 </div>
 
@@ -468,7 +472,7 @@
 
             var top = winScrollTop + winHeight - floaterHeight - fromBottom;
             $('#floater').css({'top': top + 'px'});
-        });
+        });  
     </script>
 </body>
 
