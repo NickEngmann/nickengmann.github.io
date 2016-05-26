@@ -25,7 +25,7 @@ body {
     }
 }
 #header__more {
-    border: 2px solid #bccad3;
+    border: 2px solid black;
     bottom: 1.5em;
     left: 50%;
     display: table;
@@ -49,12 +49,12 @@ a.more{
     text-decoration: none;
 }
 a.more:hover{
-    border: 4px solid #7B68EE;
-    color: #7B68EE;    
+    border: 4px solid black;
+    color: black;    
 }
 a.header__more:hover{
-    color: #7B68EE;
-    border: 4px solid #7B68EE;
+    color: black;
+    border: 4px solid black;
 }
 #logo {
     top: -10px;
