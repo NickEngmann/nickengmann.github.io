@@ -67,7 +67,7 @@ a.header__more:hover{
     width: 100%;    
 }
 #logo:hover{
-	background-image: "../images/logo2.png";
+    background-image: "../images/logo2.png";
     height: 40px;
     width: 40px;
     position: relative;
@@ -99,7 +99,7 @@ a.header__more:hover{
 #navbar #sm2 img {
     height: 100%;
     width: 100%;  
-	
+    
 }#navbar #sm3 {
     height: 40px;
     width: 40px;
@@ -124,20 +124,20 @@ a.header__more:hover{
 }
 #self-portrait {
        top: -35px;
-	color: black;
+    color: black;
 }
 #projects {
        top: -35px;
-	color: black;
+    color: black;
 }
 #awards {
-	color: black;
+    color: black;
 }
 #organizations {
-	color: black;
+    color: black;
 }
 #resume {
-	color: black;
+    color: black;
 }
 #button_home {
     color: black;
@@ -156,7 +156,7 @@ div.content {
     display: table-cell;
     vertical-align: middle;
     padding-bottom: 0%;
-	background-color: #262424;
+    background-color: #262424;
 }
 div.content_main {
     text-align: center;
@@ -189,9 +189,9 @@ a.subtext {
 
 h1.name {
     font-weight: normal;
-	font-family: 'Courier New', sans-serif;
+    font-family: 'Courier New', sans-serif;
     letter-spacing: 4px;
-	font-size: 5.5em;
+    font-size: 5.5em;
     padding: 0px;
     margin: auto;
     color: white;
@@ -203,7 +203,7 @@ h3.subtext {
     font-size: 2.0em;
     max-width: 500px;
     margin: auto;
-	font-weight: none;
+    font-weight: none;
     color: white;
 }
 
@@ -212,14 +212,14 @@ h4 {
     color: white;
     font-family: 'Courier New', sans-serif;
     font-weight: 300;
-	font-weight: bold;
+    font-weight: bold;
     text-align: center;
 }
 h5 {
     color: black;
     font-family: 'Courier New', sans-serif;
-	font-size:20px;
-	letter-spacing: 1px;
+    font-size:20px;
+    letter-spacing: 1px;
     font-weight: bold;
     padding: 6px;
 }
@@ -252,22 +252,22 @@ h6:hover{
 
 .mouse_over
 {
-	-webkit-transition:opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
-	opacity:0.83;
-	width:400px;
-	height:190px;
+    -webkit-transition:opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity:0.83;
+    width:400px;
+    height:190px;
     max-width: 90%;
 }
 
 .mouse_over:hover
 {
     max-width: 90%;
-	opacity:1;
+    opacity:1;
 }
 
 .spacing{
-	height:100px;
+    height:100px;
 }
 a{
     text-decoration: underline;
@@ -277,17 +277,17 @@ a:hover{
     font-weight: bold;
 }
 .expanding{
-	transition:width 0.3s ease-in-out;
-	-webkit-transition: width 0.3s ease-in-out;
-	width:120px;
-	height:120px;
-	background-color: white;
+    transition:width 0.3s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out;
+    width:120px;
+    height:120px;
+    background-color: white;
 }
 
 .expanding:hover{
-	width:300px;
-	height:120px;
-	background-color: white;
+    width:300px;
+    height:120px;
+    background-color: white;
 }
 #wall_1 {
     background: url(images/https://www.dropbox.com/s/t1au8707j2co0cl/background.png?raw=1);
@@ -318,7 +318,7 @@ a:hover{
 }
 #wall_5 {
     background: url(https://www.dropbox.com/s/7sok3q55zwtf4lx/foamswordfriday.png?raw=1) no-repeat;
-	background-size: 100%;
+    background-size: 100%;
     background-attachment: fixed;
     max-width: 100%;
     height:750px;
@@ -342,30 +342,30 @@ a:hover{
 }
 
 .special{
-	 padding-top: 20px;
-	 padding-bottom: 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
 }
 #content_4 {
-	position: relative;
-	width:30%;
+    /* position: relative; */
+    width: 10%;
     margin: 0 auto;
     padding: 0.725em 0.725em;
-	}
+    }
 #content_5 {
-	position: relative;
-	width:30%;
-	margin: 0 auto;
-	padding: 0.725em 0.725em;
-	}
+    position: relative;
+    width:30%;
+    margin: 0 auto;
+    padding: 0.725em 0.725em;
+    }
 .content p {
     font-size:18px;
     color: white;
     font-family: 'Courier New', sans-serif;
     font-weight: 300;
-	text-align: center;
-	}
+    text-align: center;
+    }
 
-	/* ---- particles.js container ---- */
+    /* ---- particles.js container ---- */
 #trianglify {
   z-index: -1;
 }
