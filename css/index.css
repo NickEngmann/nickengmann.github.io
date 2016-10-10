@@ -25,7 +25,7 @@ body {
     }
 }
 #header__more {
-    border: 2px solid black;
+    border: 3px solid white;
     bottom: 1.5em;
     left: 50%;
     display: table;
@@ -38,12 +38,12 @@ body {
     border-radius: 100%;
     cursor: pointer;
     display: block;
-    font-weight: 800;
-    font-size: 28px;
-    height: 50px;
+    font-weight: 1000;
+    font-size: 41px;
+    height: 70px;
     margin: 0 auto;
     line-height: 1.5em;
-    width: 50px;
+    width: 70px;
 }
 a.more{
     text-decoration: none;
@@ -201,7 +201,7 @@ h3.subtext {
     letter-spacing: 2px;
     width: 100%;
     font-size: 2.0em;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     font-weight: none;
     color: white;
@@ -270,11 +270,11 @@ h6:hover{
     height:100px;
 }
 a{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration: white;
 }
 a:hover{
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .expanding{
     transition:width 0.3s ease-in-out;
@@ -332,7 +332,7 @@ a:hover{
     width: 30%;
     margin: 0 auto;
     padding: 0.725em 0.725em;
-
+    padding-bottom: 150px;
 }
 #content_3 {
   position: relative;
@@ -386,6 +386,36 @@ a:hover{
     -box-sizing: border-box;
 }
 .card-wrapper {
-    padding: 7px;
+    padding: 20px;
 }
-
+#subsection {
+    text-align: center;
+    /* border-style: solid; */
+    /* border-width: medium; */
+    border-top: 22px double white;
+    /* border-bottom: thick double white; */
+    vertical-align: middle;
+    padding-bottom: 0%;
+    padding-top: 120px;
+    background-color: #262424;
+    /* border-color: white; */
+    padding-bottom: 30px;
+}
+h3.subtext{
+    font-size: 70px;
+    /* text-decoration: none; */
+    underline: none;
+}
+a.subtext{
+    underline: none;
+}
+h3.splashpage{
+    font-weight: normal;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 2.0em;
+    max-width: 600px;
+    margin: auto;
+    font-weight: none;
+    color: white;
+}
