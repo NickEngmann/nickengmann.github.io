@@ -30,9 +30,10 @@ body {
     left: 50%;
     display: table;
     margin: 0 auto;
-    -webkit-animation: shiftDown .5s ease .5s;
+    /* -webkit-animation: shiftDown .5s ease .5s; */
     -moz-animation: shiftDown .5s ease .5s;
     animation: shiftDown .5s ease .5s;
+    transition: all .2s ease-in-out;
 }
 .more {
     border-radius: 100%;
@@ -50,7 +51,9 @@ a.more{
 }
 a.more:hover{
     border: 4px solid black;
-    color: black;    
+    color: white;
+    font-weight: 1000;
+    transform: scale(1.2);
 }
 a.header__more:hover{
     color: black;
@@ -194,6 +197,7 @@ h1.name {
     font-size: 5.5em;
     padding: 0px;
     margin: auto;
+    margin-top: 50px;
     color: white;
 }
 h3.subtext {
@@ -226,10 +230,10 @@ h5 {
 h6{
     color: #777;
     font-family: 'Courier New', sans-serif;
-    font-size:20px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-weight: bold;
-    padding: 6px;
+    padding: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 20px;
@@ -360,7 +364,7 @@ a:hover{
     padding: 0.725em 0.725em;
     }
 .content p {
-    font-size:18px;
+    font-size: 20px;
     color: white;
     font-family: 'Courier New', sans-serif;
     font-weight: 300;
@@ -404,7 +408,7 @@ a:hover{
     padding-bottom: 30px;
 }
 h3.subtext{
-    font-size: 60px;
+    font-size: 70px;
     /* text-decoration: none; */
     underline: none;
 }
@@ -427,20 +431,46 @@ h3.splashpage{
 }
 .subtext a{
   text-decoration:none;
+  font-weight: 400;
 }
 .landingpage ul {
     list-style: none;
     padding: 0;
-    margin: 40px auto 20px;
-    width: 300px;
+    margin: 20px auto 20px;
+    width: 600px;
 }
 .landingpage li{
-    height: 40px;
-    width: 40px;
-    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+    margin: 0 30px;
     background: #e4e4e4;
     border-radius: 40px;
     display: inline-block;
+    transition: all .2s ease-in-out;
+}
+.landingpage li:hover {
+  transform: scale(1.7);
+}
+.landingpage li img{
+      height: auto;
+    max-width: 100%;
+}
+.image-cropper{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.rounded img{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
 @media (max-width:801px){
   h3.subtext{
@@ -454,4 +484,19 @@ h3.splashpage{
     width: 380px;
     height: 140px;
     }
+.landingpage ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto 20px;
+    width: 300px;
+}
+.landingpage li{
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    background: #e4e4e4;
+    border-radius: 40px;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
 }
