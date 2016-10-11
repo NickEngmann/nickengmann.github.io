@@ -432,18 +432,26 @@ h3.splashpage{
     list-style: none;
     padding: 0;
     margin: 40px auto 20px;
-    width: 254px
+    width: 300px;
 }
 .landingpage li{
     height: 40px;
     width: 40px;
     margin: 0 10px;
     background: #e4e4e4;
-    border-radius: 30px;
+    border-radius: 40px;
     display: inline-block;
 }
 @media (max-width:801px){
   h3.subtext{
     font-size: 32px;
   }
+  h1.name {
+    margin-top: 70px;
+    font-size: 4em;
+  }
+  .mouse_over{
+    width: 380px;
+    height: 140px;
+    }
 }
