@@ -26,7 +26,7 @@ body {
 }
 #header__more {
     border: 3px solid white;
-    bottom: 1.5em;
+    bottom: 10%;
     left: 50%;
     display: table;
     margin: 0 auto;
@@ -255,7 +255,7 @@ h6:hover{
     -webkit-transition:opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
     opacity:0.83;
-    width:400px;
+    width: 380px;
     height:190px;
     max-width: 90%;
 }
@@ -270,7 +270,7 @@ h6:hover{
     height:100px;
 }
 a{
-    /* text-decoration: underline; */
+    text-decoration: underline;
     text-decoration: white;
 }
 a:hover{
@@ -339,6 +339,7 @@ a:hover{
   width: 30%;
   margin: 0 auto;
   padding: 0.725em 0.725em;
+  padding-bottom: 100px;
 }
 
 .special{
@@ -350,6 +351,7 @@ a:hover{
     width: 10%;
     margin: 0 auto;
     padding: 0.725em 0.725em;
+    padding-bottom: 100px;
     }
 #content_5 {
     position: relative;
@@ -402,7 +404,7 @@ a:hover{
     padding-bottom: 30px;
 }
 h3.subtext{
-    font-size: 70px;
+    font-size: 60px;
     /* text-decoration: none; */
     underline: none;
 }
@@ -418,4 +420,17 @@ h3.splashpage{
     margin: auto;
     font-weight: none;
     color: white;
+}
+.subtext a:hover{
+    color: white;
+    text-decoration: none;
+}
+.subtext a{
+  text-decoration:none;
+}
+
+@media (max-width:801px){
+  h3.subtext{
+    font-size: 32px;
+  }
 }
