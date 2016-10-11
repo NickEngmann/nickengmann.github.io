@@ -455,7 +455,7 @@ h3.splashpage{
       height: auto;
     max-width: 100%;
 }
-.image-cropper{
+#image-cropper{
     width: 100px;
     height: 100px;
     position: relative;
@@ -466,7 +466,7 @@ h3.splashpage{
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-.rounded img{
+.rounded{
     display: inline;
     margin: 0 auto;
     height: 100%;
@@ -499,4 +499,7 @@ h3.splashpage{
     display: inline-block;
     transition: all .2s ease-in-out;
 }
+  .content p {
+    font-size: 17px;  
+  }
 }
