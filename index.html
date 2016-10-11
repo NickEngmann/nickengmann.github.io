@@ -27,6 +27,13 @@
     </style>
     <script src="js/wow.min.js"></script>
         <script>
+        var wow = new WOW({
+animateClass: 'animated',
+offset: 100,
+callback: function(box) {
+console.log(box.tagName);
+}
+});
             new WOW().init();
     </script>
 </head>
@@ -162,7 +169,7 @@
         </div>
         <div id="content_2" class="content" >
             <div class="row">
-                <div id="image-cropper" class="col-md-6 col-sm-12 wow fadeinLeft">
+                <div class="col-md-6 col-sm-12 wow fadeinLeft image-cropper">
                     <img class="rounded" src="images/transfer2.png" > </img>
                 </div>
                 <div class="card-wrapper col-md-6 col-sm-12 wow fadeinRight animated">
