@@ -259,8 +259,8 @@ h6:hover{
     -webkit-transition:opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
     opacity:0.83;
-    width: 380px;
-    height:190px;
+    width: 480px;
+    height:250px;
     max-width: 90%;
 }
 
