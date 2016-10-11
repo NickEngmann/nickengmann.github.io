@@ -393,6 +393,7 @@ a:hover{
 }
 .card-wrapper {
     padding: 20px;
+    margin: auto;
 }
 #subsection {
     text-align: center;
@@ -455,9 +456,9 @@ h3.splashpage{
       height: auto;
     max-width: 100%;
 }
-#image-cropper{
-    width: 100px;
-    height: 100px;
+.image-cropper{
+    /* width: 500px; */
+    height: 400px;
     position: relative;
     overflow: hidden;
     -webkit-border-radius: 50%;
@@ -466,11 +467,11 @@ h3.splashpage{
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-.rounded{
+.rounded {
     display: inline;
     margin: 0 auto;
     height: 100%;
-    width: auto;
+    /* width: auto; */
 }
 @media (max-width:801px){
   h3.subtext{
@@ -499,7 +500,4 @@ h3.splashpage{
     display: inline-block;
     transition: all .2s ease-in-out;
 }
-  .content p {
-    font-size: 17px;  
-  }
 }
