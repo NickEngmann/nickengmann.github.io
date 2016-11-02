@@ -392,7 +392,7 @@ a:hover{
     -box-sizing: border-box;
 }
 .card-wrapper {
-    padding: 20px;
+    padding: 10px;
     margin: auto;
 }
 #subsection {
@@ -420,7 +420,7 @@ h3.splashpage{
     font-weight: normal;
     letter-spacing: 2px;
     width: 100%;
-    font-size: 2.0em;
+    font-size: 2.3em;
     max-width: 600px;
     margin: auto;
     font-weight: none;
@@ -475,11 +475,11 @@ h3.splashpage{
 }
 @media (max-width:801px){
   h3.subtext{
-    font-size: 32px;
+    font-size: 30px;
   }
   h1.name {
     margin-top: 70px;
-    font-size: 4em;
+    font-size: 5em;
   }
   .mouse_over{
     width: 380px;
