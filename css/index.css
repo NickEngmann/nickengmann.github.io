@@ -482,25 +482,25 @@ h3.splashpage{
     font-size: 5em;
   }
   .mouse_over{
-    width: 380px;
-    height: 140px;
+    width: 285px;
+    height: 120px;
     }
-.landingpage ul {
-    list-style: none;
-    padding: 0;
-    margin: 40px auto 20px;
-    width: 300px;
-}
-.landingpage li{
-    height: 40px;
-    width: 40px;
-    margin: 0 10px;
-    background: #e4e4e4;
-    border-radius: 40px;
-    display: inline-block;
-    transition: all .2s ease-in-out;
-}
-.content p{
-  font-size: 16px;
-}
+    .landingpage ul {
+        list-style: none;
+        padding: 0;
+        margin: 40px auto 20px;
+        width: 300px;
+    }
+    .landingpage li{
+        height: 40px;
+        width: 40px;
+        margin: 0 10px;
+        background: #e4e4e4;
+        border-radius: 40px;
+        display: inline-block;
+        transition: all .2s ease-in-out;
+    }
+    .content p{
+      font-size: 16px;
+    }
 }
