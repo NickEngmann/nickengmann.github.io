@@ -483,7 +483,7 @@ h3.splashpage{
   }
   .mouse_over{
     width: 285px;
-    height: 120px;
+    height: 140px;
     }
     .landingpage ul {
         list-style: none;
@@ -502,5 +502,8 @@ h3.splashpage{
     }
     .content p{
       font-size: 16px;
+    }
+    h4 {
+        font-size: 22px;
     }
 }
