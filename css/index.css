@@ -254,20 +254,76 @@ h6:hover{
     z-index: 1;
     }
 
+.project-wrapper{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.project-wrapper{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h3.project-title{
+    font-size: 24px;
+    font-weight: bold;
+/*    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+    color:black;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.project-title{
+    /*position: absolute;*/
+    z-index: 5;
+    /*top: 40%;*/
+    /*left: 29%;*/
+    /*color:black;*/
+/*    display:block;*/
+/*    visibility: visible;
+    opacity: 1;*/
+}
+a:hover, a:focus .project-title{
+    color: white;
+    text-decoration: none;
+}
+.project-wrapper:hover .project-title{
+/*    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;*/
+}
+.project-wrapper .project-title{
+    opacity: 1.0;
+/*    transition: opacity 2.00s ease-in-out;
+    -moz-transition: opacity 2.00s ease-in-out;
+    -webkit-transition: opacity 2.00s ease-in-out;*/
+}
 .mouse_over
 {
-    -webkit-transition:opacity 0.5s ease-in-out;
+/*    -webkit-transition:opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
-    opacity:0.83;
+    opacity:0.83;*/
     width: 480px;
     height:250px;
-    max-width: 90%;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all 30.0s ease; /* Fade to color for Chrome and Safari *
+/*    max-width: 90%;*/
 }
 
 .mouse_over:hover
 {
-    max-width: 90%;
-    opacity:1;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+        -webkit-transition: all 0.2s ease; /* Fade to color for Chrome and Safari *
+/*    max-width: 90%;
+    opacity:1;*/
 }
 
 .spacing{
