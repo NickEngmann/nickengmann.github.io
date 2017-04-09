@@ -317,11 +317,10 @@ a:hover, a:focus .project-title{
 /*    max-width: 90%;*/
 }
 
-.mouse_over:hover
-{
+.mouse_over:hover{
     filter: none;
     -webkit-filter: grayscale(0%);
-        -webkit-transition: all 0.2s ease; /* Fade to color for Chrome and Safari *
+    -webkit-transition: all 0.2s ease; /* Fade to color for Chrome and Safari *
 /*    max-width: 90%;
     opacity:1;*/
 }
