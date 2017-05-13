@@ -46,6 +46,9 @@ body {
     line-height: 1.5em;
     width: 70px;
 }
+a.link{
+    text-decoration: underline;
+}
 a.more{
     text-decoration: none;
 }
