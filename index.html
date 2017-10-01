@@ -28,22 +28,17 @@
     <script src="js/wow.min.js"></script>
         <script>
         var wow = new WOW({
-animateClass: 'animated',
-offset: 100,
-callback: function(box) {
-console.log(box.tagName);
-}
-});
+            animateClass: 'animated',
+            offset: 100,
+            callback: function(box) {
+                console.log(box.tagName);
+                }
+            });
             new WOW().init();
     </script>
 </head>
 
 <body>
-    <!--div class= "wow fadeIn animated" data-wow-delay="8s" id="floater">
-        <a href= "#">
-            <img id ="fltimg" src="images/Before/top.png" onmouseover="this.src='images/After/top2.png'" onmouseout="this.src='images/Before/top.png'"/>
-        </a>
-    </div-->
     <div id="particles-js">
     </div>
     <!-- Fixed navbar -->
@@ -79,21 +74,7 @@ console.log(box.tagName);
                     </a>
                 </div>
             </li>
-<!--             <li>
-                <div id="awards">
-                    <a id="special" href="#AwardsAccomplishments">
-                    <h6>Accomplishments</h6>
-                    </a>
-                </div>
-            </li>
             <li>
-                <div id="organizations">
-                    <a id="special" href="#Organizations">
-                        <h6>Organizations</h6>
-                    </a>
-                </div>
-            </li>
- -->            <li>
                 <div id="resume">
                     <a id="special" href="http://www.slideshare.net/NickEngmann/resumenickengmann">
                     <h6>Resume</h6>
@@ -195,35 +176,33 @@ console.log(box.tagName);
         </div>
         <div id="content_3" class="content">
           <div class="row">
-            <!-- <div class="card-wrapper col-md-6 col-sm-12">
+            <div class="card-wrapper col-md-6 col-sm-12">
 
-                <a href="#" onclick="toggle('Forthejuarezofmylife'); return false;">
+                <a href="#" onclick="toggle('NotToDo'); return false;">
                     <div class="project-wrapper">
                         <div class="project-title">
-                            <h3>Vannessa Wedding - Website</h3>
+                            <h3>Not To Do - Website</h3>
                         </div>
-                       <img class ="mouse_over" src="images/After/forthejuarezofmylife.png">
+                       <img class ="mouse_over" src="images/After/not-to-do.png">
                     </div>
                 </a>
-                <div id="Forthejuarezofmylife" style="display: none;">
-                <h4><a href="https://quodcertamine.github.io/Forthejuarezofmylife/" target="_blank">Vannessa Wedding  - 2017</a><a href="#"></a></h4>
+                <div id="NotToDo" style="display: none;">
+                <h4><a href="http://bit.ly/Not-To-Do" target="_blank">Not To Do  - 2017</a><a href="#"></a></h4>
                 <p id="p7">
-                    A website for Vannessa's wedding. <br>
-                    TThis is a HTML5 responsive design using jquery waypoints & scroll-to for a pleasant single-page navigation.</br>
-                    This template makes use of media queries and scales well for all mobile form-factors..</br>
+                    Too often people focus on what they need to do and they disregard what they do Not have to do.</br>
+                    Not-todo is made exactly for that! Enter what you do Not need to do and have twilio send you weekly reminders!
                     </br>
                     </br>
                     # Technical Specifics:</br>
-                    HTML/CSS</br>
-                    Javascript</br>
-                    Bootstrap</br>
-                    Flipclock</br>
+                    Angular 4</br>
+                    Firebase</br>
+                    Twilio</br>
                     </br></br>
-                    <a class="link" href="https://github.com/QuodCertamine/Forthejuarezofmylife" target="_blank">Github Repo</a></br>
-                    <a class="link" href="https://quodcertamine.github.io/Forthejuarezofmylife/" target="_blank"> Link to Live Website</a></br>
+                    <a class="link" href="https://quodcertamine.github.io/not-to-do/" target="_blank">Github Repo</a></br>
+                    <a class="link" href="http://bit.ly/Not-To-Do" target="_blank"> Link to Live Website</a></br>
                 </p>
                 </div>
-            </div> -->
+            </div>
               <div class="card-wrapper col-md-6 col-sm-12">
 
                   <a href="#" onclick="toggle('Flsun-I3'); return false;">
@@ -1294,155 +1273,6 @@ console.log(box.tagName);
                 </div>
             </div>
         </div>
-
-<!--         <div class="container">
-            <div class="row">
-                <img src="https://www.dropbox.com/s/h064kurt3qk9usq/Accomplishments1.jpg?raw=1"> </img>
-            </div>
-        </div> -->
-<!--         <div id="subsection">
-            <div class="row">
-                <h3 class="subtext wow fadeinUp animated"><a name ="AwardsAccomplishments">Accomplishments</a></h3>
-            </div>
-        </div>
-        <div id="content_4" class="content">
-            <div class="row">
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('hacktx'); return false;">
-                        <img class ="mouse_over" src="images/Before/HackTX.png" onmouseover="this.src='images/After/HackTX.png'">
-                    </a>
-
-                    <div id="hacktx" style="display: none;">
-                    <h4>11th/49 Hackathon of Fall 2015</h4>
-                    <p>
-                    Ranked 11th best Hackathon for the Fall 2015 season out of 49 MLH   Sponsered Hackathons: <a class="link" href="https://mlh.io/standings/f2015">https://mlh.io/standings/f2015</a>
-                    <br> <br>
-                    To create this Hackathon we used a $80,000 budget and a team of approximiately 30 individuals. It was a 24 hour long hackathon with over 700 individuals in attendance.</br>
-                    <a class="link" href="http://kxan.com/2015/09/27/university-of-texas-hosts-fourth-annual-hacktx/" target="_blank">Coverage of Event</a>
-                    </p>
-                    </div>
-                </div>
-
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('codered'); return false;">
-                        <img class ="mouse_over" src="images/Before/CodeRED.png" onmouseover="this.src='images/After/CodeRED.png'">
-                    </a>
-
-                    <div id="codered" style="display: none;">
-                        <h4>2nd Place Winner & Most Creative Project at CodeRED 2015</h4>
-                        <p>
-                        Won second place overall at CodeRED 2015 Hackathon. Also won Most Creative Project as judged by Pariveda Solutions. The project that recieved this prize was Mr.Lockman featured above.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('racecolumn'); return false;">
-                        <img class ="mouse_over" src="images/Before/RaceColumn.png" onmouseover="this.src='images/After/RaceColumn.png'"></a>
-
-                    <div id="racecolumn" style="display: none;">
-                        <h4>Quoted in Article about Race Relations</h4>
-                        <p>
-                        <a class="link" href="http://www.dailytexanonline.com/2015/02/19/racial-tension-underlies-many-interactions-on-ut-campus" target="_blank">Article Quote</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('foam'); return false;">
-                        <img class ="mouse_over" src="images/Before/foam.png" onmouseover="this.src='images/After/foam.png'">
-                    </a>
-                    <div id="foam" style="display: none;">
-                        <h4>Foam Sword Friday</h4>
-                        <p> The survival of Foam Sword Friday is one of my biggest personal accomplishments. Foam Sword Friday is an event put on during the end each semester at the University of Texas at Austin. This event is meant to help destress students by handing them foam swords and letting them simulate battles between each other.
-                        </br>
-                        The event has evolved in the past few years. I was lucky enough to help it find a home back in an organization sponsered by the University of Texas.
-                        </br>
-                        Reviews and Responses:
-                        </br>
-                        <a class="link" href="http://kut.org/post/despite-viral-video-notoriety-uts-foam-sword-friday-continues-nary-bus-sight" target="_blank">Video 1</a>
-                        </br>
-                        <a class="link" href="http://thehook.texasexes.org/the-sword-in-the-foam/" target="_blank">Video 2</a>
-                        </br>
-                        <a class="link" href="http://video.statesman.com/Star-WarsThemed-Foam-Sword-Friday-30027220" target="_blank">Video 3</a>
-                        </br>
-                        <a class="link" href="http://reliefweb.int/videos/single/utaustintexas/QidLx9NOOoI" target="_blank">Video 4</a>
-                        </br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-<!--     <div class="container">
-        <div class="row">
-                <img src="https://www.dropbox.com/s/7sok3q55zwtf4lx/foamswordfriday.png?raw=1"></img>
-            </div>
-    </div> -->
-<!--         <div id="subsection">
-            <div class="row">
-                <h3 class="subtext wow fadeinUp animated"><a name ="Organizations">Organizations</a></h3>
-            </div>
-        </div>
-        <div id="content_5" class="content">
-             <div class="row">
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('YBP'); return false;">
-                        <img class ="mouse_over" src="images/Before/YBP.png" onmouseover="this.src='images/After/YBP.png'"></a>
-
-                    <div id="YBP" style="display: none;">
-                        <h4>Yellow Bike Project</h4>
-                        <p> The <a class="link" href="http://austinyellowbike.org/about/" target="_blank">Yellow Bike Project</a> is a volunteer-powered initiative to put bicycles on the streets of Austin and Central Texas by operating community bike shops, teaching bike mechanics and maintenance, and acting as a local bike advocacy group. By participating in the Yellow Bike Project I help to build and repair bicycles for the community and charity events. All while having access to the bike shop to make repairs and build my own custom bike.</br></br>
-                            --In Construction--</br>
-                            Hard @ Work</p>
-                    </div>
-                </div>
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('Snitch'); return false;">
-                        <img class ="mouse_over" src="images/Before/Snitch.png" onmouseover="this.src='images/After/Snitch.png'"></a>
-                    <div id="Snitch" style="display: none;">
-                        <h4>Major League Qudditch</h4>
-                        <p>I have been involved with <a class="link" href="http://mlquidditch.com/" target="_blank">Major League Quidditch (MLQ)</a>, the official league for collegiate and community quidditch since 2012. I have helped officiate gameplay as a snitch. For anyone who is unfamiliar with Quidditch- as I snitch I am a pivotal element in every Quidditch game. I am realesed close to the end of the game and my job is to try and run around and not allow anyone from either team to capture me as for as long as I possibly can. If I am caught the team who caught me recieves 30 points and the end of the game is then signaled. Because snitches end the course of the game and are worth 30 points they are heavily contested. As a snitch my job is to not only ensure entertaining and prolonged gameplay but it is also to look out for the health and safety of the players who are attempting to capture me. I take my role as a Quidditch snitch very seriously and because of that I have achieved the <a class="link" href="https://www.usquidditch.org/get-involved/officials/become-a-snitch" target="_blank">Gold Level"</a> certification status. This status allows me to snitch major tournaments including regional and national games.</br>
-                        </br>
-                        --In Construction--</br>
-                        Video of Gameplay</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('archer'); return false;">
-                        <img class ="mouse_over" src="images/Before/archer.png" onmouseover="this.src='images/After/archer.png'"></a>
-
-                    <div id="archer" style="display: none;">
-                        <h4>Archer Fellowship</h4>
-                        <p> From January 2016- May 2016 I was a fellow in the <a class="link" href="http://www.archercenter.org/spring-2016-archer-fellows.html" target="_blank">Bill Archer Fellowship</a> in Washington DC. This fellowship brings students from the University of Texas system to Washington, D.C. in order to take classwork related to piolitics and advocacy whilst interning for an organization of their choice.I gained a better understanding of politics and government through the coursework provided in the Archer Fellowship whilst gaining valuable experience at my internship.</p>
-                    </div>
-                </div>
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('Coaches'); return false;">
-                        <img class ="mouse_over" src="images/Before/coach.png" onmouseover="this.src='images/After/coach.png'"></a>
-                    <div id="Coaches" style="display: none;">
-                        <h4>Coaches</h4>
-                        <p>I was introduced to <a class="link" href="https://mlh.io/" target="_blank">Major League Hacking</a>(MLH),the official student Hackathon League, the summer of 2015. I was instantly inspired by such an amazing communty whose sole purpose was to help inspire individuals to code and hack. Shortly after being introduced into this community MLH started their <a class="link" href="https://mlh.io/coaches" target="_blank">Coaches Program</a> whose goal is to bring passionate hackers and organizers to hackathon's to support the community. I now spend a few weekends a month traveling across the United States to help empower the community with both my organizational skills and my technical expertise.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card-wrapper col-md-6 col-sm-12">
-                    <a href="#" onclick="toggle('freetail'); return false;">
-                        <img class ="mouse_over" src="images/Before/freetailhackers.png" onmouseover="this.src='images/After/freetailhackers.png'">
-                    </a>
-                    <div id="freetail" style="display: none;">
-                        <h4>FreeTail Hackers Advisory Board</h4>
-                        <p><a class="link" href="http://freetailhackers.com/#" target="_blank">Freetail Hackers</a> is the new organization which started at the University of Texas at Austin. Formerly known as HackTX, Freetail Hackers goal is to grow and contribute to the Texas hacker community throughout the year. As a former member of HackTX I am on the advisory board to assist the leaders of Freetail Hackers with any decisions that complement my skillset. </p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
