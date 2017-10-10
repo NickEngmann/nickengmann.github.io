@@ -26,6 +26,24 @@ body {
         width: 100%;  
     }
 }
+#event2 {
+    display: none;
+}
+#event1 {
+    display: inline-block;
+}
+#event4 {
+    display: none;
+}
+#event5 {
+    display: none;
+}
+#event6 {
+    display: none;
+}
+#event7 {
+    display: none;
+}
 #header__more {
     border: 3px solid white;
     bottom: 10%;
@@ -47,6 +65,22 @@ body {
     margin: 0 auto;
     line-height: 1.5em;
     width: 70px;
+}
+.expander{
+    padding: 0 10px;
+    transition: all .3s;
+    background-color: hsla(89,6%,71%,.5);
+    cursor: pointer;
+    display: inline-block;
+    line-height: 100%;
+}
+.null{
+    background-color: none;
+    padding: 0 10px;
+    transition: all .3s;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 160%;
 }
 a.link{
     text-decoration: underline;
@@ -70,6 +104,7 @@ a.header__more:hover{
     width: 40px;
     position: relative;
 }
+
 #logo img {
     height: 100%;
     width: 100%;    
@@ -158,13 +193,22 @@ div.description {
     position: relative;
     z-index: 1;
 }
-
+.about_me{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
 div.content {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
     padding-bottom: 0%;
-    background-color: #262424;
+    background-color: white;
 }
 div.content_main {
     text-align: center;
@@ -191,29 +235,32 @@ a {
     text-decoration: blink;
 }
 
-a.subtext {
-    font-weight: none;
-}
-
 h1.name {
     font-weight: normal;
-    font-family: 'Courier New', sans-serif;
+    font-family: AvenirNextBold,sans-serif;
     letter-spacing: 4px;
-    font-size: 5.5em;
+    font-size: 3vw;
     padding: 0px;
     margin: auto;
     margin-top: 50px;
+    font-weight: 400;
     color: white;
+    line-height: 160%;
 }
 h3.subtext {
-    font-weight: normal;
     letter-spacing: 2px;
     width: 100%;
-    font-size: 2.0em;
     max-width: 600px;
     margin: auto;
+    margin-bottom: 30px;
+    margin-top: -71px;
     font-weight: none;
-    color: white;
+    color: #242424;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 4vw;
+    font-weight: 800;
+    font-family: AvenirNextBold,sans-serif;
 }
 
 h4 {
@@ -282,6 +329,8 @@ h3.project-title{
 h3{
     font-size: 24px;
     font-weight: bold;
+    font-family: AvenirNextBold,sans-serif;
+    color: #242424;
 }
 .project-title{
     /*position: absolute;*/
@@ -316,19 +365,16 @@ a:hover, a:focus .project-title{
     opacity:0.83;*/
     width: 480px;
     height:250px;
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-    -webkit-transition: all 30.0s ease; /* Fade to color for Chrome and Safari *
-/*    max-width: 90%;*/
+    /* filter: gray; 
+    -webkit-filter: grayscale(100%); 
+    -webkit-transition: all 30.0s ease;  */
 }
 
-.mouse_over:hover{
+/* .mouse_over:hover{
     filter: none;
     -webkit-filter: grayscale(0%);
-    -webkit-transition: all 0.2s ease; /* Fade to color for Chrome and Safari *
-/*    max-width: 90%;
-    opacity:1;*/
-}
+    -webkit-transition: all 0.2s ease;
+} */
 
 .spacing{
     height:100px;
@@ -425,10 +471,10 @@ a:hover{
     }
 .content p {
     font-size: 20px;
-    color: white;
-    font-family: 'Courier New', sans-serif;
+    color: #242424;
     font-weight: 300;
     text-align: center;
+    font-family: AvenirNextBold,sans-serif;
     }
 
     /* ---- particles.js container ---- */
@@ -459,17 +505,17 @@ a:hover{
     text-align: center;
     /* border-style: solid; */
     /* border-width: medium; */
-    border-top: 22px double white;
+    border-top: 22px double #262424;
     /* border-bottom: thick double white; */
     vertical-align: middle;
     padding-bottom: 0%;
     padding-top: 120px;
-    background-color: #262424;
+    background-color: white;
     /* border-color: white; */
     padding-bottom: 30px;
 }
 h3.subtext{
-    font-size: 70px;
+    /* font-size: 70px; */
     /* text-decoration: none; */
     underline: none;
 }
@@ -480,19 +526,22 @@ h3.splashpage{
     font-weight: normal;
     letter-spacing: 2px;
     width: 100%;
-    font-size: 2.3em;
-    max-width: 600px;
-    margin: auto;
-    font-weight: none;
+    font-size: 3vw;
+    max-width: 1150px;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: 600;
     color: white;
+    font-family: AvenirNextBold,sans-serif;
 }
 .subtext a:hover{
-    color: white;
+    color: #242424;
     text-decoration: none;
 }
 .subtext a{
   text-decoration:none;
-  font-weight: 400;
+  font-weight: 600;
+  color: #242424;
 }
 .landingpage ul {
     list-style: none;
@@ -533,8 +582,29 @@ h3.splashpage{
     height: 100%;
     /* width: auto; */
 }
+.landingpage{
+    margin-top:550px
+}
+#arrowhead{
+    margin-top:50px;
+}
 @media (max-width:801px){
-  h3.subtext{
+    .splashpage{
+        margin-top: 90px;
+    }
+    #arrowhead{
+        margin-top:50px;
+    }
+    .expander{
+        font-size:26px;
+    }
+    .null{
+        font-size:26px;
+    }
+    .landingpage{
+        margin-top:475px;
+    }
+   h3.subtext{
     font-size: 30px;
   }
   h1.name {
