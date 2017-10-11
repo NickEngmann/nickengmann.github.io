@@ -69,7 +69,7 @@ body {
 .expander{
     padding: 0 10px;
     transition: all .3s;
-    background-color: hsla(89,6%,71%,.5);
+    background-color: hsla(89,14%,71%,.68);
     cursor: pointer;
     display: inline-block;
     line-height: 100%;
