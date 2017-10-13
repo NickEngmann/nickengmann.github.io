@@ -1,7 +1,8 @@
 html, 
 
 body {
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     height: 100%;
     font-family: 'Courier New', sans-serif;
     margin: 0 auto;
@@ -69,10 +70,17 @@ body {
 .expander{
     padding: 0 10px;
     transition: all .3s;
-    background-color: hsla(89,14%,71%,.68);
     cursor: pointer;
     display: inline-block;
     line-height: 100%;
+    -webkit-transition: border 500ms ease;
+    -moz-transition: border 500ms ease;
+    -ms-transition: border 500ms ease;
+    -o-transition: border 500ms ease;
+    transition: border 500ms ease; 
+}
+.bottom-border{
+    border-bottom: solid 4px;
 }
 .null{
     background-color: none;
@@ -81,6 +89,11 @@ body {
     cursor: pointer;
     display: inline-block;
     line-height: 160%;
+    -webkit-transition: border 500ms ease;
+    -moz-transition: border 500ms ease;
+    -ms-transition: border 500ms ease;
+    -o-transition: border 500ms ease;
+    transition: border 500ms ease; 
 }
 a.link{
     text-decoration: underline;
@@ -526,13 +539,18 @@ h3.splashpage{
     font-weight: normal;
     letter-spacing: 2px;
     width: 100%;
-    font-size: 3vw;
-    max-width: 1150px;
+    font-size: 4vw;
+    max-width: 1750px;
     margin-left:auto;
     margin-right:auto;
     font-weight: 600;
     color: white;
     font-family: AvenirNextBold,sans-serif;
+    -webkit-transition: border 500ms ease;
+    -moz-transition: border 500ms ease;
+    -ms-transition: border 500ms ease;
+    -o-transition: border 500ms ease;
+    transition: border 500ms ease; 
 }
 .subtext a:hover{
     color: #242424;
@@ -619,7 +637,7 @@ h3.splashpage{
         list-style: none;
         padding: 0;
         margin: 40px auto 20px;
-        width: 300px;
+        width: 350px;
     }
     .landingpage li{
         height: 40px;

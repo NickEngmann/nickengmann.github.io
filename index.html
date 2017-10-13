@@ -65,9 +65,9 @@
             <div class="content_main">
                 <div class="about_me">
                     <h3 class="splashpage">
-                        <span id="event1" class="expander">I</span>
+                        <span id="event1" class="null">I</span>
                         <span id="event2" class="null">am Nick Engmann and I</span>
-                        <span id="event3" class="expander ">hack and design</span>
+                        <span id="event3" class="expander bottom-border">hack and design</span>
                         <span id="event4" class="expander">hardware and web dev projects</span>
                         <span id="event5" class="null">in order to try and </span>
                         <span id="event6" class="expander">stand out</span>
@@ -94,6 +94,11 @@
                     <li>
                         <a href="mailto:cyengmann@gmail.com" title ="cyengmann@gmail.com" target="_blank">
                                 <img src="images/mail.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/NickEngmann" target="_blank">
+                                <img src="images/github.png">
                         </a>
                     </li>
                   </ul>
@@ -214,32 +219,37 @@
             }
           });
         });
+        var flash = 1
         $("#event1").click(function(){
-            $('#event1').css({
-                'background-color': 'transparent ',
-            });
+            $('#event1').removeClass("bottom-border")
             $("#event2").show();
 
         });
         $("#event3").click(function(){
+            flash = 3;
             $("#event4").show();
-            $('#event3').css({
-                'background-color': 'transparent ',
-            });
+            $("#event4").addClass("bottom-border")
+            $('#event3').removeClass("bottom-border")
         });
         $("#event4").click(function(){
             $("#event5").show();
             $("#event6").show();
-            $('#event4').css({
-                'background-color': 'transparent ',
-            });
+            $("#event6").addClass("bottom-border")
+            $('#event4').removeClass("bottom-border")
         });
         $("#event6").click(function(){
             $("#event7").show();
-            $('#event6').css({
-                'background-color': 'transparent ',
-            });
+            $("#event1").addClass("bottom-border")
+            $('#event6').removeClass("bottom-border")
         });
+        if(flash == 3){
+        $('#event3').each(function() {
+            var elem = $(this);
+            setInterval(function() {
+                elem.toggleClass("bottom-border")
+            }, 1000);
+        });
+        }
     </script>
 </body>
 
