@@ -49,9 +49,9 @@ body {
     border: 3px solid white;
     bottom: 10%;
     left: 50%;
+    color: white;
     display: table;
-    margin: 0 auto;
-    /* -webkit-animation: shiftDown .5s ease .5s; */
+    margin-top: 50px
     -moz-animation: shiftDown .5s ease .5s;
     animation: shiftDown .5s ease .5s;
     transition: all .2s ease-in-out;
@@ -243,7 +243,7 @@ img.main-img {
 }
 
 a {
-    color: white;
+    color: black;
     padding-bottom: 3px;
     text-decoration: blink;
 }
