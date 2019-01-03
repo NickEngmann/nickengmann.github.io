@@ -2,18 +2,17 @@
 layout: resume
 title: Résumé
 description: >
-  This is the `description` of your resume page, as it will be seen by search engines.
-  Open `resume.md` to edit this text.
+  <i>"I'm Nick Engmann and I hack & design hardware & web dev projects to try & stand out in the crowd & mentor the engineers of tomorrow"</i>
 hide_description: false
 menu: true
 order: 3
 left_column:
  - work
- - volunteer
+#  - volunteer
  - education
- - awards
+#  - awards
  - publications
- - references
+#  - references
 right_column:
  - languages
  - skills

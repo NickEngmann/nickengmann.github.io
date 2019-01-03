@@ -1,80 +1,96 @@
-# If you have a `resume.json` file, copy it into `_data` and delete this file.
-# If you don't have a JSON Resume you can just edit this YAML file instead.
-# See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
+  name: "Nick Engmann"
+  label: "Engineer"
   picture: "/assets/icons/icon.png"
   email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  phone: "(214) 316-0638"
+  website: "https://nickengmann.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    I'm an aspiring inventor who seeks to learn something new every day. 
+    I graduated the University of Texas at Austin Spring of 2016 with a bachelors in Integrated Circuits and Computer Engineering and a minor in Government. <br><br>
+
+
+    My interests include robotics, cyber-security, internet of things technology, defense, consulting, app development, and event organizing. 
+    However, the list of all my passions extends much further.<br><br>
+
+    My dream job is to obtain a position where I can create new things to help better all the individuals around me. 
+    If you're interested in someone with my skill-set, or would like to discuss something tech. related feel free to reach out.<br><br> 
+    I'd love to talk.
+
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: "1430 Northrim Court #7"
+    postalCode: "CA 92111"
+    city: "San Diego"
     countryCode: "US"
     region: "California"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    - network: "Github"
+      username: "NickEngmann"
+      url: "https://github.com/NickEngmann"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Nick Engmann"
+      url: "https://www.linkedin.com/in/nick-engmann-481a95a4/"
+    - network: "Hackster"
+      username: "nick-engmann"
+      url: "https://www.hackster.io/nick-engmann"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Circadence"
+    position: "Systems Architecture Engineer"
+    website: "https://www.circadence.com/"
+    startDate: "2018-09-02"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
+  - company: "SPAWAR"
+    position: "Embedded Software Engineer"
+    website: "https://www.circadence.com/"
+    startDate: "2017-07-01"
+    endDate: "2018-09-01"
+    summary: >
+      Worked in a premire government research labatory on Robotics Projects.
     highlights:
-      - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+      - "Built a Cybersecure Radio platform"
+      - "Famialized with various Linux build environments such as bitbake, cmake, and make."
+  - company: "Major League Hacking"
+    position: "Coach"
+    website: "https://mlh.io/"
+    startDate: "2015-12-01"
+    endDate: "2018-11-01"
+    summary: >
+      Regularly attend student computer programming competitions as official representative of national organizing body, Major League Hacking (MLH).
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Regular public speaking experience in front of 500+ people"
+      - "Presentations involve communicating technical topics to audience of varying skill levels."
+      - "Teach developers how to solve a wide variety of programming challenges and actively help them debug problems across a variety of languages & platforms."
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "University of Texas - Austin"
+    area: "Electrical Engineering & Government"
     studyType: "Bachelor"
     startDate: "2011-06-01"
-    endDate: "2014-01-01"
+    endDate: "2016-06-01"
+    gpa: "3.68"
+  - institution: "Universidad de Cantabria"
+    area: "Spanish"
+    studyType: "Exchange Student"
+    startDate: "2014-06-01"
+    endDate: "2014-12-01"
     gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+# awards:
+#   - title: "Digital Compression Pioneer Award"
+#     date: "2014-11-01"
+#     awarder: "Techcrunch"
+#     summary: "There is no spoon."
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - name: "Powering Your E-Commerce Application with Image Classification"
+    publisher: "Medium"
+    releaseDate: "2018-11-07"
+    website: "https://stories.mlh.io/powering-your-e-commerce-application-with-image-classification-831558869a0d"
+    summary: "An introduction into using Clarifai's custom training imgae recognition platform."
+  - name: "Alexa, Attack Intruders"
+    publisher: "Hackaday"
+    releaseDate: "2018-05-08"
+    website: "https://hackaday.com/2018/05/08/alexa-attack-intruders/"
+    summary: "Designed an Alexa activated Nerf Turret home defense system."
 skills:
   - name: "Web Development"
     level: "Master"
@@ -82,22 +98,39 @@ skills:
       - "HTML"
       - "CSS"
       - "Javascript"
-  - name: "Compression"
+      - "Python"
+  - name: "Systems Engineering"
     level: "Master"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Electrical"
+      - "Mechanical"
+      - "OpenSCAD"
+      - "IoT"
+      - "Hardware"
 languages:
-  - language: "English"
+  - language: "Python"
     fluency: "Native speaker"
+  - language: "Javascript"
+    fluency: "Native speaker"
+  - language: "C++"
+    fluency: "full-professional-proficiency"
+  - language: "Assembly"
+    fluency: "professional-working-proficiency"
+  - language: "Spanish"
+    fluency: "limited-working-proficiency"
 interests:
-  - name: "Wildlife"
+  - name: "Cyber-Security"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "Physical Security"
+      - "Close Access Technology"
+  - name: "Internet of Things"
+    keywords:
+      - "Wireless Embeded Technology"
+      - "NFC"
+      - "4G-LTE"
+      - "5G"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
