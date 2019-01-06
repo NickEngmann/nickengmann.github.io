@@ -13,6 +13,7 @@ description: >
     Whoosh allows a user to vent their feelings out, and explore the feelings of other people who are also feeling similarly.<br>
     It's a simple concept, wrapped together in a beautiful User Interface. This was all made possible with the help of three.js and Watsons Sentiment analysis.Whoosh was created at the CodeRED -2016 hackathon.
     <br>
+    <br>
     # Technical Specifics:<br>
     ThreeJS<br>
     Watson Sentiment Analysis<br>
