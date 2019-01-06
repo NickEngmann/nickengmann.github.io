@@ -1,0 +1,11 @@
+@media screen {
+  .dark-mode {
+    --text-muted: rgba(255,255,255,.5);
+    --gray-bg: rgba(255,255,255,.033);
+    --gray-text: rgba(255,255,255,.625);
+    --menu-text: rgba(255,255,255,.25);
+    --body-color: #d8d8d8;
+    --body-bg: #{hsl(hue($theme-color), 12.5%, 20%)};
+    --border-color: #{hsl(hue($theme-color), 12.5%, 35%)};
+  }
+}

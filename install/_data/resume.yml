@@ -1,0 +1,136 @@
+basics:
+  name: "Nick Engmann"
+  label: "Systems Architecture Engineer"
+  picture: "/assets/icons/icon.png"
+  email: ""
+  phone: "(214) 316-0638"
+  website: "https://nickengmann.com"
+  summary: >
+    I'm an aspiring inventor who seeks to learn something new every day. 
+    I graduated the University of Texas at Austin Spring of 2016 with a bachelors in Integrated Circuits and Computer Engineering and a minor in Government. <br><br>
+
+
+    My interests include robotics, cyber-security, internet of things technology, defense, consulting, app development, and event organizing. 
+    However, the list of all my passions extends much further.<br><br>
+
+    My dream job is to obtain a position where I can create new things to help better all the individuals around me. 
+    If you're interested in someone with my skill-set, or would like to discuss something tech. related feel free to reach out.<br><br> 
+    I'd love to talk.
+
+  location:
+    address: "1430 Northrim Court #7"
+    postalCode: "CA 92111"
+    city: "San Diego"
+    countryCode: "US"
+    region: "California"
+  profiles:
+    - network: "Github"
+      username: "NickEngmann"
+      url: "https://github.com/NickEngmann"
+    - network: "LinkedIn"
+      username: "Nick Engmann"
+      url: "https://www.linkedin.com/in/nick-engmann-481a95a4/"
+    - network: "Hackster"
+      username: "nick-engmann"
+      url: "https://www.hackster.io/nick-engmann"
+work:
+  - company: "Circadence"
+    position: "Systems Architecture Engineer"
+    website: "https://www.circadence.com/"
+    startDate: "2018-09-02"
+    endDate: ""
+    summary: >
+      Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
+  - company: "SPAWAR"
+    position: "Embedded Software Engineer"
+    website: "https://www.circadence.com/"
+    startDate: "2017-07-01"
+    endDate: "2018-09-01"
+    summary: >
+      Worked in a premire government research labatory on Robotics Projects.
+    highlights:
+      - "Built a Cybersecure Radio platform"
+      - "Famialized with various Linux build environments such as bitbake, cmake, and make."
+  - company: "Major League Hacking"
+    position: "Coach"
+    website: "https://mlh.io/"
+    startDate: "2015-12-01"
+    endDate: "2018-11-01"
+    summary: >
+      Regularly attend student computer programming competitions as official representative of national organizing body, Major League Hacking (MLH).
+    highlights:
+      - "Regular public speaking experience in front of 500+ people"
+      - "Presentations involve communicating technical topics to audience of varying skill levels."
+      - "Teach developers how to solve a wide variety of programming challenges and actively help them debug problems across a variety of languages & platforms."
+education:
+  - institution: "University of Texas - Austin"
+    area: "Electrical Engineering & Government"
+    studyType: "Bachelor"
+    startDate: "2011-06-01"
+    endDate: "2016-06-01"
+    gpa: "3.68"
+  - institution: "Universidad de Cantabria"
+    area: "Spanish"
+    studyType: "Exchange Student"
+    startDate: "2014-06-01"
+    endDate: "2014-12-01"
+    gpa: "4.0"
+awards:
+  - title: "Startup School"
+    date: "2018-09-01"
+    awarder: "YCombinator"
+    summary: "Completed YCombinator's Startup School program on how to build a successful startup."
+publications:
+  - name: "Powering Your E-Commerce Application with Image Classification"
+    publisher: "Medium"
+    releaseDate: "2018-11-07"
+    website: "https://stories.mlh.io/powering-your-e-commerce-application-with-image-classification-831558869a0d"
+    summary: "An introduction into using Clarifai's custom training imgae recognition platform."
+  - name: "Alexa, Attack Intruders"
+    publisher: "Hackaday"
+    releaseDate: "2018-05-08"
+    website: "https://hackaday.com/2018/05/08/alexa-attack-intruders/"
+    summary: "Designed an Alexa activated Nerf Turret home defense system."
+skills:
+  - name: "Web Development"
+    level: "Master"
+    keywords:
+      - "HTML"
+      - "CSS"
+      - "Javascript"
+      - "Python"
+  - name: "Systems Engineering"
+    level: "Master"
+    keywords:
+      - "Electrical"
+      - "Mechanical"
+      - "OpenSCAD"
+      - "IoT"
+      - "Hardware"
+languages:
+  - language: "Python"
+    fluency: "Native speaker"
+  - language: "Javascript"
+    fluency: "Native speaker"
+  - language: "C++"
+    fluency: "full-professional-proficiency"
+  - language: "Assembly"
+    fluency: "professional-working-proficiency"
+  - language: "Spanish"
+    fluency: "limited-working-proficiency"
+interests:
+  - name: "Cyber-Security"
+    keywords:
+      - "Physical Security"
+      - "Close Access Technology"
+  - name: "Internet of Things"
+    keywords:
+      - "Wireless Embeded Technology"
+      - "NFC"
+      - "4G-LTE"
+      - "5G"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
