@@ -1,19 +1,25 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'Hackintosh'
+date: 01 Mar 2017
+image: /assets/img/projects/hackintosh.png
+screenshot: /assets/img/projects/hackintosh.png
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
   - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+    url: https://redd.it/5x0o5j
+caption: PC convertered to run MacOS
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    In the pursuit to make some iOS applications I created a hackintosh.<br>
+    A Hackintosh is a PC that is convertered to run macOS. In order to run a non native operating system a lot of steps are involved.
+    <br>
+    This was a super frustrating project that taught me a lot about how the Macintosh operating system works, so I'll be uploading a tutorial blog post FOR EDUCATIONAL PURPOSES ONLY later.<br>
+    <br>
+    # Technical Specifics:<br>
+    OS=macOS Sierra<br>
+    Machine = HP Envy 17 j-025cl<br>
+    Kext Patching<br>
+    Hackintosh Vietnom<br>
+    Multibeast
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

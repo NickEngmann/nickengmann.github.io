@@ -75,11 +75,11 @@ education:
     startDate: "2014-06-01"
     endDate: "2014-12-01"
     gpa: "4.0"
-# awards:
-#   - title: "Digital Compression Pioneer Award"
-#     date: "2014-11-01"
-#     awarder: "Techcrunch"
-#     summary: "There is no spoon."
+awards:
+  - title: "Startup School"
+    date: "2018-09-01"
+    awarder: "YCombinator"
+    summary: "Completed YCombinator's Startup School program on how to build a successful startup."
 publications:
   - name: "Powering Your E-Commerce Application with Image Classification"
     publisher: "Medium"

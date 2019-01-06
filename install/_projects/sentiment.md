@@ -1,19 +1,20 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'Sentiment'
+date: 1 May 2015
+image: /assets/img/projects/Sentiment.png
+screenshot: /assets/img/projects/Sentiment.png
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+  - title: Images
+    url: https://imgur.com/a/txPCB
+caption: Human emotion identifier
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Sentiment is a Plantronics sponsored application which identifies human emotion in speech. The application offers its user an emotion recognition analysis service by extracting vocal parameters indicative of emotional states for incoming audio through a phone call. Sentiment may provide audio and display notifications to the user based on the user's desired Settings.This project spanned from Fall 2014 - Spring 2015 as part of my senior design project. I developed Sentiment in conjunction with a team of five students and a faculty mentor. My main contribution to this project was dealing with the initial speech processing and developing the algorithm using a Java based machine learning platform.
+    <br>
+    <br>
+    # Technical Specifics:<br>
+    Designed for Android 5.0 (Android Lollipop). Requires a bluetooth headset for audio notifications.
+    
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

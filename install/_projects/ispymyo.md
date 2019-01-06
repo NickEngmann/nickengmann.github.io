@@ -1,19 +1,23 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'iSpyMyo'
+date: 02 Jun 2016
+image: /assets/img/projects/iSpyMyo.png
+screenshot: /assets/img/projects/iSpyMyo.png
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
+  - title: Github
+    url: https://github.com/NickEngmann/iSpyMyo
 caption: Arduino Powered Vending Machine
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    I created a application using a Myo that is able to implement some "spy" actions that I always wanted in real life. This phone-hardware application is able to record conversations, create notes, and fake phone calls discretely without ever taking out your phone.<br>
+    This application was created using the backend from the sample HelloWorld project that Myo provides.<br>
+    From there I added a splash screen, multiple menu options and the various features mentioned.<br>
+    <br>
+    # Technical Specifics:<br>
+    Sony Myo <br>
+    Developing on Android KitKat (API 19) in Java <br>
+    Google Speech API<br>
+    MediaRecorder and MediaPlayer
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

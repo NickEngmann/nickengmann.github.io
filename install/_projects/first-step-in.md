@@ -1,19 +1,23 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'First Step In'
+date: 04 Jun 2016
+image: /assets/img/projects/firststepin.png
+screenshot: /assets/img/projects/firststepin.png
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
+  - title: Github
+    url: https://github.com/NickEngmann/FirstStepIn
 caption: Arduino Powered Vending Machine
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Worked with a team of developers to create a webpage containing information for refugees in Austin Texas.
+    <br> The website uses React and Express for routing, and grabs information from google docs and google sheets using Sheetrock.<br>
+    It also uses firebase to create user accounts/sign ins and store user information on the backend.<br>
+    </br>
+    # Technical Specifics:<br>
+    NodeJS and Express<br>
+    Sheetrock<br>
+    React and Webpack<br>
+    Firebase for Authentication
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

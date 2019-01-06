@@ -1,19 +1,25 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'Plus1'
+date: 1 Jun 2017
+image: /assets/img/projects/plus1.gif
+screenshot: /assets/img/projects/plus1.gif
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+  - title: Images
+    url: https://github.com/syk435/plus1/tree/master/images
+  - title: Github
+    url: https://github.com/syk435/plus1
+  - title: Simulation
+    url: http://www.mit.edu/~skarani/testground/simulator/
+caption: LED Interactive Art Display
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Plus1 is an interactive hardware experience utilizing OpenCV, Arduinos, and Neopixel LEDs.
+    <br> Some friends and I hacked together an interactive Tech X Art display that promotes interaction with strangers as you walk by the display<br>
+    <br>
+    # Technical Specifics:<br>
+    Arduino<br>
+    Neopixels<br>
+    OpenCV
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

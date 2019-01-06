@@ -1,19 +1,21 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
+title: 'Tech-Scraper'
+date: 5 Apr 2016
 image: /assets/img/projects/vendingmachine.gif
 screenshot: /assets/img/projects/vendingmachine.gif
-links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+caption: Scraping Tech News
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Ever wonder "Nick, how do you stay so up to date on all the tech news WHILST creating so many amazing peices of technology?!"<br>
+    Well wonder no more dear friend and let me let you in on a little secret:<br>
+    I created a web scraper to go to specific websites and scrape content off of those websites that I'm specifically interested in.
+    <br>
+    <br>
+    # Technical Specifics:<br>
+    Backend created with Django 1.7<br>
+    Django elements: Templates, Post/Get Requests Multiple Python 2.7 Scripts for scraping<br>
+    Python Elements: Regex Library, Urllib Library, Parsing<br>
+    Sqlite3 Database that updates daily
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

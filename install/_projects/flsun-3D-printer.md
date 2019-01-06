@@ -1,19 +1,27 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'Flsun 3D Printer'
+date: 21 Sep 2017
+image: /assets/img/projects/flsun.gif
+screenshot: /assets/img/projects/flsun.gif
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+  - title: Github
+    url: https://github.com/NickEngmann/Flsun-I3-2017
+  - title: Twitch
+    url: https://www.twitch.tv/nickyslickshaha
+caption: Guide on setting up my FLSUN 3D Printer
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Buying a DIY kit and building my own 3D printer ended up being one of the most stressful projects I've ever embarked on.
+    <br>
+    I ended up putting about 80 hours into a $200 kit, just to get the initial printer working. <br>
+    This was due to roughly translated instructions, vague videos, and to be honest - a lot of inexperience on my part. <br>
+    So I decided to make this repo that details some of my journey incase it can help anyone else that wants to do something similar.
+    <br>
+    Also check out my 3D printers
+    <a class="link" href="https://www.twitch.tv/nickyslickshaha" target="_blank">livestream</a> to see what I'm currently making!
+    <br>
+    # Technical Specifics:<br>
+    3D Builder<br>
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

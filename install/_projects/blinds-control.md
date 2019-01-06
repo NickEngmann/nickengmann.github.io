@@ -1,19 +1,17 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'Blinds Control'
+date: 1 Jan 2018
+image: /assets/img/projects/blindscontrol.gif
+screenshot: /assets/img/projects/blindscontrol.gif
 links:
   - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+    url: https://youtu.be/fzvNv4QeY4A
+  - title: Github
+    url: https://github.com/NickEngmann/BlindsControl
+caption: Controlling my blinds using an Alexa and Raspberry Pi.
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Rigged up a way to control my blinds using a Raspberry Pi and Stepper Motors. IoT project fun.
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

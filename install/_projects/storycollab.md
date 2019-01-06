@@ -1,19 +1,23 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'StoryCollab'
+date: 01 Nov 2016
+image: /assets/img/projects/story-collab.png
+screenshot: /assets/img/projects/story-collab.png
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+  - title: Github
+    url: https://github.com/NickEngmann/stable-story-collab
+caption: Collaborate on story telling with people online
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Story Collab is just how it sounds, a collaborative story writing platform.</br> Story Collab allows the community to write stories together with live responses to additions, much like Google Docs. <br>
+    Users contribute anonymously, and can begin their own stories that are hosted and saved on through firebase.
+    <br>
+    # Technical Specifics:<br>
+    Firebase<br>
+    NodeJS<br>
+    HTML/CSS<br>
+    NGINX<br>
+    AWS
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

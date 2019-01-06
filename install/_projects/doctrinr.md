@@ -1,19 +1,19 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'Doctrinr'
+date: 26 Nov 2016
+image: /assets/img/projects/doctrinr.png
+screenshot: /assets/img/projects/doctrinr.png
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+  - title: Github
+    url: https://github.com/hackthesystemATX/doctrinr
+caption: Chrome Extension to teach people about social history
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Doctrinr is a Chrome Extension that will teach people about social history in Austin Texas.<br>
+    Doctrinr is a tool to displayn the negative effects of racist/sexist practices that have happened in the past in the city of Austin. Doctrinr works by inserting content into your browsing session to teach you as you surf the web. <br>
+    # Technical Specifics:<br>
+    Javascript<br>
+    HTML/CSS<br>
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'

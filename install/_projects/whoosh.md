@@ -1,19 +1,25 @@
 ---
 layout: project
-title: 'Arduino Vending Machine'
-date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+title: 'Whoosh'
+date: 29 Oct 2016
+image: /assets/img/projects/whoosh.gif
+screenshot: /assets/img/projects/whoosh.gif
 links:
-  - title: Youtube
-    url: https://www.youtube.com/watch?v=VeQ0hv4Iwfo
-  - title: Instructions
-    url: https://www.hackster.io/projects/84f1ed
-caption: Arduino Powered Vending Machine
+  - title: Github
+    url: https://github.com/yuriyminin/whoosh
+caption: Webapp to express your Emotions
 description: >
-    Found Ryan Bate's Venduino kit online and fell in love with it. Bought one of the kits but <br>
-    as a hacker myself I wanted to see if there was anything I could do to make it unique for me, <br>
-    so I decided to add in a 2.8" TFT LCD touchscreen to the project.
+    Whoosh is a web-app created to allow people to express their emotions anonymously online.<br>
+    Whoosh allows a user to vent their feelings out, and explore the feelings of other people who are also feeling similarly.<br>
+    It's a simple concept, wrapped together in a beautiful User Interface. This was all made possible with the help of three.js and Watsons Sentiment analysis.Whoosh was created at the CodeRED -2016 hackathon.
+    <br>
+    # Technical Specifics:<br>
+    ThreeJS<br>
+    Watson Sentiment Analysis<br>
+    NodeJS<br>
+    HTML/CSS<br>
+    NGINX<br>
+    AWS
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
