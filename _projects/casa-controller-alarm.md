@@ -9,7 +9,7 @@ links:
     url: https://youtu.be/9gEI0wHGocM
   - title: Images
     url: https://imgur.com/a/TMr87
-caption: Seinfeld Track alarm when people enter
+caption: Plays the Seinfeld soundclip when people enter a room
 description: >
     Decided to take another look at Casa Controller and replicate the project but with a external speaker.
     <br> Made Casa Controller an all in one hardware project that sends me messages via the Particle to integrate into the android application. However instead of playing the alarm through my phone, it will now play with the external speaker system.

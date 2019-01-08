@@ -9,7 +9,7 @@ links:
     url: https://drive.google.com/file/d/0B_y2aA0CbvG0RWNFYTVJZ09nMUk/view
   - title: Github
     url: https://github.com/NickEngmann/SunnyGo
-caption: Arduino Powered Vending Machine
+caption: Animations in Swift
 description: >
     Sunny Go was a simple iOS application I made to mess around with animations in Swift.
     <br>

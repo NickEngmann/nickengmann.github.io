@@ -7,7 +7,7 @@ screenshot: /assets/img/projects/firststepin.png
 links:
   - title: Github
     url: https://github.com/NickEngmann/FirstStepIn
-caption: Arduino Powered Vending Machine
+caption: Website to assist Austin, TX refugees
 description: >
     Worked with a team of developers to create a webpage containing information for refugees in Austin Texas.
     <br> The website uses React and Express for routing, and grabs information from google docs and google sheets using Sheetrock.<br>

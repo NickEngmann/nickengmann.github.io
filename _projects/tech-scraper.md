@@ -2,8 +2,8 @@
 layout: project
 title: 'Tech-Scraper'
 date: 5 Apr 2016
-image: /assets/img/projects/vendingmachine.gif
-screenshot: /assets/img/projects/vendingmachine.gif
+image: /assets/img/projects/techscraper.png
+screenshot: /assets/img/projects/techscraper.png
 caption: Scraping Tech News
 description: >
     Ever wonder "Nick, how do you stay so up to date on all the tech news WHILST creating so many amazing peices of technology?!"<br>

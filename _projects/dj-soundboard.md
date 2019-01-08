@@ -7,7 +7,7 @@ screenshot: /assets/img/projects/dj.png
 links:
   - title: Github
     url: https://github.com/NickEngmann/DJ-Soundboard-V1.0
-caption: Arduino Powered Vending Machine
+caption: DJ MIDI Keyboard
 description: >
     This project was my final project for my EE445L course. In this course we spend weeks developing hardware/software projects. Over the course of three weeks my labpartner and I created a DJ Soundboard. The soundboard had 4 functioning buttons which each produced a different sound. These sounds could be layered to create fully functional musical tracks. We also designed and created our own PCB for this project.
     <br>

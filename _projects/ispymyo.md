@@ -7,7 +7,7 @@ screenshot: /assets/img/projects/iSpyMyo.png
 links:
   - title: Github
     url: https://github.com/NickEngmann/iSpyMyo
-caption: Arduino Powered Vending Machine
+caption: Using a Myo to do some cool spy stuff
 description: >
     I created a application using a Myo that is able to implement some "spy" actions that I always wanted in real life. This phone-hardware application is able to record conversations, create notes, and fake phone calls discretely without ever taking out your phone.<br>
     This application was created using the backend from the sample HelloWorld project that Myo provides.<br>
