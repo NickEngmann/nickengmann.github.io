@@ -13,6 +13,8 @@ links:
     url: https://github.com/NickEngmann/in-plants
   - title: Enclosure (Thingiverse)
     url: https://www.thingiverse.com/thing:3437707
+  - title: BlogPost (Particle.io)
+    url: https://blog.particle.io/2019/05/06/learn-how-to-build-in-plants-a-mesh-connected-soil-monitoring-system/
 
 caption: An IoT device used to check the humidity levels of your houseplants.
 description: >
