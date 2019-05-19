@@ -29,7 +29,7 @@ basics:
       url: "https://github.com/NickEngmann"
     - network: "LinkedIn"
       username: "Nick Engmann"
-      url: "www.linkedin.com/in/nick-engmann"
+      url: "https://www.linkedin.com/in/nick-engmann"
     - network: "Hackster"
       username: "nick-engmann"
       url: "https://www.hackster.io/nick-engmann"
@@ -41,6 +41,21 @@ work:
     endDate: ""
     summary: >
       Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
+    highlights:
+      - "Utilized Software Defined Radio to spawn a custom 4GLTE Basestation. Created an operation GUI to let users forward traffic, track logs, measure signal strength and create Command + Control channels to connected devices."
+      - "Created custom firmware for the ESPKey to improve RFID cards captures from 26 bits to a full 44 bits."
+      - "Engineered a Smart Card reader that captures and stores the credentials of an unknowing user."
+  - company: "Flashcards for Developers"
+    position: "Co-Founder"
+    website: "https://www.flashcardsfordevelopers.com/"
+    startDate: "2018-07-15"
+    endDate: "2019-01-30"
+    summary: >
+      Developed a website to help individuals with technical interview prep using flashcards
+    highlights:
+      - "Researched and curated content based on user wants/needs"
+      - "Part of a small development team to iterate on React web application features."
+      - "Managed a team of up to 4 contractors."
   - company: "SPAWAR"
     position: "Embedded Software Engineer"
     website: "https://www.circadence.com/"
@@ -50,6 +65,9 @@ work:
       Worked in a premire government research labatory on Robotics Projects.
     highlights:
       - "Built a Cybersecure Radio platform"
+      - "Architected a solution to upgrade the communications platform to support the JAUS protocol on the TALON Explosive Ordnance Disposal Robot, using external embedded devices."
+      - "Wrote a radio command API with 12 different function calls which interface with an embedded modular radio."
+      - "Developed a React/Django application to calculate ROI on Cybersecurity tools for specific environments."
       - "Famialized with various Linux build environments such as bitbake, cmake, and make."
   - company: "Major League Hacking"
     position: "Coach"
@@ -75,6 +93,11 @@ education:
     startDate: "2014-06-01"
     endDate: "2014-12-01"
     gpa: "4.0"
+  - institution: "YCombinator"
+    area: "Startup School"
+    studyType: "Founder"
+    startDate: "2018-07-30"
+    endDate: "2018-12-01"
 awards:
   - title: "Startup School"
     date: "2018-09-01"
