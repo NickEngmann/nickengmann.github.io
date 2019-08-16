@@ -15,6 +15,7 @@ caption: The ultimate tool to enhance environmental awareness with online-shoppi
 description: >
     GreenShip empowers you to know the environmental cost of your shipping actions. It’s like looking at a menu with the amount of calories listed next to each item. It’s tempting to go for that juicy burger (the GreenShip team loves the occasional burger!) but maybe the salad is a better call. GreenShip will never tell you not to get that 2 day shipping, but rather let you know the environmental cost so you can make an informed decision.
     <br>
+    <br>
     Go Green and Save with GreenShip. 
     <br>
     <br>
