@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'DarthMaul'
+title: 'Darth Maul'
 date: 04 Jul 2019
 image: /assets/img/projects/darthmaul.gif
 screenshot: /assets/img/projects/darthmaul.gif

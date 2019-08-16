@@ -17,8 +17,6 @@ caption: DEFCON27 Badge Hack
 description: >
     Modifies your DEFCON27 Badge into a Jackp0t badge that will complete other attendee's badge challenge/trigger rick roll when held within a few inches of each other.
     <br>
-    
-    ## The Challenge
     <br>
     This year's DEFCON Badge challenge involved social interactions with an RF Badge. A regular attendee is challenged to find and touch badges with 10 different badge types (including Sponsors, Vendors, Goons, and even Press). This becomes super challenging when you have to find one of the 20 individuals out of a 30,000 person conference with a Black "UBER" badge (an exciting but non-trivial task).  It was much easier for us to figure out how to flash the DEFCON27 badge to do three things:
     <br>
