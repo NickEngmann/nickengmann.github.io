@@ -5,11 +5,11 @@ date: 10 Aug 2019
 image: /assets/img/projects/Jackp0t.png
 screenshot: /assets/img/projects/Jackp0t.png
 links:
-  - title: Youtube
+  - title: Demo Vid 1
     url: https://youtu.be/2Dge06hO1Co
-  - title: Youtube
+  - title: Demo Vid 2
     url: https://youtu.be/owiwTgvgGdE
-  - title: Youtube
+  - title: Demo Vid 3
     url: https://youtu.be/Qs6HjLnBc5k
   - title: Github
     url: https://github.com/NickEngmann/Jackp0t
@@ -40,6 +40,7 @@ description: >
     Technical Specifics:<br>
     C++<br>
     Reverse Engineering<br>
+    Cyber Security<br>
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
