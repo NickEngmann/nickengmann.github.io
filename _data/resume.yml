@@ -2,7 +2,7 @@ basics:
   name: "Nick Engmann"
   label: "Systems Architecture Engineer"
   picture: "/assets/icons/icon.png"
-  email: ""
+  email: "cyengmann@gmail.com"
   phone: "(214) 316-0638"
   website: "https://nickengmann.com"
   summary: >
@@ -16,6 +16,9 @@ basics:
     My dream job is to obtain a position where I can create new things to help better all the individuals around me. 
     If you're interested in someone with my skill-set, or would like to discuss something tech. related feel free to reach out.<br><br> 
     I'd love to talk.
+    <br><br>
+    
+    [Download my Resume here](http://nickengmann.com/assets/Resume.pdf)
 
   location:
     address: "1430 Northrim Court #7"
