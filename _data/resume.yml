@@ -21,11 +21,11 @@ basics:
     [Download my Resume here](http://nickengmann.com/assets/Resume.pdf)
 
   location:
-    address: "1430 Northrim Court #7"
-    postalCode: "CA 92111"
-    city: "San Diego"
+    address: ""
+    postalCode: "11216"
+    city: "Brooklyn"
     countryCode: "US"
-    region: "California"
+    region: "New York"
   profiles:
     - network: "Github"
       username: "NickEngmann"
