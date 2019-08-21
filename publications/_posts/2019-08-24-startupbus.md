@@ -54,6 +54,7 @@ I could talk about both the environmental implications of expediated shipping or
 - [Demo Video](https://www.youtube.com/watch?v=JYcEX5uEMWc)
 - [Our MVP](https://chrome.google.com/webstore/detail/greenship/njeakmnnedingkbbihcmbaaopflnhadj)
 - [Code Repository](https://github.com/NickEngmann/GreenShip)
+- [All photos taken by the talented Odysseas Chloridis](https://odysseaschloridis.com/photography-portfolio)
 <br>
 <br>
 <img src="/assets/img/blog/startupbus/bus.png" />
