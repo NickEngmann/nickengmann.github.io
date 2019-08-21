@@ -15,7 +15,7 @@ Summer of 2019 I competed in StartupBus, and boy howdy was it a journey. To give
 <br>
 <br>
 <br>
-<img src="/assets/img/blog/startupbus/bus.png" />
+<img src="/assets/img/blog/startupbus/intro.png" />
 <br>
 <br>
 <br>
@@ -54,4 +54,6 @@ I could talk about both the environmental implications of expediated shipping or
 - [Demo Video](https://www.youtube.com/watch?v=JYcEX5uEMWc)
 - [Our MVP](https://chrome.google.com/webstore/detail/greenship/njeakmnnedingkbbihcmbaaopflnhadj)
 - [Code Repository](https://github.com/NickEngmann/GreenShip)
-
+<br>
+<br>
+<img src="/assets/img/blog/startupbus/bus.png" />
