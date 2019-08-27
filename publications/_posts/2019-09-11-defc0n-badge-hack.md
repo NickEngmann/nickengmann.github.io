@@ -11,7 +11,7 @@ hide_image: false
 > [DEFCON](https://www.defcon.org/) one of the world's largest hacker conventions, held annually in Las Vegas, Nevada, with the first DEF CON taking place in June 1993. Many of the attendees at DEF CON include computer security professionals, journalists, lawyers, federal government employees, security researchers, students, and hackers with a general interest in software, computer architecture, hardware modification, and anything else that can be "hacked".
 
 <br>
-Every year they have a challenge on who can hack the conference badge. This year my team and I (consisting of [@Halcyonic](https://twitter.com/Halcy0nic), [@](https://twitter.com/mlaerten), and [myself](https://twitter.com/NickySlicksHaha))
+Every year they have a challenge on who can hack the conference badge. This year my team and I (consisting of [@Halcyonic](https://twitter.com/Halcy0nic), [@mlaerten](https://twitter.com/mlaerten), and [myself](https://twitter.com/NickySlicksHaha))
 <br>
 
 This year's DEFCON Badge challenge involved social interactions with an RF Badge. A regular attendee is challenged to find and touch badges with 10 different badge types (including Sponsors, Vendors, Goons, and even Press). This becomes super challenging when you have to find one of the 20 individuals out of a 30,000 person conference with a Black "UBER" badge (an exciting but non-trivial task).  It was much easier for us to figure out how to flash the DEFCON27 badge to do three things:
