@@ -2,8 +2,8 @@
 layout: project
 title: 'Skinny Skin Care'
 date: 20 Jan 2020
-image: /assets/img/projects/skinnyskincare.png
-screenshot: /assets/img/projects/skyminer.png
+image: /assets/img/projects/skincare.png
+screenshot: /assets/img/projects/skincare.png
 links:
   - title: Website
     url: https://skincareskinny.care/about/
