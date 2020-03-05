@@ -11,7 +11,9 @@ caption: Enabling a community of people to follow their passions
 description: >
     Since January I have been working together with my roommate/partner in crime [Niko Lazaris](http://niko.pizza/) to help enable developers/activists across NYC to create their passion projects. 
     <br>
+    <br>
     To do this we made a meetup group called "Bugs and Brews" where individuals can meetup once a week for 3-4 hours and work on their passion projects. And at the end of the 3-4 hour session individuals show off what they have accomplished this week and set goals for themselves for the next week.
+    <br>
     <br>
     If you live in the NYC area and would like to join us, hit up our [onboarding website](https://bugsandbrews.nyc) for more details! 
     <br>
