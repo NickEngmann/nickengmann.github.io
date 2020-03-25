@@ -43,7 +43,7 @@ author:
   name:                <Nick> <Engmann>
   email:               <cyengmann@gmail.com>
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             <whoiscyril>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2019. All rights reserved.
@@ -274,8 +274,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            <shortname>
+twitter:
+  username:            <whoiscyril>
 
 # Used for Facebook open graph
 # facebook:
@@ -284,11 +284,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                <Nick> <Engmann>
+  links:
+    - https://twitter.com/<whoiscyril>
+    - https://github.com/<NickEngmann>
 
 
 # Other Plugins
