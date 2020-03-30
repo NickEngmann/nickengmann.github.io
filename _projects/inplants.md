@@ -15,6 +15,8 @@ links:
     url: https://www.thingiverse.com/thing:3437707
   - title: BlogPost (Particle.io)
     url: https://blog.particle.io/2019/05/06/learn-how-to-build-in-plants-a-mesh-connected-soil-monitoring-system/
+  - title: News Coverage
+    url: https://ebom.com/2019/03/mesh-connected-houseplants-getting-fresh-air/
 
 caption: An IoT device used to check the humidity levels of your houseplants.
 description: >
