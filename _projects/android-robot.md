@@ -2,7 +2,8 @@
 layout: project
 title: 'Android Robot'
 date: 11 Dec 2018
-image: /assets/img/projects/androidrobot.png
+image:  
+  path: /assets/img/projects/androidrobot.png
 screenshot: /assets/img/projects/androidrobot.png
 links:
   - title: Model

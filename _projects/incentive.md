@@ -2,7 +2,8 @@
 layout: project
 title: 'Incentive'
 date: 16 Nov 2016
-image: /assets/img/projects/incentive.gif
+image:  
+  path: /assets/img/projects/incentive.gif
 screenshot: /assets/img/projects/incentive.gif
 links:
   - title: Github

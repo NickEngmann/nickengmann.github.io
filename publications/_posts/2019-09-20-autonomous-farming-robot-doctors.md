@@ -3,7 +3,8 @@ layout: post
 title: Autonomous Farming Robot Doctors Are Here to Help Save Agriculture
 description: >
   Robots X Agriculture
-image: /assets/img/blog/robotfarmdoctors.png
+image:  
+  path: /assets/img/blog/robotfarmdoctors.png
 canonical_url: http://bit.ly/robot-farm-doctors
 hide_image: false
 ---

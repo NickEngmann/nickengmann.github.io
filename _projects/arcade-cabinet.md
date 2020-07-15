@@ -2,7 +2,8 @@
 layout: project
 title: 'Arcade Cabinet'
 date: 25 Feb 2018
-image: /assets/img/projects/arcade.gif
+image:  
+  path: /assets/img/projects/arcade.gif
 screenshot: /assets/img/projects/arcade.gif
 links:
   - title: Imagur

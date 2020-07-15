@@ -3,7 +3,8 @@ layout: post
 title: NASty Raspberry Pi
 description: >
   Article about a collaboration project for a Raspberry Pi NAS.
-image: /assets/img/projects/subzero.jpg
+image:  
+  path: /assets/img/projects/subzero.jpg
 canonical_url: https://hackaday.com/2019/03/12/this-raspberry-pi-is-nasty/
 hide_image: false
 ---

@@ -2,7 +2,8 @@
 layout: project
 title: 'DJ Soundboard v2.0'
 date: 14 Nov 2016
-image: /assets/img/projects/dj2.gif
+image:  
+  path: /assets/img/projects/dj2.gif
 screenshot: /assets/img/projects/dj2.gif
 links:
   - title: Youtube

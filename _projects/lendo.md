@@ -2,7 +2,8 @@
 layout: project
 title: 'P2P-Lending'
 date: 20 May 2019
-image: /assets/img/projects/lendo.png
+image:  
+  path: /assets/img/projects/lendo.png
 screenshot: /assets/img/projects/lendo.png
 links:
   - title: GitHub

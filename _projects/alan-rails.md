@@ -2,7 +2,8 @@
 layout: project
 title: 'Alan Rails Cosplay'
 date: 14 Nov 2017
-image: /assets/img/projects/alanrails.gif
+image: 
+  path: /assets/img/projects/alanrails.gif
 screenshot: /assets/img/projects/alanrails.gif
 links:
   - title: Alan Rails Cosplay

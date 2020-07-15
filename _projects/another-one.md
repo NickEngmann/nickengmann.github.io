@@ -2,7 +2,8 @@
 layout: project
 title: 'Another One'
 date: 02 Sep 2016
-image: /assets/img/projects/AnotherOne.png
+image:  
+  path: /assets/img/projects/AnotherOne.png
 screenshot: /assets/img/projects/AnotherOne.png
 links:
   - title: Youtube

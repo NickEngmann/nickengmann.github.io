@@ -2,7 +2,8 @@
 layout: project
 title: 'Eye-Lexa'
 date: 16 Nov 2018
-image: /assets/img/projects/alexa-eye.gif
+image:  
+  path: /assets/img/projects/alexa-eye.gif
 screenshot: /assets/img/projects/alexa-eye.gif
 links:
   - title: Youtube

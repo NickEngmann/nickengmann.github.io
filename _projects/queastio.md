@@ -2,7 +2,8 @@
 layout: project
 title: 'Quaestio'
 date: 18 Feb 2017
-image: /assets/img/projects/quaestio.png
+image:  
+  path: /assets/img/projects/quaestio.png
 screenshot: /assets/img/projects/quaestio.png
 links:
   - title: Github

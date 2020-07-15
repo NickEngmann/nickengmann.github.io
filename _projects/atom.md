@@ -2,7 +2,8 @@
 layout: project
 title: 'Atom'
 date: 12 Dec 2017
-image: /assets/img/projects/atom.gif
+image:  
+  path: /assets/img/projects/atom.gif
 screenshot: /assets/img/projects/atom.gif
 links:
   - title: Youtube

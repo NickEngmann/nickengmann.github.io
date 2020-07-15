@@ -3,7 +3,8 @@ layout: post
 title: +POOL Visualizes Water Quality with Art
 description: >
   +POOL Light is an art installation in New York City that informs the public whether river water is safe to swim in.
-image: /assets/img/blog/pluspool.png
+image:  
+  path: /assets/img/blog/pluspool.png
 canonical_url: http://bit.ly/water-art-nyc
 hide_image: false
 ---

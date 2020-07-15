@@ -2,7 +2,8 @@
 layout: project
 title: 'Tabula'
 date: 17 Jun 2017
-image: /assets/img/projects/tabula.png
+image:  
+  path: /assets/img/projects/tabula.png
 screenshot: /assets/img/projects/tabula.png
 links:
   - title: Github

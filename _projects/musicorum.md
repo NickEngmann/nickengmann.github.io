@@ -2,7 +2,8 @@
 layout: project
 title: 'Musicorum'
 date: 08 May 2017
-image: /assets/img/projects/Musicorum.png
+image:  
+  path: /assets/img/projects/Musicorum.png
 screenshot: /assets/img/projects/Musicorum.png
 links:
   - title: Youtube

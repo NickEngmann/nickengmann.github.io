@@ -2,7 +2,8 @@
 layout: project
 title: 'SunnyGo Animation'
 date: 28 Feb 2017
-image: /assets/img/projects/sunnygo.png
+image:  
+  path: /assets/img/projects/sunnygo.png
 screenshot: /assets/img/projects/sunnygo.png
 links:
   - title: Video

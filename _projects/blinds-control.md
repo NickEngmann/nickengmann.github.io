@@ -2,7 +2,8 @@
 layout: project
 title: 'Blinds Control'
 date: 1 Jan 2018
-image: /assets/img/projects/blindscontrol.gif
+image:  
+  path: /assets/img/projects/blindscontrol.gif
 screenshot: /assets/img/projects/blindscontrol.gif
 links:
   - title: Youtube

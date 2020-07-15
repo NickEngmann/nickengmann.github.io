@@ -2,7 +2,8 @@
 layout: project
 title: 'Prince Peach Cosplay'
 date: 27 Oct 2018
-image: /assets/img/projects/PrincePeach.png
+image:  
+  path: /assets/img/projects/PrincePeach.png
 screenshot: /assets/img/projects/PrincePeach.png
 links:
   - title: Pictures

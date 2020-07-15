@@ -2,7 +2,8 @@
 layout: project
 title: 'Jackp0t'
 date: 10 Aug 2019
-image: /assets/img/projects/Jackp0t.png
+image:  
+  path: /assets/img/projects/Jackp0t.png
 screenshot: /assets/img/projects/Jackp0t.png
 links:
   - title: Demo Vid 1

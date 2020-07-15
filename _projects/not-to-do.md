@@ -2,7 +2,8 @@
 layout: project
 title: 'Not To Do'
 date: 1 Oct 2017
-image: /assets/img/projects/not-to-do.gif
+image:  
+  path: /assets/img/projects/not-to-do.gif
 screenshot: /assets/img/projects/not-to-do.gif
 links:
   - title: Website

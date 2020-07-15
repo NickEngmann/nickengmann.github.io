@@ -2,7 +2,8 @@
 layout: project
 title: 'Auto Swiper'
 date: 13 Apr 2018
-image: /assets/img/projects/swiper.gif
+image:  
+  path: /assets/img/projects/swiper.gif
 screenshot: /assets/img/projects/swiper.gif
 links:
   - title: Youtube

@@ -2,7 +2,8 @@
 layout: project
 title: 'StoryCollab'
 date: 01 Nov 2016
-image: /assets/img/projects/story-collab.png
+image: 
+  path: /assets/img/projects/story-collab.png
 screenshot: /assets/img/projects/story-collab.png
 links:
   - title: Github

@@ -2,7 +2,8 @@
 layout: project
 title: 'Fuckads'
 date: 20 Dec 2017
-image: /assets/img/projects/fuckads.gif
+image:  
+  path: /assets/img/projects/fuckads.gif
 screenshot: /assets/img/projects/fuckads.gif
 links:
   - title: Github

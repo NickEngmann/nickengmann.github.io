@@ -2,7 +2,8 @@
 layout: project
 title: 'Hackintosh'
 date: 01 Mar 2017
-image: /assets/img/projects/hackintosh.png
+image:  
+  path: /assets/img/projects/hackintosh.png
 screenshot: /assets/img/projects/hackintosh.png
 links:
   - title: Instructions

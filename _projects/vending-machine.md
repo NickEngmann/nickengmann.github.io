@@ -2,7 +2,8 @@
 layout: project
 title: 'Arduino Vending Machine'
 date: 23 Dec 2018
-image: /assets/img/projects/vendingmachine.gif
+image:  
+  path: /assets/img/projects/vendingmachine.gif
 screenshot: /assets/img/projects/vendingmachine.gif
 links:
   - title: Youtube

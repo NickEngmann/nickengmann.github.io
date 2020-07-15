@@ -3,7 +3,8 @@ layout: post
 title: Blogging for Hackster
 description: >
   Started doing some casual tech-blogging!
-image: /assets/img/blog/hackster.png
+image:  
+  path: /assets/img/blog/hackster.png
 canonical_url: https://blog.hackster.io/battery-free-approach-to-ocean-internet-of-things-df5581ff4a1b
 hide_image: false
 ---

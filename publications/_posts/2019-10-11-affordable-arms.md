@@ -3,7 +3,8 @@ layout: post
 title: An Affordable Arduino-Powered Bionic Hand
 description: >
   Make an arduino-powered bionic hand for under $100!
-image: /assets/img/blog/affordablearm.png
+image:  
+  path: /assets/img/blog/affordablearm.png
 canonical_url: https://www.hackster.io/news/an-affordable-arduino-powered-bionic-hand-cef14a1247bc
 hide_image: false
 ---

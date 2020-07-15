@@ -2,7 +2,8 @@
 layout: project
 title: 'iSpyMyo'
 date: 02 Jun 2016
-image: /assets/img/projects/iSpyMyo.png
+image:  
+  path: /assets/img/projects/iSpyMyo.png
 screenshot: /assets/img/projects/iSpyMyo.png
 links:
   - title: Github

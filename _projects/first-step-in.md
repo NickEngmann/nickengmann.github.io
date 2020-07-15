@@ -2,7 +2,8 @@
 layout: project
 title: 'First Step In'
 date: 04 Jun 2016
-image: /assets/img/projects/firststepin.png
+image:  
+  path: /assets/img/projects/firststepin.png
 screenshot: /assets/img/projects/firststepin.png
 links:
   - title: Github

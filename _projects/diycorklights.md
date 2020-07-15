@@ -2,7 +2,8 @@
 layout: project
 title: 'DIY LED Cork Lights'
 date: 16 Feb 2020
-image: /assets/img/projects/diycork.gif
+image:  
+  path: /assets/img/projects/diycork.gif
 screenshot: /assets/img/projects/diycork.png
 links:
   - title: Website

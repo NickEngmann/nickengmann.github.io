@@ -2,7 +2,8 @@
 layout: project
 title: 'Darth Maul'
 date: 04 Jul 2019
-image: /assets/img/projects/darthmaul.gif
+image:  
+  path: /assets/img/projects/darthmaul.gif
 screenshot: /assets/img/projects/darthmaul.gif
 links:
   - title: Instagram

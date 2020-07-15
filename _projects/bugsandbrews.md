@@ -2,7 +2,8 @@
 layout: project
 title: 'Bugs and Brews'
 date: 3 March 2020
-image: /assets/img/projects/bugsandbrews.png
+image:  
+  path: /assets/img/projects/bugsandbrews.png
 screenshot: /assets/img/projects/bugsandbrews.png
 links:
   - title: Website

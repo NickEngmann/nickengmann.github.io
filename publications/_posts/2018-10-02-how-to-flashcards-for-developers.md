@@ -4,7 +4,8 @@ title: How To Learn to Code With Flashcards for Developers
 description: >
   Interview on the beginnings of Flashcards for Developers
 author: author1
-image: https://ph-files.imgix.net/5e5200be-9595-4417-8e61-ec66edae1269?auto=format&auto=compress&codec=mozjpeg&cs=strip
+image:  
+  path: https://ph-files.imgix.net/5e5200be-9595-4417-8e61-ec66edae1269?auto=format&auto=compress&codec=mozjpeg&cs=strip
 canonical_url: https://startupradius.com/how-to-learn-to-code-with-flashcards-for-developers/
 ---
 

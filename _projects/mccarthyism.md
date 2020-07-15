@@ -2,7 +2,8 @@
 layout: project
 title: 'McCarthyism'
 date: 18 Feb 2016
-image: /assets/img/projects/McCarthyism.png
+image:  
+  path: /assets/img/projects/McCarthyism.png
 screenshot: /assets/img/projects/McCarthyism.png
 caption: What is McCarthyism?
 description: >

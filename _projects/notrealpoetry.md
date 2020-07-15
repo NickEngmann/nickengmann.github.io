@@ -2,7 +2,8 @@
 layout: project
 title: 'Not Real Poetry'
 date: 10 Nov 2019
-image: /assets/img/projects/notrealpoetry.png
+image:  
+  path: /assets/img/projects/notrealpoetry.png
 screenshot: /assets/img/projects/notrealpoetry.png
 links:
   - title: Website

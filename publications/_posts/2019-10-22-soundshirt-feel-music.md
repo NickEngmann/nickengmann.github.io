@@ -3,7 +3,8 @@ layout: post
 title: SoundShirt Allows You to Feel the Music
 description: >
   The SoundShirt helps the deaf feel the music during live performances or within video games.
-image: /assets/img/blog/soundshirt.png
+image:  
+  path: /assets/img/blog/soundshirt.png
 canonical_url: http://bit.ly/soundshirt
 hide_image: false
 ---

@@ -2,7 +2,8 @@
 layout: project
 title: 'PiSight'
 date: 1 Mar 2016
-image: /assets/img/projects/PiSight.png
+image:  
+  path: /assets/img/projects/PiSight.png
 screenshot: /assets/img/projects/PiSight.png
 links:
   - title: Github

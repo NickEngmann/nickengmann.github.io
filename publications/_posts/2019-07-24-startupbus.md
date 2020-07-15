@@ -3,7 +3,8 @@ layout: post
 title: StartupBus 2019
 description: >
   5 day trek across the United States allwhile creating a startup.
-image: /assets/img/blog/startupbus/header.png
+image:  
+  path: /assets/img/blog/startupbus/header.png
 canonical_url: https://startupbus.com
 hide_image: false
 ---

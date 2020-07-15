@@ -3,7 +3,8 @@ layout: post
 title: A  Braille(-ent) Idea for A Keyboard
 description: >
   Accessibility Technology Hacks
-image: /assets/img/blog/knobo.png
+image:  
+  path: /assets/img/blog/knobo.png
 canonical_url: http://bit.ly/braille-keyboard
 hide_image: false
 ---

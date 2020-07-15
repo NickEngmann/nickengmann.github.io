@@ -2,7 +2,8 @@
 layout: project
 title: 'Energos21'
 date: 03 Jun 2016
-image: /assets/img/projects/Energos21.png
+image:  
+  path: /assets/img/projects/Energos21.png
 screenshot: /assets/img/projects/Energos21.png
 links:
   - title: Website Images

@@ -3,7 +3,8 @@ layout: post
 title: Subliminally Hack Your Heart with ambienBeat
 description: >
   A wrist-worn heart rate regulator to help manage stress and stay awake.
-image: /assets/img/blog/ambienBeat.png
+image:  
+  path: /assets/img/blog/ambienBeat.png
 canonical_url: http://bit.ly/ambienBeat
 hide_image: false
 ---

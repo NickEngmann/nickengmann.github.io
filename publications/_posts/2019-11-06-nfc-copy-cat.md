@@ -3,7 +3,8 @@ layout: post
 title: NFC Copy Cat — One Stop Shop for Testing Payment Systems
 description: >
   NFC Copy Cat is a device to learn and test both magnetic stripe and NFC payment systems. It does so utilizing the tools NFCopy and MagSpoof.
-image: /assets/img/blog/nfccopycat.png
+image:  
+  path: /assets/img/blog/nfccopycat.png
 canonical_url: http://bit.ly/nfc-copy-cat
 hide_image: false
 ---

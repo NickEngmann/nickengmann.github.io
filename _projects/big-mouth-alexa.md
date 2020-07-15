@@ -2,7 +2,8 @@
 layout: project
 title: 'Big Mouth Alexa'
 date: 03 Jun 2017
-image: /assets/img/projects/bigmouthalexa.png
+image:  
+  path: /assets/img/projects/bigmouthalexa.png
 screenshot: /assets/img/projects/bigmouthalexa.png
 links:
   - title: Instagram

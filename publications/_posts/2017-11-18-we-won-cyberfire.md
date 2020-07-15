@@ -3,7 +3,8 @@ layout: post
 title: Won Cyber Fire CTF 2017
 description: >
   A how-to article for creating an ecosystem to monitor your house plants.
-image: /assets/img/blog/cyberfire.png
+image:  
+  path: /assets/img/blog/cyberfire.png
 canonical_url: https://cyberfire.energy.gov/
 hide_image: false
 ---

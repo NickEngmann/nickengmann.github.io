@@ -2,7 +2,8 @@
 layout: project
 title: 'TranSym'
 date: 17 Mar 2017
-image: /assets/img/projects/transym.gif
+image:  
+  path: /assets/img/projects/transym.gif
 screenshot: /assets/img/projects/transym.gif
 links:
   - title: Github

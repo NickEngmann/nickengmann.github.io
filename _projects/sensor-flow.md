@@ -2,7 +2,8 @@
 layout: project
 title: 'Sensor Flow'
 date: 23 Aug 2017
-image: /assets/img/projects/sensorflow.gif
+image:  
+  path: /assets/img/projects/sensorflow.gif
 screenshot: /assets/img/projects/sensorflow.gif
 links:
   - title: Github

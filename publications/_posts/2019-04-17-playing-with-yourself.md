@@ -3,7 +3,8 @@ layout: post
 title: Playing With Yourself
 description: >
   A how-to article on creating your own hardware/software creations!
-image: /assets/img/projects/skyminer.jpg
+image:  
+  path: /assets/img/projects/skyminer.jpg
 canonical_url: https://hackernoon.com/playing-with-yourself-the-power-of-personal-projects-206047344121
 hide_image: false
 ---

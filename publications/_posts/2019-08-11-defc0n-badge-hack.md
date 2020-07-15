@@ -3,7 +3,8 @@ layout: post
 title: Hacked the DEFC0N27 Badge
 description: >
   Hacking the DEFC0N27 Conference Badge
-image: /assets/img/blog/Jackp0t.png
+image:  
+  path: /assets/img/blog/Jackp0t.png
 canonical_url: https://cyberfire.energy.gov/
 hide_image: false
 ---

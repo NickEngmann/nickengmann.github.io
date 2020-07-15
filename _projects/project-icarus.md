@@ -2,7 +2,8 @@
 layout: project
 title: 'Project Icarus'
 date: 04 Feb 2018
-image: /assets/img/projects/project-icarus.gif
+image:  
+  path: /assets/img/projects/project-icarus.gif
 screenshot: /assets/img/projects/project-icarus.gif
 links:
   - title: Youtube

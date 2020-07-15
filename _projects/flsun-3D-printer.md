@@ -2,7 +2,8 @@
 layout: project
 title: 'Flsun 3D Printer'
 date: 21 Sep 2017
-image: /assets/img/projects/flsun.gif
+image:  
+  path: /assets/img/projects/flsun.gif
 screenshot: /assets/img/projects/flsun.gif
 links:
   - title: Github

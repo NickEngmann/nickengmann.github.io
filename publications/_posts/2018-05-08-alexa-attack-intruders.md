@@ -3,7 +3,8 @@ layout: post
 title: Alexa, Attack Intruders
 description: >
   Article about my Alexa enabled Nerf Gun Turret.
-image: /assets/img/projects/project-icarus.gif
+image:  
+  path: /assets/img/projects/project-icarus.gif
 canonical_url: https://hackaday.com/2018/05/08/alexa-attack-intruders/
 hide_image: false
 ---

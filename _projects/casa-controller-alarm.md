@@ -2,7 +2,8 @@
 layout: project
 title: 'Casa Controller Alarm'
 date: 18 Feb 2017
-image: /assets/img/projects/casacontroller-alarm.png
+image:  
+  path: /assets/img/projects/casacontroller-alarm.png
 screenshot: /assets/img/projects/casacontroller-alarm.png
 links:
   - title: Youtube

@@ -2,7 +2,8 @@
 layout: project
 title: 'Anti Nap'
 date: 02 Sep 2016
-image: /assets/img/projects/Anti-Nap.png
+image:  
+  path: /assets/img/projects/Anti-Nap.png
 screenshot: /assets/img/projects/Anti-Nap.png
 links:
   - title: Youtube

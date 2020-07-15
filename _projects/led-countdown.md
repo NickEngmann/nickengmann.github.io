@@ -2,7 +2,8 @@
 layout: project
 title: 'LED Countdown Clock'
 date: 18 Dec 2016
-image: /assets/img/projects/ledcountdown.png
+image:  
+  path: /assets/img/projects/ledcountdown.png
 screenshot: /assets/img/projects/ledcountdown.png
 links:
   - title: Github

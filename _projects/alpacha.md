@@ -2,7 +2,8 @@
 layout: project
 title: 'Alpacha'
 date: 17 Jun 2017
-image: /assets/img/projects/alpacha.png
+image:  
+  path: /assets/img/projects/alpacha.png
 screenshot: /assets/img/projects/alpacha.png
 links:
   - title: Youtube

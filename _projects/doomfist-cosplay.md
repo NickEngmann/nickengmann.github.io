@@ -2,7 +2,8 @@
 layout: project
 title: 'Doomfist Cosplay'
 date: 25 May 2018
-image: /assets/img/projects/doomfist-cover.png
+image:  
+  path: /assets/img/projects/doomfist-cover.png
 screenshot: /assets/img/projects/doomfist-cover.png
 links:
   - title: Instagram

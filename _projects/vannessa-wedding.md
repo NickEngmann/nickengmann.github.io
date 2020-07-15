@@ -2,7 +2,8 @@
 layout: project
 title: 'Vannessa Wedding'
 date: 26 Aug 2017
-image: /assets/img/projects/forthejuarezofmylife.png
+image:  
+  path: /assets/img/projects/forthejuarezofmylife.png
 screenshot: /assets/img/projects/forthejuarezofmylife.png
 links:
   - title: Github

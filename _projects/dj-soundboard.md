@@ -2,7 +2,8 @@
 layout: project
 title: 'DJ Soundboard v1.0'
 date: 01 May 2015
-image: /assets/img/projects/dj.png
+image:  
+  path: /assets/img/projects/dj.png
 screenshot: /assets/img/projects/dj.png
 links:
   - title: Github

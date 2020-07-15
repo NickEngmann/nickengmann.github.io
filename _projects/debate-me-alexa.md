@@ -2,7 +2,8 @@
 layout: project
 title: 'Debate Me Alexa'
 date: 17 May 2017
-image: /assets/img/projects/alexadebate.png
+image:  
+  path: /assets/img/projects/alexadebate.png
 screenshot: /assets/img/projects/alexadebate.png
 links:
   - title: Github

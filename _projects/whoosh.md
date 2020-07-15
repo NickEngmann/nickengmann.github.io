@@ -2,7 +2,8 @@
 layout: project
 title: 'Whoosh'
 date: 29 Oct 2016
-image: /assets/img/projects/whoosh.gif
+image:  
+  path: /assets/img/projects/whoosh.gif
 screenshot: /assets/img/projects/whoosh.gif
 links:
   - title: Github

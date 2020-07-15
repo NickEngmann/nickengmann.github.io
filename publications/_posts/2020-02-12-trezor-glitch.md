@@ -3,7 +3,8 @@ layout: post
 title: Kraken Security Labs Can Now Voltage Glitch Trezor Wallet Cryptocurrency Away
 description: >
   Using voltage glitching, Kraken Security Labs has found a way to crack the encrypted seeds in Trezor cryptocurrency hardware wallets.
-image: /assets/img/blog/trezorglitch.png
+image:  
+  path: /assets/img/blog/trezorglitch.png
 canonical_url: http://bit.ly/trezor-glitch
 hide_image: false
 ---

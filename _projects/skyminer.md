@@ -2,7 +2,8 @@
 layout: project
 title: 'Skyminer'
 date: 10 Apr 2019
-image: /assets/img/projects/skyminer.gif
+image:  
+  path: /assets/img/projects/skyminer.gif
 screenshot: /assets/img/projects/skyminer.gif
 links:
   - title: Instructions

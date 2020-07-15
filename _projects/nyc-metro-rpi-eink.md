@@ -2,7 +2,8 @@
 layout: project
 title: 'Custom E-Ink Magic Mirror for NYC Transit'
 date: 20 Mar 2020
-image: /assets/img/projects/customrpieink.png
+image:  
+  path: /assets/img/projects/customrpieink.png
 screenshot: /assets/img/projects/customrpieink.png
 links:
   - title: Website

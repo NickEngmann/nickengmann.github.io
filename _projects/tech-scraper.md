@@ -2,7 +2,8 @@
 layout: project
 title: 'Tech-Scraper'
 date: 5 Apr 2016
-image: /assets/img/projects/techscraper.png
+image:  
+  path: /assets/img/projects/techscraper.png
 screenshot: /assets/img/projects/techscraper.png
 caption: Scraping Tech News
 description: >

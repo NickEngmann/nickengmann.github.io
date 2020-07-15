@@ -2,7 +2,8 @@
 layout: project
 title: 'Casa Controller'
 date: 30 Sep 2016
-image: /assets/img/projects/casacontrolar.png
+image:  
+  path: /assets/img/projects/casacontrolar.png
 screenshot: /assets/img/projects/casacontrolar.png
 links:
   - title: Github

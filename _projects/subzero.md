@@ -2,7 +2,8 @@
 layout: project
 title: 'SUBZero'
 date: 12 Feb 2019
-image: /assets/img/projects/subzero.jpg
+image:  
+  path: /assets/img/projects/subzero.jpg
 screenshot: /assets/img/projects/subzero.jpg
 links:
   - title: Github

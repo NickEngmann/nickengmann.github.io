@@ -4,7 +4,8 @@ title: Powering Applications with Image Classification
 description: >
   Wrote a Medium Article about Image Classification using Clarifai.
 author: author1
-image: /assets/img/blog/clarifai-medium.png
+image:  
+  path: /assets/img/blog/clarifai-medium.png
 canonical_url: https://stories.mlh.io/powering-your-e-commerce-application-with-image-classification-831558869a0d
 ---
 

@@ -3,7 +3,8 @@ layout: post
 title: Finally, an Open-Source Hardware Key
 description: >
   My second Hackster.io Blog piece
-image: /assets/img/blog/solokeys.png
+image:  
+  path: /assets/img/blog/solokeys.png
 canonical_url: https://blog.hackster.io/finally-an-open-source-nano-security-key-a8acb44ceca0
 hide_image: false
 ---

@@ -2,7 +2,8 @@
 layout: project
 title: 'Doctrinr'
 date: 26 Nov 2016
-image: /assets/img/projects/doctrinr.png
+image:  
+  path: /assets/img/projects/doctrinr.png
 screenshot: /assets/img/projects/doctrinr.png
 links:
   - title: Github

@@ -2,7 +2,8 @@
 layout: project
 title: 'MMM-ParticleStatus'
 date: 10 May 2020
-image: /assets/img/projects/mmm-particlestatus.gif
+image:  
+  path: /assets/img/projects/mmm-particlestatus.gif
 screenshot: /assets/img/projects/mmm-particlestatus.gif
 links:
   - title: Hackster Instructions

@@ -2,7 +2,8 @@
 layout: project
 title: 'Mr. Lockman'
 date: 22 Nov 2015
-image: /assets/img/projects/mrlockman.png
+image:  
+  path: /assets/img/projects/mrlockman.png
 screenshot: /assets/img/projects/mrlockman.png
 links:
   - title: Youtube

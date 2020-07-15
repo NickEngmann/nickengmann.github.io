@@ -2,7 +2,8 @@
 layout: project
 title: 'Quod Certamine'
 date: 01 May 2016
-image: /assets/img/projects/qc.png
+image:  
+  path: /assets/img/projects/qc.png
 screenshot: /assets/img/projects/qc.png
 links:
   - title: Website

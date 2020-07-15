@@ -3,7 +3,8 @@ layout: post
 title: USB Armory MK II
 description: >
   A new cybersecurity tool hits the scene
-image: /assets/img/blog/usbarmorymkii.png
+image:  
+  path: /assets/img/blog/usbarmorymkii.png
 canonical_url: http://bit.ly/swiss-army-security
 hide_image: false
 ---

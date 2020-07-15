@@ -2,7 +2,8 @@
 layout: project
 title: 'Castaway'
 date: 21 Jun 2015
-image: /assets/img/projects/CastAway.png
+image:  
+  path: /assets/img/projects/CastAway.png
 screenshot: /assets/img/projects/CastAway.png
 links:
   - title: Images

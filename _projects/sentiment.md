@@ -2,7 +2,8 @@
 layout: project
 title: 'Sentiment'
 date: 1 May 2015
-image: /assets/img/projects/Sentiment.png
+image:  
+  path: /assets/img/projects/Sentiment.png
 screenshot: /assets/img/projects/Sentiment.png
 links:
   - title: Images

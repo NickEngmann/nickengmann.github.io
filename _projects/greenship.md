@@ -2,7 +2,8 @@
 layout: project
 title: 'GreenShip'
 date: 20 Jul 2019
-image: /assets/img/projects/greenship.gif
+image:  
+  path: /assets/img/projects/greenship.gif
 screenshot: /assets/img/projects/greenship.gif
 links:
   - title: Youtube

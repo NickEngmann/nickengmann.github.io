@@ -3,7 +3,8 @@ layout: post
 title: How To Build In-Plants, A Mesh-Connected Soil Monitoring System
 description: >
   A how-to article for creating an ecosystem to monitor your house plants.
-image: /assets/img/blog/in-plants-jumbo.jpg
+image:  
+  path: /assets/img/blog/in-plants-jumbo.jpg
 canonical_url: https://blog.particle.io/2019/05/06/learn-how-to-build-in-plants-a-mesh-connected-soil-monitoring-system/
 hide_image: false
 ---

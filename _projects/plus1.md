@@ -2,7 +2,8 @@
 layout: project
 title: 'Plus1'
 date: 1 Jun 2017
-image: /assets/img/projects/plus1.gif
+image:  
+  path: /assets/img/projects/plus1.gif
 screenshot: /assets/img/projects/plus1.gif
 links:
   - title: Images

@@ -2,7 +2,8 @@
 layout: project
 title: 'Skinny Skin Care'
 date: 20 Jan 2020
-image: /assets/img/projects/skincare.png
+image:  
+  path: /assets/img/projects/skincare.png
 screenshot: /assets/img/projects/skincare.png
 links:
   - title: Website

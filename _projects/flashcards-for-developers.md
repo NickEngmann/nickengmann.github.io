@@ -2,7 +2,8 @@
 layout: project
 title: 'Flashcards for Developers'
 date: 02 Jul 2018
-image: /assets/img/projects/Flashcards.png
+image:  
+  path: /assets/img/projects/Flashcards.png
 screenshot: /assets/img/projects/Flashcards.png
 links:
   - title: Website

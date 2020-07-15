@@ -2,7 +2,8 @@
 layout: project
 title: 'In-Plants'
 date: 18 Feb 2019
-image: /assets/img/projects/inplants.gif
+image:  
+  path: /assets/img/projects/inplants.gif
 screenshot: /assets/img/projects/inplants.gif
 links:
   - title: YouTube
