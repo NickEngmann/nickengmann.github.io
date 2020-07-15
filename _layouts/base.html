@@ -17,13 +17,18 @@
 layout: compress
 ---
 
+{% assign version = jekyll.version | split:'.' %}
+{% assign major = v[0] %}
+{% assign minor = v[1] %}
+{% assign patch = v[2] %}
+
 {% assign plugins = site.plugins | default:site.gems %}
 
 {% assign author = site.data.authors[page.author] | default:site.data.authors.first[1] | default:site.author %}
 
 {% assign image       = site.accent_image | default:'/assets/img/sidebar-bg.jpg' %}
-{% assign color       = site.accent_color | default:'#4fb1ba' %}
-{% assign theme_color = site.theme_color  | default:'#193747' %}
+{% assign color       = site.accent_color | default:'rgb(79,177,186)' %}
+{% assign theme_color = site.theme_color  | default:'rgb(8,46,57)' %}
 
 {% if page.accent_image %}{% assign image       = page.accent_image %}{% endif %}
 {% if page.accent_color %}{% assign color       = page.accent_color %}{% endif %}
@@ -33,7 +38,6 @@ layout: compress
   {% include head/index.html %}
 </head>
 
-<body class="no-color-transition{% if site.hydejack.dark_mode.always %} dark-mode{% endif %}">
-  {% include pro/dark-mode-fix.html %}
+<body class="{% include_cached base-classes %}">
   {% include body/index.html %}
 </body>

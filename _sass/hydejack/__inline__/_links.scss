@@ -22,24 +22,39 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-hy-push-state a, .a {
-  position: relative; 
-  padding-bottom: .15rem; 
-  border-bottom: 1px solid; 
-//   transition: color 1s, border-color 250ms; 
+hy-push-state a {
+  color: var(--body-color); 
   
-
-  &.no-hover {
-    border-bottom: none; 
-    padding-bottom: 0; 
-//     transition: none; 
-//     &:hover { transition: none; } 
+  @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+    text-decoration: none; 
+    border-bottom: 2px solid;
   }
-}
 
-/*
-img {
-  background-color: var(--gray-bg); 
+  @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+    text-decoration-style: solid;
+    text-underline-offset: .35rem;
+    text-decoration-thickness: 2px;
+  }
+  
+
+  
+
+  
+  &.no-hover {
+    border-bottom: none;
+    text-decoration-thickness: unset;
+    text-underline-offset: unset;
+  }
   
 }
-*/
+
+.content a:not(.btn):not(.no-hover) {
+  
+  @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+    text-decoration-color: var(--accent-color-faded);
+  }
+  border-color: var(--accent-color-faded);
+  
+  
+}
+

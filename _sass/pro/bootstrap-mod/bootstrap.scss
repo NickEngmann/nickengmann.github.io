@@ -40,3 +40,32 @@
 // @import "carousel";
 @import "utilities";
 // @import "print";
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:focus, .btn-primary.focus, .form-control:focus, .form-control.focus {
+  // box-shadow: 0 0 0 3px rgba({{ color }}, .5);
+  box-shadow: 0 0 0 3px var(--accent-color-faded);
+}
+
+.btn-primary:hover, .btn-primary.hover {
+  color: #fff;
+  background-color: var(--accent-color-darkened);
+  border-color: var(--accent-color-darkened);
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #fff;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:active, .btn-primary.active {
+  color: #fff;
+  background-color: var(--accent-color-darkened);
+  border-color: var(--accent-color-darkened);
+}

@@ -26,11 +26,12 @@ hy-drawer {
 //   width: 100%; 
 //   position: relative; 
 //   overflow: hidden; 
-  z-index: 2; 
+//   display: block; 
+//   z-index: 4; 
   @media screen {
     
     --hy-drawer-width: 100%;
-    --hy-drawer-slide-width: calc(100% - .5rem);
+    --hy-drawer-peek-width: .5rem;
     --hy-drawer-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
     
   }
@@ -39,17 +40,15 @@ hy-drawer {
     
 
     
-    --hy-drawer-slide-width: calc(100% - #{$sidebar-width});
+    --hy-drawer-peek-width: #{$sidebar-width};
     
   }
 
   @media screen and (min-width: $break-point-dynamic) {
-    $r28: ($content-width-5 / 2) + $content-margin-5;
-
-    width: calc(50% - #{$r28});
+    width: calc(50% - #{$half-content});
 
     
-    --hy-drawer-slide-width: calc(50% + #{$r28});
+    --hy-drawer-peek-width: calc(50% - #{$half-content});
     
   }
 
@@ -68,7 +67,11 @@ hy-drawer {
   a {
 //     color: #fff; 
 //     border-bottom-color: rgba(255, 255, 255, 0.2); 
-    &:hover { border-bottom-color: #fff; } 
+//     text-decoration-color: rgba(255, 255, 255, 0.2); 
+    &:hover { 
+      border-bottom-color: #fff; 
+      text-decoration-color: #fff; 
+    }
   }
 }
 
@@ -84,7 +87,7 @@ hy-drawer.loaded .sidebar {
   &.sidebar-overlay::after {
     background: -moz-linear-gradient(top, rgba(32,32,32,0) 0%, rgba(32,32,32,0.5) 50%, rgba(32,32,32,0) 100%); 
     background: -webkit-linear-gradient(top, rgba(32,32,32,0) 0%,rgba(32,32,32,0.5) 50%, rgba(32,32,32,0) 100%); 
-    background: linear-gradient(to bottom, rgba(32,32,32,0) 0%,rgba(32,32,32,0.5) 50%, rgba(32,32,32,0) 100%);
+//     background: linear-gradient(to bottom, rgba(32,32,32,0) 0%,rgba(32,32,32,0.5) 50%, rgba(32,32,32,0) 100%); 
   }
 }
 

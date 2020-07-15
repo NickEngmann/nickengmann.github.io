@@ -24,25 +24,25 @@
 
 .avatar {
   
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 100%;
   overflow: hidden;
+  display: inline-block;
+  img { width: 100%; }
   
 
-  
-
-  
-  @media screen and (min-width: $break-point-5) {
-    width: 7rem;
-    height: 7rem;
-  }
   
 }
 
 
 .content .avatar {
+  @extend .color-transition;
   float: right;
-  margin-left: .5rem;
+  box-sizing: content-box;
+  border: 1rem solid var(--body-bg);
+  transition: border-color 1s ease;
+  margin-top: -1.5rem;
+  margin-right: -1rem;
 }
 

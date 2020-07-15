@@ -27,7 +27,7 @@
   @extend .color-transition;
   width: calc(100% + 2rem);
   margin: 0 -1rem 1rem;
-  color: var(--text-muted);
+  color: var(--gray);
   text-align: center;
 
   > ul {
@@ -48,6 +48,7 @@
 
   > a, > a:hover, > a:focus {
     border-color: var(--border-color)!important;
+    text-decoration: none;
   }
 
   &:first-child > * {
@@ -55,7 +56,7 @@
   }
 
   // Only provide a hover state for linked pagination items
-  > a:hover, a:focus {
+  > a:hover, > a:focus {
     background-color: var(--gray-bg);
     border-bottom: 1px solid var(--border-color);
   }

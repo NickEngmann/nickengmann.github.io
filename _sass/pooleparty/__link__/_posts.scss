@@ -26,13 +26,18 @@
 
 hr.dingbat {
   border: 0;
+  &:after{
+    content: "\2756";
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--menu-text);
+  }
 }
 
-hr.dingbat::after {
-  content: "\2756";
-  display: block;
-  text-align: center;
-  font-size: 1.5rem;
-  color: var(--menu-text);
+@media print {
+  .page {
+    margin-bottom: 0
+  }
 }
 

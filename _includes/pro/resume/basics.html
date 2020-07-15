@@ -32,7 +32,11 @@
 
       {% if location.countryCode.size > 0 %}
         {% assign countryCode = location.countryCode | upcase %}
-        {% assign country = site.data.countries | where:"code",countryCode | first %}
+        {% if major >= 4 and minor >= 1 %}
+          {% assign country = site.data.countries | find:"code",countryCode %}
+        {% else %}
+          {% assign country = site.data.countries | where:"code",countryCode | first %}
+        {% endif %}
         {% if country %}
           <meta property="addressCountry" content="{{ location.countryCode }}"/>
           <span class="country-name p-country-name">{{ country.name }}</span>
@@ -41,6 +45,30 @@
         {% endif %}
       {% endif %}
     </dd>
+  {% endif %}
+
+  {% if basics.born.size > 0 %}
+    <dt class="faded">
+      <span class="{{ icons.born | default:'icon-quill' }}" title="{{ strings.resume.born | default:'Born' }}"></span>
+      <span class="sr-only">{{ strings.resume.born | default:"Born" }}</span>
+    </dt>
+    <dd class="bold">{{ basics.born }}</dd>
+  {% endif %}
+
+  {% if basics.citizenship.size > 0 %}
+    <dt class="faded">
+      <span class="{{ icons.citizenship | default:'icon-flag' }}" title="{{ strings.resume.citizenship | default:'Citizenship' }}"></span>
+      <span class="sr-only">{{ strings.resume.citizenship | default:"Citizenship" }}</span>
+    </dt>
+    <dd class="bold">{{ basics.citizenship }}</dd>
+  {% endif %}
+
+  {% if basics.maritalStatus.size > 0 %}
+    <dt class="faded">
+      <span class="{{ icons.maritalStatus | default:'icon-man-woman' }}" title="{{ strings.resume.maritalStatus | default:'Marital status' }}"></span>
+      <span class="sr-only">{{ strings.resume.maritalStatus | default:"Marital status" }}</span>
+    </dt>
+    <dd class="bold">{{ basics.maritalStatus }}</dd>
   {% endif %}
 
   {% if basics.email.size > 0 %}

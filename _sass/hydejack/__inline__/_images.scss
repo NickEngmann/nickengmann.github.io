@@ -22,7 +22,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-.content .img {
+.content .aspect-ratio {
   overflow: hidden; 
   img {
     margin: 0; 
@@ -31,8 +31,6 @@
 //     object-fit: cover; 
 //     object-position: center; 
     background-color: var(--gray-bg); 
-    
   }
 }
-
 

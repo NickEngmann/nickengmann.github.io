@@ -33,3 +33,34 @@
   margin-right: -1rem;
 }
 
+.note-sm {
+  @extend .message;
+  background: transparent;
+  color: var(--body-color);
+  font-size: smaller;
+  border-left: 1px solid var(--border-color);
+  padding: 1.5rem 1rem 0 1rem;
+  margin-top: 1rem;
+  position: relative;
+
+  &:before {
+    font-size: 0.667rem;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: .025rem;
+    text-transform: uppercase;
+    color: var(--menu-text);
+    position: absolute;
+    top: 0;
+  }
+
+  &[title]:before {
+    content: attr(title)!important;
+  }
+}
+
+.note {
+  @extend .note-sm;
+  font-size: 1rem;
+}
+

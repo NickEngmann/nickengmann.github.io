@@ -1,13 +1,13 @@
 {% if resume.awards.size > 0 %}
 <section>
   <div class="npb">
-  <h2 id="awards" class="h3 faded hr">
+  <h2 id="awards" class="h3 hr-bottom">
     {{ strings.resume.awards | default:"Awards" }}
     <span class="symbol {{ icons.awards | default:'icon-trophy' }}"></span>
   </h2>
   {% for awa in resume.awards %}
   <section>
-    <header class="{% unless forloop.first %}mt4{% endunless %}">
+    <header class="{% unless forloop.first %}mt2{% endunless %}">
       {% if awa.date.size > 0 %}
         <p class="faded">
           <time datetime="{{ awa.date | date_to_xmlschema }}">{{ awa.date | date:from_to_format }}</time>
@@ -24,7 +24,7 @@
       </h3>
     </header>
 
-    {% include components/message.html text=awa.summary alt="" %}
+    {% include components/message.html class="note" text=awa.summary alt="" %}
   </section>
   {% if forloop.first %}</div>{% endif %}
   {% endfor %}

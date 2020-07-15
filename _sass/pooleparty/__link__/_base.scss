@@ -30,11 +30,17 @@
 
 
 
-@media print {
-  a:not(.no-print-link)::after {
-    content: " (" attr(href) ") ";
-    color: var(--text-muted);
-    font-size: .83em;
+@media (display-mode: standalone) {
+  body {
+    overscroll-behavior-y: contain;
   }
+}
+
+:focus {
+  outline-color: var(--accent-color)!important;
+}
+
+::selection {
+  background: var(--accent-color-faded);
 }
 

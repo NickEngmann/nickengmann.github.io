@@ -1,13 +1,15 @@
-<header class="hr">
+<header>
   <h1 class="page-title fn p-name" property="name">{{ basics.name }}</h1>
 
   {% if basics.picture.size > 0 %}
-    {% include components/hy-img.html class="avatar photo u-photo" img=basics.picture alt=basics.name property="image" %}
+    <img src="{{ basics.picture | absolute_url }}" class="avatar photo u-photo" alt="{{ basics.name }}" property="image" width="120" height="120" loading="lazy" />
   {% endif %}
 
   {% if basics.label %}
     <p class="h3 faded subline title p-job-title" property="jobTitle">{{ basics.label }}</p>
   {% endif %}
+
+  {% include components/message.html text=page.description hide=page.hide_description %}
 </header>
 
 {% if basics.summary.size > 0 %}

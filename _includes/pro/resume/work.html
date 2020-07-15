@@ -1,14 +1,14 @@
 {% if resume.work.size > 0 %}
 <section>
   <div class="npb">
-  <h2 id="work" class="h3 faded hr">
+  <h2 id="work" class="h3 hr-bottom">
     {{ strings.resume.work | default:"Experience" }}
     <span class="symbol {{ icons.work | default:'icon-briefcase' }}"></span>
   </h2>
   {% for work in resume.work %}
   <section>
     <header
-      class="{% unless forloop.first %}mt4{% endunless %}"
+      class="{% unless forloop.first %}mt2{% endunless %}"
       property="{% if work.endDate.size > 0 %}alumniOf{% else %}worksFor{% endif %}"
       typeof="Organization"
       >
@@ -30,14 +30,16 @@
       </h3>
     </header>
 
-    {% include components/message.html text=work.summary alt="" %}
+    {% include components/message.html class="note" text=work.summary alt="" %}
 
+    {% if work.highlights.size > 0 %}
     <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
     <ul>
       {% for highlight in work.highlights %}
         <li>{{ highlight }}</li>
       {% endfor %}
     </ul>
+    {% endif %}
   </section>
   {% if forloop.first %}</div>{% endif %}
   {% endfor %}

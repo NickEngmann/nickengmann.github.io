@@ -38,5 +38,4 @@ hy-push-state, hy-drawer {
 
 
 
-@media print { html { font-size: $root-font-size-print; } } 
-
+@media print { html { font-size: var(--root-font-size-print); } } 

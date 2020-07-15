@@ -1,10 +1,10 @@
 // Copyright (c) 2019 Florian Klampfer <https://qwtel.com/>
 
-.layout-projects, .layout-project, .layout-home, .layout-welcome {
-  $pad: 1rem;
+main:not(.layout-resume) {
+  $gutter: 1rem;
 
   .columns {
-    margin-left: -$pad;
+    margin-left: -$gutter;
     display: flex;
     flex-wrap: wrap;
 
@@ -15,14 +15,23 @@
 
   .column {
     float: left;
-    padding-left: $pad;
-    margin-bottom: $pad;
+    padding-left: $gutter;
+    margin-bottom: 1.5rem;
     width: 100%;
     display: flex;
   }
 
   @media screen and (min-width: $break-point-1) {
     .column-1-2 { width: 50%; }
+  }
+
+  @media screen and (min-width: $break-point-dynamic) {
+    .columns-break { 
+      width: calc(50vw + #{$half-content} - 6rem);
+      > .column-1-2, > .column-1 {
+        width: ($content-width-5 / 2) - ($gutter / 2);
+      }
+    }
   }
 
   @media print {
@@ -42,29 +51,42 @@
     color: var(--gray-text);
     background-color: var(--gray-bg);
     padding-bottom: .75rem;
-    margin-bottom: 1.5rem;
+    position: relative;
     overflow: hidden;
     box-shadow: .125rem .125rem 1rem rgba(0, 0, 0, 0.2);
     contain: content;
 
     page-break-inside: avoid;
 
-    > a {
+    // transition: transform 500ms ease-out, box-shadow 500ms ease-out;
+    transition: transform 300ms ease-out, box-shadow 300ms ease-out;
+    &:hover {
+      box-shadow: .125rem .375rem 1.15rem rgba(0, 0, 0, 0.25);
+      transform: translateY(-0.25rem);
+      transition: transform 150ms ease-out, box-shadow 150ms ease-out;
+    }
+
+    > a.flip-project {
+      display: block;
+
       .project-card-img {
         margin-bottom: 0;
-        // border-bottom: 1px solid var(--border-color);
-        position: relative;
-        img {
-          display: block;
-          transition: transform 500ms;
-        }
+        @include fallback-image();
+        img { display: block; }
       }
+    }
 
-      &:hover, &:focus {
-        .project-card-img img {
-          transition: transform 250ms;
-          transform: scale(1.025);
-        }
+    a {
+      position: relative;
+      z-index: 1;
+
+      &.fill-card {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0; 
+        bottom: 0;
+        z-index: 0;
       }
     }
 
@@ -75,7 +97,7 @@
 
     > .project-card-title {
       display: block;
-      font-size: 1rem;
+      font-size: 1.08rem;
       margin-top: .75rem;
       margin-bottom: .25rem;
       color: inherit;
@@ -88,7 +110,7 @@
 
   .column-1 > .project-card {
     > .project-card-title {
-      font-size: 1.17rem;
+      font-size: 1.2rem;
     }
 
     > .project-card-text {

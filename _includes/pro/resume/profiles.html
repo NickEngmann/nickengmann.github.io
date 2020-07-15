@@ -14,7 +14,8 @@
         <span class="sr-only">{{ name }}</span>
       </dt>
       <dd class="bold">
-        {% include components/link.html href=pro.url class="nickname p-nickname" title=pro.username property="sameAs" %}
+        {% capture link_class %}{% if forloop.first %}nickname p-nickname{% endif %}{% endcapture %}
+        {% include components/link.html href=pro.url class=link_class title=pro.username property="sameAs" %}
       </dd>
     {% endfor %}
   </dl>
