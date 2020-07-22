@@ -45,9 +45,20 @@ work:
     summary: >
       Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
     highlights:
-      - "Utilized Software Defined Radio to spawn a custom 4GLTE Basestation. Created an operation GUI to let users forward traffic, track logs, measure signal strength and create Command + Control channels to connected devices."
-      - "Created custom firmware for the ESPKey to improve RFID cards captures from 26 bits to a full 44 bits."
-      - "Engineered a Smart Card reader that captures and stores the credentials of an unknowing user."
+      -	"Utilized CAD software to design multiple enclosures for custom hardware solutions."
+      -	"Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
+      -	"Designed multiple custom PCB solutions utilizing both the ESP32 and ATTiny85 chipset."
+      -	"Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs, and maintain Command + Control channels."
+      -	"Maintains two high quality 3D printers for both rapid design and production."
+  - company: "Hackster"
+    position: "Contributing Freelance Writer"
+    website: "https://www.hackster.io/nick-engmann/articles"
+    startDate: "2019-07-15"
+    endDate: "2020-02-15"
+    summary: >
+      Researched and covered different technologies that interest the readership.
+    highlights:
+      - "Curated 13 different articles, with concepts ranging from green energy technologies to hardware cybersecurity solutions."
   - company: "Flashcards for Developers"
     position: "Co-Founder"
     website: "https://www.flashcardsfordevelopers.com/"
