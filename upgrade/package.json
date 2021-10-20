@@ -40,7 +40,7 @@
     "yargs": "^12.0.1"
   },
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "2.0.4",
+    "@webcomponents/webcomponentsjs": "2.6.0",
     "core-js": "^2.5.7",
     "elem-dataset": "^1.1.1",
     "hy-drawer": "^1.0.0-pre.25",
