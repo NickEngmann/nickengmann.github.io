@@ -13,16 +13,19 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-// <<<<< INLINE
 .content {
+  // <<< inline
   margin-left: auto;
   margin-right: auto;
   padding: 8rem $content-padding 12rem;
 
   @media screen {
     padding-left: $content-padding + .5rem;
-    max-width: $content-width;
     min-height: 100vh;
+  }
+
+  @media screen and (min-width: $break-point-1) {
+    max-width: $content-width;
   }
 
   @media screen and (min-width: $break-point-2) {
@@ -36,6 +39,7 @@
   }
 
   @media screen and (min-width: $break-point-5) {
+    padding-top: 9rem;
     margin-left: $sidebar-width + $content-margin-5;
     margin-right: $content-margin-5;
     max-width: $content-width-5;
@@ -44,6 +48,12 @@
   @media screen and (min-width: $break-point-dynamic) {
     margin: auto;
   }
+  // >>>
+  // <<< link
+  @media print {
+    padding: 1rem;
+  }
+  // >>>
 }
 
 .large-only {
@@ -52,13 +62,3 @@
     display: block;
   }
 }
-
-// >>>>>
-// <<< link
-.content {
-  @media print {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-  }
-}
-// >>>

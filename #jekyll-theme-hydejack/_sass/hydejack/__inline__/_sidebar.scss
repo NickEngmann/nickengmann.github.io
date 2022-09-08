@@ -68,16 +68,25 @@ hy-drawer {
   color: rgba(255, 255, 255, .75);
   text-align: center;
   min-height: 100vh;
+  &.invert { color: rgba(32, 32, 32, .75) }
   
 
   a {
+    
     color: #fff; 
     border-bottom-color: rgba(255, 255, 255, 0.2); 
     text-decoration-color: rgba(255, 255, 255, 0.2); 
-    &:hover { 
-//       border-bottom-color: #fff; 
-//       text-decoration-color: #fff; 
-    }
+    
+    
+  }
+
+  &.invert a {
+    
+    color: #222;
+    border-bottom-color: rgba(32, 32, 32, 0.2); 
+    text-decoration-color: rgba(32, 32, 32, 0.2); 
+    
+    
   }
 }
 
@@ -146,6 +155,11 @@ hy-drawer {
       transition: border-color 50ms;
     }
   }
+}
+
+.sidebar.invert .sidebar-about > a.sidebar-title{
+  &::after { border-color: rgba(32, 32, 32, 0.2) }
+  &:hover::after { border-color: #222 }
 }
 
 .sidebar-nav > ul {

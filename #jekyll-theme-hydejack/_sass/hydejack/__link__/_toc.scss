@@ -25,14 +25,15 @@
 #markdown-toc {
   
   transition: opacity 300ms ease, transform 300ms ease, border-color 1s ease; 
-  
+  &:before { left: 1rem; }
 }
 
 body:not(.no-toc) #markdown-toc {
   @media screen and (min-width: $break-point-dynamic) {
     
-    overscroll-behavior: contain; 
     
+    overscroll-behavior: contain;
+
     &.toc-hide {
       opacity: 0;
       transform: translateX(-2rem);
@@ -51,3 +52,4 @@ body:not(.no-toc) #markdown-toc {
     
   }
 }
+
