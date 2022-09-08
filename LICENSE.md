@@ -1,6 +1,15 @@
+---
+layout: plain
+sitemap: false
+---
+
 # LICENSE
 
+* this list will be replaced by the toc
+{:toc .large-only}
+
 ## GNU GENERAL PUBLIC LICENSE
+{:.no_toc}
 
 Version 3, 29 June 2007
 

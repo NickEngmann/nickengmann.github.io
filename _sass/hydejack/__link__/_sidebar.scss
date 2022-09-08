@@ -65,13 +65,23 @@ hy-drawer {
   
 
   a {
-//     color: #fff; 
-//     border-bottom-color: rgba(255, 255, 255, 0.2); 
-//     text-decoration-color: rgba(255, 255, 255, 0.2); 
+    
+    
     &:hover { 
-      border-bottom-color: #fff; 
-      text-decoration-color: #fff; 
+      border-bottom-color: #fff;
+      text-decoration-color: #fff;
     }
+    
+  }
+
+  &.invert a {
+    
+    
+    &:hover { 
+      border-bottom-color: #222;
+      text-decoration-color: #222;
+    }
+    
   }
 }
 

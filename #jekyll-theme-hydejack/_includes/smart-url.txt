@@ -1,1 +1,0 @@
-{% comment %} Retained for backwards compatibility. Use smart-url (without .txt) instead. {% endcomment %}{% include smart-url url=include.url %}

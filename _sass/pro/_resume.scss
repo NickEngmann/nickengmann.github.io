@@ -26,10 +26,6 @@
     margin-top: 0;
   }
 
-  .mt2 { 
-    margin-top: 1rem;
-  }
-
   ul {
     margin-bottom: 1.5rem;
   }
@@ -114,10 +110,12 @@
   }
 
   .reference {
+    margin-top: 1.5rem;
     margin-left: -1rem;
 
     > footer {
       margin-bottom: 0;
+      font-weight: bold;
     }
   }
 
@@ -160,9 +158,17 @@
   }
 
   @media screen and (min-width: $break-point-dynamic) {
-    .columns.columns-break { width: calc(50vw + #{$half-content} - 6rem) }
-    .columns-break > .column-3-5 { width: $content-width-5 + 1rem }
-    .columns-break > .column-2-5 { width: $content-width-5  / 2 - 5rem }
+    .columns-break { 
+      $helper: $content-width-5 / 2 - $content-margin-5;
+      width: calc(50vw + #{$helper});
+      > .column-3-5 { 
+        width: $content-width-5;
+      }
+      > .column-2-5 { 
+        width: calc(50vw + #{$helper} - #{$content-width-5}); 
+        max-width: $content-width-5 / 2 - $pad;
+      }
+    }
   }
 
   @media print {
@@ -182,7 +188,7 @@
   }
 
   @media print and (min-width: 5.247in) {
-    article > .note { padding-right: 10rem }
+    article > .note { padding-right: 11rem }
     .fr { float: right }
     .column-3-5 { width: 70% }
     .column-2-5 { width: 30% }

@@ -48,11 +48,13 @@
 .f4 {
   @extend .heading;
   font-size: 1.08rem;
+  line-height: 1.6;
 }
 
 .f5 {
   @extend .heading;
   font-size: 1.04rem;
+  line-height: 1.7;
 }
 
 .f6 {
@@ -122,7 +124,7 @@ blockquote {
   font-weight: var(--font-weight-heading);
 }
 
-.fine {
+.fine, .smaller {
   font-size: smaller;
 }
 
@@ -135,12 +137,12 @@ blockquote {
   text-align: center;
 }
 
-
 h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
   position: relative;
 
   > .permalink {
     text-decoration: none;
+    border: none;
     opacity: 0;
     transition: opacity 400ms;
 

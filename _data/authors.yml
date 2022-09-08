@@ -2,7 +2,7 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Nick Engmann
+  name:              Cyril 'Nick' Engmann
   email:             cyengmann@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
@@ -27,7 +27,7 @@ author1:
     github:          NickEngmann
     email:           cyengmann@gmail.com
     youtube:         UC6wyfciUXjWAKDiDSlMx3VA
-    resume:          /assets/Resume.pdf
+    resume:          /assets/Cyril-Nick-Engmann-Resume.pdf
     twitter:         whoiscyril
     # facebook:        nick.engmann
     # rss:             https://<url>/feed.xml

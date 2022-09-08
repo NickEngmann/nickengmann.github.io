@@ -1,1 +1,0 @@
-{% capture to_scssify %}{% include styles/pro/resume.scss %}{% endcapture %}{{ to_scssify | scssify }}

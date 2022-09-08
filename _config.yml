@@ -1,25 +1,26 @@
 # Config
 # ========================================================================================
 
-# IMPORTANT: Set the URL of your site.
-# Set to https://<username>.github.io when hosting on GitHub Pages
-# (unless you are using a custom domain).
+# Uncomment and set the URL of your site (with protocol, e.g. `https://`)
+# NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 url:                   https://nickengmann.github.io
 
-# IMPORTANT: Set The "base URL" of your site.
-# When your site sits in a subdirectory, set to /<name of directory>
-# (with leading /, but without the < >).
-# Use the empty string '' otherwise.
-# For GitHub project sites, this is usually the name of the project,
-# e.g. `/hydejack`.
-baseurl:               ''
+# Uncomment and set the "base URL" of your site.
+# When your site is in a subdirectory, set to `/<name of directory>`,
+# with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
+# NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
+# baseurl:               '/hydejack-starter-kit'
+
+
+# General settings
+# ---------------------------------------------------------------------------------------
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Nick Engmann
+title:                 Cyril 'Nick' Engmann
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -36,45 +37,55 @@ keywords:              [hacker, developer, engineer, hardware, brooklyn, san-die
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/icons/icon.png
+logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <Nick> <Engmann>
+  name:                <Cyril> <Nick> <Engmann>
   email:               <cyengmann@gmail.com>
   # Used by `jekyll-seo-tag`:
   twitter:             <whoiscyril>
 
-# This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2019. All rights reserved.
+# Add links to the sidebar.
+menu:
+  - title:             Blog
+    url:               /blog/
+  - title:             Projects
+    url:               /projects/
+  - title:             Résumé
+    url:               /resume/
 
 # Add links to the footer.
-# Typically you'll want to link to your impress, cookies or privacy policy, etc.
-# legal:
-#   - title:             Impress
-#     href:              /impress/
-#   - title:             Cookies Policy
-#     href:              /cookies-policy/
+# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+legal:
+  - title:             LICENSE
+    url:               /LICENSE/
+  - title:             NOTICE
+    url:               /NOTICE/
+  - title:             CHANGELOG
+    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020. All rights reserved.
+copyright:             © 2022. All rights reserved.
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              5
-paginate_path:         /blog/page-:num/
+paginate:              10
+paginate_path:         /blog/:num/
+
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 # remote_theme: hydecorp/hydejack@v9
 
-# Customizaton
-# ========================================================================================
 
+# Customizaton
+# ----------------------------------------------------------------------------------------
+ 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
@@ -86,7 +97,7 @@ theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:400|Noto+Sans:400,400i,700,700i
+google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
@@ -96,19 +107,32 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 # To change font-weight, see _sass/variables.scss
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
+# The font used for code blocks. Expects a string that is a valid CSS font-family value.
+font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
+
 defaults:
+  # You can use this to provide a default accent color and background for
+  # all pages under a given path:
   - scope:
-      path:            hyde
+      path:            hyde/
     values:
       accent_color:    rgb(38,139,210)
+      theme_color:     rgb(32,32,32)
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
 
-   # Don't include documents in assets in the sitemap
+  # Don't include documents in assets in the sitemap
   - scope:
       path:            assets/
     values:
+      sitemap:         false
+
+  # Don't include licenses in sitemap (feel free to delete)
+  - scope:
+      path:            licenses/
+    values:
+      layout:          plain
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
@@ -136,9 +160,10 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         katex
+  math_engine:         mathjax
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
+
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
@@ -149,10 +174,12 @@ google_analytics:      UA-131492533-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+# disqus:                <username>
 
 # Setting a tinyletter username will enable the newsletter subscription box.
-# tinyletter:            <tinyletter_username>
+# PRO version only!
+# tinyletter:            <username>
+
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -215,12 +242,15 @@ hydejack:
   # This only affects the meta tag, not the color specified in the app manifest.
   no_theme_color:      false
 
+  # Disable the breadcrumbs above the title
+  no_breadcrumbs:      false
+
   # Set to `true` when building with the `--lsi` option
   use_lsi:             true
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      true
+  cookies_banner:      false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
@@ -230,6 +260,9 @@ hydejack:
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date. 
   hide_dates:          false
+
+  # TODO
+  hide_last_modified:  false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -248,9 +281,10 @@ hydejack:
   # Only use if you know what Service Workers are and how they can impact your site!
   offline:
     enabled:           false
-    cache_version:     7
+    cache_version:     13
     precache_assets:
       - /assets/img/swipe.svg
+
 
 # Collections
 # ----------------------------------------------------------------------------------------
@@ -277,6 +311,7 @@ exclude:
   - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
   - .sass-cache
+  - '*.toml'
   - vendor
   - Gemfile
   - Gemfile.lock
@@ -302,12 +337,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
 
-# Theme
-# ---------------------------------------------------------------------------------------
-
-theme: jekyll-theme-hydejack
-
-remote_theme: hydecorp/hydejack@v9.1.6
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -333,10 +362,38 @@ twitter:
 
 # Used on index and about sites
 social:
-  name:                <Nick> <Engmann>
+  name:                <Cyril 'Nick'> <Engmann>
   links:
     - https://twitter.com/<whoiscyril>
     - https://github.com/<NickEngmann>
+
+
+
+# Plugin Configs
+# ---------------------------------------------------------------------------------------
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+  with_frontmatter:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
+compress_html:
+  comments:            ["<!--", "-->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
+
+sass:
+  style:               compressed
 
 
 # Jekyll Compose Defaults
