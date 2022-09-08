@@ -16,6 +16,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    execjs (2.8.1)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
@@ -64,8 +65,15 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    katex (0.9.0)
+      execjs (~> 2.7)
     kramdown (2.4.0)
       rexml
+    kramdown-math-katex (1.0.1)
+      katex (~> 0.4)
+      kramdown (~> 2.0)
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     liquid (4.0.3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -105,6 +113,9 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-theme-hydejack!
   jekyll-titles-from-headings
+  kramdown
+  kramdown-math-katex
+  kramdown-parser-gfm
   tzinfo-data
 
 BUNDLED WITH
