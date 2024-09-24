@@ -11,7 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8"
 
 # Fixes `jekyll serve` in ruby 3
-gem "webrick"
+gem "webrick", ">= 1.8.2"
 
 group :jekyll_plugins do
   gem "github-pages"
