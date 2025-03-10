@@ -8,13 +8,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8"
+gem "jekyll", "~> 3.9", ">= 3.9.3"
 
 # Fixes `jekyll serve` in ruby 3
 gem "webrick"
 
 group :jekyll_plugins do
-  gem "github-pages"
+  gem "github-pages", ">= 228"
   gem "jekyll-include-cache"
   gem "jekyll-compose"
 end
