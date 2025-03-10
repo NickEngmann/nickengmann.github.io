@@ -14,7 +14,7 @@ gem "jekyll", "~> 3.8"
 gem "webrick"
 
 group :jekyll_plugins do
-  gem "github-pages"
+  gem "github-pages", ">= 228"
   gem "jekyll-include-cache"
   gem "jekyll-compose"
 end
