@@ -3,3 +3,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Build artifacts
+*.pyc
+__pycache__/
+*.o
+*.so
+.pytest_cache/
