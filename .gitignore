@@ -3,3 +3,17 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Auto-added by Marisol pipeline
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.o
+*.so
+.env
+debug_*.py
+.cache/
+dist/
+build/
+*.egg-info/
